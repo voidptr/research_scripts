@@ -1,6 +1,6 @@
 ## take extracted amplitudes from step 1, and calculate means and mann whitney u stats.
 ## step 2 in the pipeline.
-## line
+## l
 
 python run_combinatoric_scripts.py task_oscillation__output_differences_in_mean_and_mann_whitney_u_test.py "Echo" ../027/ ../027/27_Echo_Backbone__mann_whitney_u_stats__ mann_whitney_u_runlist.txt
 python run_combinatoric_scripts.py task_oscillation__output_differences_in_mean_and_mann_whitney_u_test.py "Not" ../028/ ../028/28_Not_Backbone__mann_whitney_u_stats__ mann_whitney_u_runlist.txt
