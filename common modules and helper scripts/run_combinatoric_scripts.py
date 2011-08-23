@@ -39,6 +39,8 @@ dynamic_parameters_filename = args[1] ## the dynamic parameters file
 
 slot_count = template.count('$')
 
+#print template
+
 
 ## read the dynamic parameters file
 dynamic_parameters_file = open( dynamic_parameters_filename )
@@ -51,7 +53,12 @@ for line in dynamic_parameters_file:
     line = line.split(',') ## split the line on commas
     line = [ val.strip() for val in line ] ## take out the spaces inherent
 
-    assert (len(line) == slot_count) ## this had better be right
+    if (not len(line) == slot_count): ## this had better be right
+        print len(line)
+        print slot_count
+        print line
+        print template
+        assert len(line) == slot_count
 
     command = template ## start fresh
 

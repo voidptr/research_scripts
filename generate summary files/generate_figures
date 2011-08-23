@@ -1,0 +1,72 @@
+echo "<h3>" > data.html
+cat README.txt >> data.html
+echo "</h3>" >> data.html
+
+# Fitness graphs
+## orn
+python ~/Dropbox/Research/avida_python_scripts/single_column_graph.py -l -m fitness_control_orn.png Fitness 4 "x50 updates" control_orn_??????/data/average.dat.gz*
+python ~/Dropbox/Research/avida_python_scripts/single_column_graph.py -l -m fitness_nopunish_orn.png Fitness 4 "x50 updates" nopunish_orn_??????/data/average.dat.gz*
+python ~/Dropbox/Research/avida_python_scripts/single_column_graph.py -l -m fitness_punish_orn.png Fitness 4 "x50 updates" punish_orn_??????/data/average.dat.gz*
+
+## or
+python ~/Dropbox/Research/avida_python_scripts/single_column_graph.py -l -m fitness_control_or.png Fitness 4 "x50 updates" control_or_??????/data/average.dat.gz*
+python ~/Dropbox/Research/avida_python_scripts/single_column_graph.py -l -m fitness_nopunish_or.png Fitness 4 "x50 updates" nopunish_or_??????/data/average.dat.gz*
+python ~/Dropbox/Research/avida_python_scripts/single_column_graph.py -l -m fitness_punish_or.png Fitness 4 "x50 updates" punish_or_??????/data/average.dat.gz*
+
+## andn
+python ~/Dropbox/Research/avida_python_scripts/single_column_graph.py -l -m fitness_control_andn.png Fitness 4 "x50 updates" control_andn_??????/data/average.dat.gz*
+python ~/Dropbox/Research/avida_python_scripts/single_column_graph.py -l -m fitness_nopunish_andn.png Fitness 4 "x50 updates" nopunish_andn_??????/data/average.dat.gz*
+python ~/Dropbox/Research/avida_python_scripts/single_column_graph.py -l -m fitness_punish_andn.png Fitness 4 "x50 updates" punish_andn_??????/data/average.dat.gz*
+
+# Tasks graphs
+## orn
+python ~/Dropbox/Research/avida_python_scripts/multi_column_graph.py tasks_control_orn.png Tasks "x50 updates" control_orn_??????/data/tasks.dat.gz*
+python ~/Dropbox/Research/avida_python_scripts/multi_column_graph.py tasks_nopunish_orn.png Tasks "x50 updates" nopunish_orn_??????/data/tasks.dat.gz*
+python ~/Dropbox/Research/avida_python_scripts/multi_column_graph.py tasks_punish_orn.png Tasks "x50 updates" punish_orn_??????/data/tasks.dat.gz*
+
+## or
+python ~/Dropbox/Research/avida_python_scripts/multi_column_graph.py tasks_control_or.png Tasks "x50 updates" control_or_??????/data/tasks.dat.gz*
+python ~/Dropbox/Research/avida_python_scripts/multi_column_graph.py tasks_nopunish_or.png Tasks "x50 updates" nopunish_or_??????/data/tasks.dat.gz*
+python ~/Dropbox/Research/avida_python_scripts/multi_column_graph.py tasks_punish_or.png Tasks "x50 updates" punish_or_??????/data/tasks.dat.gz*
+
+## andn
+python ~/Dropbox/Research/avida_python_scripts/multi_column_graph.py tasks_control_andn.png Tasks "x50 updates" control_andn_??????/data/tasks.dat.gz*
+python ~/Dropbox/Research/avida_python_scripts/multi_column_graph.py tasks_nopunish_andn.png Tasks "x50 updates" nopunish_andn_??????/data/tasks.dat.gz*
+python ~/Dropbox/Research/avida_python_scripts/multi_column_graph.py tasks_punish_andn.png Tasks "x50 updates" punish_andn_??????/data/tasks.dat.gz*
+
+# Coalescent Generations graphs
+## orn
+python ~/Dropbox/Research/avida_python_scripts/single_column_graph.py -m coalescentgenerations_control_orn.png "Coalescent Generations" 10 "x50 updates" control_orn_??????/data/stats.dat.gz*
+python ~/Dropbox/Research/avida_python_scripts/single_column_graph.py -m coalescentgenerations_nopunish_orn.png "Coalescent Generations" 10 "x50 updates" nopunish_orn_??????/data/stats.dat.gz*
+python ~/Dropbox/Research/avida_python_scripts/single_column_graph.py -m coalescentgenerations_punish_orn.png "Coalescent Generations" 10 "x50 updates" punish_orn_??????/data/stats.dat.gz*
+
+## or
+python ~/Dropbox/Research/avida_python_scripts/single_column_graph.py -m coalescentgenerations_control_or.png "Coalescent Generations" 10 "x50 updates" control_or_??????/data/stats.dat.gz*
+python ~/Dropbox/Research/avida_python_scripts/single_column_graph.py -m coalescentgenerations_nopunish_or.png "Coalescent Generations" 10 "x50 updates" nopunish_or_??????/data/stats.dat.gz*
+python ~/Dropbox/Research/avida_python_scripts/single_column_graph.py -m coalescentgenerations_punish_or.png "Coalescent Generations" 10 "x50 updates" punish_or_??????/data/stats.dat.gz*
+
+## andn
+python ~/Dropbox/Research/avida_python_scripts/single_column_graph.py -m coalescentgenerations_control_andn.png "Coalescent Generations" 10 "x50 updates" control_andn_??????/data/stats.dat.gz*
+python ~/Dropbox/Research/avida_python_scripts/single_column_graph.py -m coalescentgenerations_nopunish_andn.png "Coalescent Generations" 10 "x50 updates" nopunish_andn_??????/data/stats.dat.gz*
+python ~/Dropbox/Research/avida_python_scripts/single_column_graph.py -m coalescentgenerations_punish_andn.png "Coalescent Generations" 10 "x50 updates" punish_andn_??????/data/stats.dat.gz*
+
+echo "<p>Orn</p>" >> data.html
+## orn
+python2.7 ~/Dropbox/Research/avida_python_scripts/stack_figures.py "No Punishment" *_nopunish_orn.png >> data.html
+python2.7 ~/Dropbox/Research/avida_python_scripts/stack_figures.py "Punishment" *_punish_orn.png >> data.html
+python2.7 ~/Dropbox/Research/avida_python_scripts/stack_figures.py "No Switch Control" *_control_orn.png >> data.html
+
+echo "<p>Or</p>" >> data.html
+## or
+python2.7 ~/Dropbox/Research/avida_python_scripts/stack_figures.py "No Punishment" *_nopunish_or.png >> data.html
+python2.7 ~/Dropbox/Research/avida_python_scripts/stack_figures.py "Punishment" *_punish_or.png >> data.html
+python2.7 ~/Dropbox/Research/avida_python_scripts/stack_figures.py "No Switch Control" *_control_or.png >> data.html
+
+echo "<p>Andn</p>" >> data.html
+## andn
+python2.7 ~/Dropbox/Research/avida_python_scripts/stack_figures.py "No Punishment" *_nopunish_andn.png >> data.html
+python2.7 ~/Dropbox/Research/avida_python_scripts/stack_figures.py "Punishment" *_punish_andn.png >> data.html
+python2.7 ~/Dropbox/Research/avida_python_scripts/stack_figures.py "No Switch Control" *_control_andn.png >> data.html
+
+
+
