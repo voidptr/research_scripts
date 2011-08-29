@@ -9,6 +9,7 @@ sys.path.append('../common modules and helper scripts')
 
 import math
 import scipy.stats as spstats
+import numpy as np
 from optparse import OptionParser
 import read_intermediate_files as rif
 
@@ -35,14 +36,15 @@ print 'Mean_Median_Task_Oscillation_Amplitude_By_Task__Control'
 print "Task_Name,mean,median,std,ste,variance"
 for task_name in control_data.keys():
     control_medians = control_data[task_name]
+    control_medians = [ float(val) for val in control_medians ]
 
-    median =  np.median (control_medians )
+    median =  np.median ( control_medians )
     mean = np.mean ( control_medians )
     std = np.std ( control_medians )
     ste = std / math.sqrt( len ( control_medians ) )
     variance = np.var ( control_medians )
 
-    print task_name + "," + mean + "," + median + "," + std + "," + ste + "," + variance
+    print task_name + "," + str(mean) + "," + str(median) + "," + str(std) + "," + str(ste) + "," + str(variance)
 
 print
 
@@ -50,6 +52,8 @@ print 'Mean_Median_Task_Oscillation_Amplitude_By_Task__Treatment'
 print "Task_Name,mean,median,std,ste,variance"
 for task_name in treatment_data.keys():
     treatment_medians = treatment_data[task_name]
+    treatment_medians = [ float(val) for val in treatment_medians ]
+
 
     median =  np.median ( treatment_medians )
     mean = np.mean ( treatment_medians )
@@ -57,7 +61,7 @@ for task_name in treatment_data.keys():
     ste = std / math.sqrt( len ( treatment_medians ) )
     variance = np.var ( treatment_medians )
 
-    print task_name + "," + mean + "," + median + "," + std + "," + ste + "," + variance
+    print task_name + "," + str(mean) + "," + str(median) + "," + str(std) + "," + str(ste) + "," + str(variance)
 
 print
 
@@ -67,7 +71,9 @@ print 'Mann_Whitney_U_Statistics_By_Task'
 print "Task_Name, Mann_Whitney_U, PValue"
 for task_name in control_data.keys():
     control_medians = control_data[task_name]
+    control_medians = [ float(val) for val in control_medians ]
     treatment_medians = treatment_data[task_name]
+    treatment_medians = [ float(val) for val in treatment_medians ]
 
     mann_whitney_u = spstats.mannwhitneyu(control_medians, treatment_medians)
 
