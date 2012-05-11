@@ -1,7 +1,0 @@
-#test_dynamic_run_list
-#this is supposed to be input into ls, so the template would be:
-#  ls $
-
-*.py
-*.bash
-*.txt
