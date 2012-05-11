@@ -1,0 +1,111 @@
+# Compare the median amplitudes using mann whitney u
+
+# Written in Python 2.7
+# RCK
+# 8-18-11
+
+import sys
+sys.path.append('../common modules and helper scripts')
+
+import math
+import scipy.stats as spstats
+import numpy as np
+from optparse import OptionParser
+import read_intermediate_files as rif
+
+# Set up options
+usage = """usage: %prog [options] raw_amplitude_files
+"""
+#Permitted types for outfile are png, pdf, ps, eps, and svg"""
+parser = OptionParser(usage)
+
+## fetch the args
+(options, args) = parser.parse_args()
+
+## parameter error
+if len(args) < 1:
+    parser.error("incorrect number of arguments")
+
+filenames = args[0:]
+
+backbone_tasks_by_number = {
+    '027': ['Echo'],
+    '028': ['Not'],
+    '029': ['Nand'],
+    '030': ['And'],
+    '031': ['OrNot'],
+    '032': ['Or'],
+    '033': ['AndNot'],
+    '034': ['Nor'],
+    '035': ['Xor'],
+    '036': ['Equals'],
+    '037': ['value.'], ##Opinion
+    '038': ['AndNot','OrNot','Or']
+}
+
+task_translate = {
+    'echo': 'Echo',
+    'not': 'Not',
+    'nand': 'Nand',
+    'and': 'And',
+    'orn': 'OrNot',
+    'or': 'Or',
+    'andn': 'AndNot',
+    'nor': 'Nor',
+    'xor': 'Xor',
+    'equ': 'Equals',
+    'opinion': 'value.'
+}
+
+all_data = {
+    'Echo': {},
+    'Not': {},
+    'Nand': {},
+    'And': {},
+    'OrNot': {},
+    'Or': {},
+    'AndNot': {},
+    'Nor': {},
+    'Xor': {},
+    'Equals': {},
+    'value.': {}
+}
+
+printed_header = False
+for filename in filenames:
+
+#    print filename
+    data = rif.read_intermediate_datafile(filename)
+
+    if len(data.keys()) == 0:
+        continue
+    data = data['Task_Oscillation_Amplitudes_By_Sample_And_Task']
+
+    run = filename.split('/')[4]
+
+    treatment_description = filename.split('/')[-1].split('.')[0]
+    treatment = treatment_description.split('_')[0]
+    fluctuating_task = task_translate[ treatment_description.split('_')[1] ]
+
+    backbone_tasks = backbone_tasks_by_number[run]
+    backbone_task = backbone_tasks[0] ## the first one, the only one, except if...
+
+    if len(backbone_tasks) > 1: ## special case, #038 :/ 
+        backbone_task = fluctuating_task ## ask named in the filename :/
+        fluctuating_task = 'value.' 
+    
+    
+    #    print data
+
+
+    num_replicates = len(data.keys())/2
+
+    if not printed_header:
+        print "backbone_task,fluctuating_task,treatment,replicate," + ",".join( [ "backbone_task_amplitude_" + str(i) for i in range(0, len(data[backbone_task + '_0'])) ] ) + "," + ",".join( [ "fluctuating_task_amplitude_" + str(i) for i in range(0, len(data[fluctuating_task + '_0'])) ] )
+        printed_header = True
+
+    for i in range(0, num_replicates):
+        print backbone_task + "," + fluctuating_task + "," + treatment + "," + str(i) + "," + ",".join( data[backbone_task + '_' + str(i)] ) + "," + ",".join( data[fluctuating_task + '_' + str(i)] ) 
+
+
+

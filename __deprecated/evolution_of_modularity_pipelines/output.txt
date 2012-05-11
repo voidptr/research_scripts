@@ -1,0 +1,11378 @@
+0 -1
+1 Batch0
+2 9918373
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 org-9918373
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 0
+12 1
+13 -1
+14 1
+15 38.3077
+16 99415
+17 115
+18 9918373
+19 8
+20 1
+21 1
+22 111
+23 (none)
+24 0.0802676
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 9911283
+35 -1
+36 10
+37 0.466221
+38 0.23311
+39 0
+40 1
+41 99415
+42 0
+43 
+44 0
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 8
+50 3320
+51 0.860465
+52 1000
+53 0.860465
+54 8
+55 17
+56 0
+57 -1
+58 0.430233
+59 17
+60 <a
+61 href="tasksites.org-9918373.html">Phenotype
+62 Map</a>
+63 
+64 0.220401
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 153
+72 153
+73 120
+74 120
+75 186
+76 120
+77 120
+78 120
+79 3320
+80 0
+81 0
+82 9918373
+83 -1
+84 1
+85 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+86 heads_default
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0.634792
+94 -1
+95 1484
+96 1485
+97 1487
+98 1533
+99 1536
+100 1538
+101 1584
+102 1587
+103 -1
+104 0
+105 0.860465
+106 1
+107 -1
+0 1
+1 l
+2 shift-l
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.857143
+5 
+6 0
+7 0
+8 BaieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 37.4708
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.084058
+25 1
+26 
+27 BaieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.857143
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.472786
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>BaieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.857143
+52 1000
+53 0.857143
+54 0
+55 0
+56 0
+57 -1
+58 0.428571
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.213205
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 259
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.635329
+87 0
+88 
+89 0
+90 0
+91 0.857143
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 2
+1 a
+2 nop-A
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.857143
+5 
+6 0
+7 0
+8 lBieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 36.7154
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0872786
+25 1
+26 
+27 lBieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.857143
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.479549
+38 0.23124
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>lBieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.857143
+52 1000
+53 0.857143
+54 0
+55 0
+56 0
+57 -1
+58 0.428571
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.201932
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 259
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.634373
+87 0
+88 
+89 0
+90 0
+91 0.857143
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 3
+1 i
+2 get-head
+3 ++++-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.856031
+5 
+6 0
+7 0
+8 laBeeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 37.1885
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 110
+23 
+24 0.0824477
+25 1
+26 
+27 laBeeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.856031
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.477617
+38 0.229308
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laBeeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.856031
+52 1000
+53 0.856031
+54 0
+55 0
+56 0
+57 -1
+58 0.428016
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.210628
+65 220
+66 0
+67 2
+68 252908703
+69 1
+70 257
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.635082
+87 0
+88 
+89 0
+90 0
+91 0.856031
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 4
+1 e
+2 if-less
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laiBeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.128
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.078905
+25 1
+26 
+27 laiBeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.470853
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laiBeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.22029
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.637737
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 5
+1 e
+2 if-less
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieBqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.0457
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0795491
+25 1
+26 
+27 laieBqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.472142
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieBqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.218357
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.637748
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 6
+1 q
+2 swap-stk
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeBmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.153
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0792271
+25 1
+26 
+27 laieeBmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.469887
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeBmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.220934
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.637737
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 7
+1 m
+2 inc
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqBzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.153
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0782609
+25 1
+26 
+27 laieeqBzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.470853
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqBzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.220934
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.637734
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 8
+1 z
+2 h-search
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmBwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.0992
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0779388
+25 1
+26 
+27 laieeqmBwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.472464
+38 0.230274
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmBwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.219324
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.637456
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 9
+1 w
+2 h-alloc
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzBkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.8818
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0801932
+25 1
+26 
+27 laieeqmzBkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.464412
+38 0.234783
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzBkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.220612
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.633586
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 10
+1 k
+2 shift-r
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwBpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.1864
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0792271
+25 1
+26 
+27 laieeqmzwBpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.469243
+38 0.22963
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwBpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.2219
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.63801
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 11
+1 p
+2 pop
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.857143
+5 
+6 0
+7 0
+8 laieeqmzwkBbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 37.35
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0850242
+25 1
+26 
+27 laieeqmzwkBbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.857143
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.472464
+38 0.22963
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkBbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.857143
+52 1000
+53 0.857143
+54 0
+55 0
+56 0
+57 -1
+58 0.428571
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.212882
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 259
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.635605
+87 0
+88 
+89 0
+90 0
+91 0.857143
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 12
+1 b
+2 nop-B
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.857143
+5 
+6 0
+7 0
+8 laieeqmzwkpBfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 37.3488
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0805153
+25 1
+26 
+27 laieeqmzwkpBfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.857143
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.476973
+38 0.22963
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpBfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.857143
+52 1000
+53 0.857143
+54 0
+55 0
+56 0
+57 -1
+58 0.428571
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.212882
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 259
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.635368
+87 0
+88 
+89 0
+90 0
+91 0.857143
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 13
+1 f
+2 if-label
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbBuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.113
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0792271
+25 1
+26 
+27 laieeqmzwkpbBuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.470853
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbBuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.219968
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.637735
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 14
+1 u
+2 nand
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfBzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.1781
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0785829
+25 1
+26 
+27 laieeqmzwkpbfBzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.469887
+38 0.22963
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfBzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.2219
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.638008
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 15
+1 z
+2 h-search
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuBAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.0192
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0782609
+25 1
+26 
+27 laieeqmzwkpbfuBAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.474396
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuBAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.217391
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.63775
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 16
+1 A
+2 set-opinion
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzBlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.153
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0782609
+25 1
+26 
+27 laieeqmzwkpbfuzBlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.470853
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzBlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.220934
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.637734
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 17
+1 l
+2 shift-l
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzABxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.1403
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0785829
+25 1
+26 
+27 laieeqmzwkpbfuzABxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.470853
+38 0.22963
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzABxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.220934
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.638012
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 18
+1 x
+2 h-divide
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlBmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.153
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0792271
+25 1
+26 
+27 laieeqmzwkpbfuzAlBmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.469887
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlBmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.220934
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.637708
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 19
+1 m
+2 inc
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxBAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.1775
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0785829
+25 1
+26 
+27 laieeqmzwkpbfuzAlxBAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.469887
+38 0.22963
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxBAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.2219
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.638008
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 20
+1 A
+2 set-opinion
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmBjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.153
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0782609
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmBjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.470853
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmBjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.220934
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.637734
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 21
+1 j
+2 set-flow
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmABznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.153
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0782609
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmABznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.470853
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmABznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.220934
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.637734
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 22
+1 z
+2 h-search
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjBnfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.1907
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0785829
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjBnfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.469565
+38 0.22963
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjBnfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.222222
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.638005
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 23
+1 n
+2 dec
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjzBfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.1926
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0785829
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjzBfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.469565
+38 0.22963
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjzBfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.222222
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.638004
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 24
+1 f
+2 if-label
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznBuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.1162
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0792271
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznBuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.470853
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznBuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.219968
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.637742
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 25
+1 u
+2 nand
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfBzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.1847
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0792271
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfBzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.469243
+38 0.22963
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfBzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.2219
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.638011
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 26
+1 z
+2 h-search
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.857143
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuBbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 37.1719
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0863124
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuBbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.857143
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.475684
+38 0.228986
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuBbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.857143
+52 1000
+53 0.857143
+54 0
+55 0
+56 0
+57 -1
+58 0.428571
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.209018
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 259
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.636182
+87 0
+88 
+89 0
+90 0
+91 0.857143
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 27
+1 b
+2 nop-B
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.857143
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzBxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 37.8734
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0792271
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzBxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.857143
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.471498
+38 0.22963
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzBxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.857143
+52 1000
+53 0.857143
+54 0
+55 0
+56 0
+57 -1
+58 0.428571
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.219646
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 259
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.63556
+87 0
+88 
+89 0
+90 0
+91 0.857143
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 28
+1 x
+2 h-divide
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbBbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.153
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0792271
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbBbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.469887
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbBbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.220934
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.637737
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 29
+1 b
+2 nop-B
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxBfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.1384
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0740741
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxBfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.475362
+38 0.22963
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxBfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.220934
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.637999
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 30
+1 f
+2 if-label
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbBwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.1257
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0792271
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbBwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.470531
+38 0.228986
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbBwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.221256
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.638568
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 31
+1 w
+2 h-alloc
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfBjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 39.1068
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0782609
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfBjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.463446
+38 0.238969
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfBjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.219324
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.630004
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 32
+1 j
+2 set-flow
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+4 0
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwBaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 0
+13 -1
+14 0
+15 0
+16 0
+17 115
+18 -1
+19 0
+20 0
+21 0
+22 115
+23 
+24 0.000322061
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwBaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 0
+30 0
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 00
+37 0
+38 0.999678
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwBaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0
+52 1000
+53 0
+54 0
+55 0
+56 0
+57 -1
+58 inf
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0
+65 115
+66 0
+67 1
+68 252908703
+69 1
+70 0
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 0
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.000277122
+87 0
+88 
+89 0
+90 0
+91 0
+92 1
+93 -1
+['1', '0']
+['0', '0']
+['1', '0']
+['0', '0']
+0 33
+1 a
+2 nop-A
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-+++++++++++++++++++++++++-++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+4 0
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjBAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 0
+13 -1
+14 0
+15 0
+16 0
+17 115
+18 -1
+19 0
+20 0
+21 0
+22 115
+23 
+24 0.000322061
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjBAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 0
+30 0
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 00
+37 0
+38 0.999678
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjBAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0
+52 1000
+53 0
+54 0
+55 0
+56 0
+57 -1
+58 inf
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0
+65 115
+66 0
+67 1
+68 252908703
+69 1
+70 0
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 0
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-+++++++++++++++++++++++++-++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.000277122
+87 0
+88 
+89 0
+90 0
+91 0
+92 1
+93 -1
+['1', '0']
+['0', '0']
+['1', '0']
+['0', '0']
+0 34
+1 A
+2 set-opinion
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaBixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.167
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0785829
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaBixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.470209
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaBixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.221256
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.637734
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 35
+1 i
+2 get-head
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaABxecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 39.1829
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0782609
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaABxecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.461514
+38 0.226409
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaABxecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.233816
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.640998
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 36
+1 x
+2 h-divide
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAiBecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.153
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0792271
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAiBecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.469887
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAiBecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.220934
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.637737
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 37
+1 e
+2 if-less
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.857143
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixBcbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 37.9722
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.089533
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixBcbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.857143
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.463446
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixBcbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.857143
+52 1000
+53 0.857143
+54 0
+55 0
+56 0
+57 -1
+58 0.428571
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.217069
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 259
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.635327
+87 0
+88 
+89 0
+90 0
+91 0.857143
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 38
+1 c
+2 nop-C
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.857143
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixeBbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.6823
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0830918
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixeBbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.857143
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.459581
+38 0.230596
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixeBbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.857143
+52 1000
+53 0.857143
+54 0
+55 0
+56 0
+57 -1
+58 0.428571
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.226731
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 259
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.634709
+87 0
+88 
+89 0
+90 0
+91 0.857143
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 39
+1 b
+2 nop-B
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecBdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.7953
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0792271
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecBdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.465056
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecBdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.225765
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.637724
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 40
+1 d
+2 if-n-equ
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbBngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.153
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0782609
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbBngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.470853
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbBngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.220934
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.637734
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 41
+1 n
+2 dec
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdBgcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.153
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0792271
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdBgcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.469887
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdBgcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.220934
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.637737
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 42
+1 g
+2 mov-head
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+4 0
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdnBcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 0
+13 -1
+14 0
+15 0
+16 0
+17 115
+18 -1
+19 0
+20 0
+21 0
+22 115
+23 
+24 0.000644122
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdnBcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 0
+30 0
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 00
+37 0
+38 0.999356
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdnBcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0
+52 1000
+53 0
+54 0
+55 0
+56 0
+57 -1
+58 inf
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0
+65 115
+66 0
+67 1
+68 252908703
+69 1
+70 0
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 0
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.000553175
+87 0
+88 
+89 0
+90 0
+91 0
+92 1
+93 -1
+['1', '0']
+['0', '0']
+['1', '0']
+['0', '0']
+0 43
+1 c
+2 nop-C
+3 ++++++++++++++++++++++++++++++++++++++++++-------------------------------------------------------------------------++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+4 0
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngBuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 0
+13 -1
+14 0
+15 0
+16 0
+17 115
+18 -1
+19 0
+20 0
+21 0
+22 115
+23 
+24 0.000322061
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngBuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 0
+30 0
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 00
+37 0
+38 0.999678
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngBuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0
+52 1000
+53 0
+54 0
+55 0
+56 0
+57 -1
+58 inf
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0
+65 115
+66 0
+67 1
+68 252908703
+69 1
+70 0
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 0
+78 ++++++++++++++++++++++++++++++++++++++++++-------------------------------------------------------------------------++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.000277122
+87 0
+88 
+89 0
+90 0
+91 0
+92 1
+93 -1
+['1', '0']
+['0', '0']
+['1', '0']
+['0', '0']
+0 44
+1 u
+2 nand
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcBvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.153
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0792271
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcBvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.469887
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcBvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.220934
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.637737
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 45
+1 v
+2 h-copy
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+4 0.692737
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuBfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 0
+13 -1
+14 1
+15 0
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 62
+23 
+24 0.0383253
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuBfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 0
+30 0.692737
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0
+38 0.961675
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuBfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.692737
+52 1000
+53 0.692737
+54 0
+55 0
+56 0
+57 -1
+58 0.346369
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0
+65 124
+66 0
+67 2
+68 252908703
+69 1
+70 179
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.0301469
+87 0
+88 
+89 0
+90 0
+91 0.692737
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 46
+1 f
+2 if-label
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvBoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.153
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0792271
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvBoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.469887
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvBoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.220934
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.63775
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 47
+1 o
+2 push
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.857143
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfBaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 37.4498
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.08438
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfBaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.857143
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.473108
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfBaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.857143
+52 1000
+53 0.857143
+54 0
+55 0
+56 0
+57 -1
+58 0.428571
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.21256
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 259
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.635331
+87 0
+88 
+89 0
+90 0
+91 0.857143
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 48
+1 a
+2 nop-A
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.857143
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoBxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 37.4212
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0801932
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoBxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.857143
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.477939
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoBxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.857143
+52 1000
+53 0.857143
+54 0
+55 0
+56 0
+57 -1
+58 0.428571
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.211916
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 259
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.635322
+87 0
+88 
+89 0
+90 0
+91 0.857143
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 49
+1 x
+2 h-divide
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaBmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.153
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0792271
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaBmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.469887
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaBmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.220934
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.637737
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 50
+1 m
+2 inc
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxBmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.1653
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0785829
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxBmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.470209
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxBmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.221256
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.637734
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 51
+1 m
+2 inc
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmBiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.153
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0782609
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmBiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.470853
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmBiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.220934
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.637734
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 52
+1 i
+2 get-head
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmBocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.2018
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0792271
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmBocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.468921
+38 0.230274
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmBocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.221578
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.63764
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 53
+1 o
+2 push
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.857143
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiBcjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 37.462
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0856683
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiBcjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.857143
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.47182
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiBcjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.857143
+52 1000
+53 0.857143
+54 0
+55 0
+56 0
+57 -1
+58 0.428571
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.21256
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 259
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.635329
+87 0
+88 
+89 0
+90 0
+91 0.857143
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 54
+1 c
+2 nop-C
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.857143
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmioBjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 37.462
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0818035
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmioBjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.857143
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.475684
+38 0.22963
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmioBjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.857143
+52 1000
+53 0.857143
+54 0
+55 0
+56 0
+57 -1
+58 0.428571
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.212882
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 259
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.63541
+87 0
+88 
+89 0
+90 0
+91 0.857143
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 55
+1 j
+2 set-flow
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocBmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.153
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0782609
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocBmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.470853
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocBmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.220934
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.637734
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 56
+1 m
+2 inc
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjBAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.2018
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0792271
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjBAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.468921
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjBAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.2219
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.637734
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 57
+1 A
+2 set-opinion
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.857143
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmBczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 37.462
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0856683
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmBczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.857143
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.47182
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmBczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.857143
+52 1000
+53 0.857143
+54 0
+55 0
+56 0
+57 -1
+58 0.428571
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.21256
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 259
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.635329
+87 0
+88 
+89 0
+90 0
+91 0.857143
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 58
+1 c
+2 nop-C
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.857143
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmABzvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 37.462
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0811594
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmABzvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.857143
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.476329
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmABzvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.857143
+52 1000
+53 0.857143
+54 0
+55 0
+56 0
+57 -1
+58 0.428571
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.21256
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 259
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.635075
+87 0
+88 
+89 0
+90 0
+91 0.857143
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 59
+1 z
+2 h-search
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAcBvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.358
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0785829
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAcBvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.470209
+38 0.232528
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAcBvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.21868
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.635529
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 60
+1 v
+2 h-copy
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+4 0.692737
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczBfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 0
+13 -1
+14 1
+15 0
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 62
+23 
+24 0.0360709
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczBfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 0
+30 0.692737
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0
+38 0.963929
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczBfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.692737
+52 1000
+53 0.692737
+54 0
+55 0
+56 0
+57 -1
+58 0.346369
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0
+65 124
+66 0
+67 2
+68 252908703
+69 1
+70 179
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.0291939
+87 0
+88 
+89 0
+90 0
+91 0.692737
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 61
+1 f
+2 if-label
+3 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.861538
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvBaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 37.4275
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 112
+23 
+24 0.0772947
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvBaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.861538
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.477939
+38 0.23124
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvBaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.861538
+52 1000
+53 0.861538
+54 0
+55 0
+56 0
+57 -1
+58 0.430769
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.213527
+65 224
+66 0
+67 2
+68 252908703
+69 1
+70 260
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.637857
+87 0
+88 
+89 0
+90 0
+91 0.861538
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 62
+1 a
+2 nop-A
+3 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-+++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.857143
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfBojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 36.7465
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0866345
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfBojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.857143
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.476973
+38 0.230596
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfBojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.857143
+52 1000
+53 0.857143
+54 0
+55 0
+56 0
+57 -1
+58 0.428571
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.205797
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 259
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-+++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.635073
+87 0
+88 
+89 0
+90 0
+91 0.857143
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 63
+1 o
+2 push
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaBjtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.153
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0792271
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaBjtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.469887
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaBjtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.220934
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.637737
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 64
+1 j
+2 set-flow
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaoBtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.153
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0782609
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaoBtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.470853
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaoBtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.220934
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.637734
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 65
+1 t
+2 sub
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojBuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.153
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0782609
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojBuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.470853
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojBuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.220934
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.637734
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 66
+1 u
+2 nand
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtByxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.1914
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0740741
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtByxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.474074
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtByxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.2219
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.637708
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 67
+1 y
+2 IO
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-+++++++++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.864865
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuBxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.2757
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 112
+23 
+24 0.0628019
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuBxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.864865
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.479871
+38 0.230596
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuBxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.864865
+52 1000
+53 0.864865
+54 0
+55 0
+56 0
+57 -1
+58 0.432432
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.226731
+65 224
+66 0
+67 2
+68 252908703
+69 1
+70 259
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-+++++++++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.64252
+87 0
+88 
+89 0
+90 0
+91 0.864865
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 68
+1 x
+2 h-divide
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyBezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.153
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0792271
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyBezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.469887
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyBezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.220934
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.637737
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 69
+1 e
+2 if-less
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-+++++++++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.864865
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxBzzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 37.6246
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 112
+23 
+24 0.0647343
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxBzzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.864865
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.486312
+38 0.230596
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxBzzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.864865
+52 1000
+53 0.864865
+54 0
+55 0
+56 0
+57 -1
+58 0.432432
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.218357
+65 224
+66 0
+67 2
+68 252908703
+69 1
+70 259
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-+++++++++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.642173
+87 0
+88 
+89 0
+90 0
+91 0.864865
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 70
+1 z
+2 h-search
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxeBzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.153
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0792271
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxeBzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.469887
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxeBzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.220934
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.637737
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 71
+1 z
+2 h-search
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.430233
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezBycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 0
+15 29.0453
+16 0
+17 115
+18 -1
+19 0
+20 0
+21 0
+22 111
+23 
+24 0.0979066
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezBycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.430233
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 00
+37 0.538808
+38 0.22963
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezBycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.430233
+52 1000
+53 0.430233
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.133655
+65 111
+66 0
+67 1
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 0
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.38827
+87 0
+88 
+89 0
+90 0
+91 0.430233
+92 1
+93 -1
+['1', '0']
+['0', '0']
+['1', '0']
+['0', '0']
+0 72
+1 y
+2 IO
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++-+++++++-+++-++++++++++++++++++++++++++++
+4 0.426357
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzBcequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 0
+15 27.6978
+16 0
+17 115
+18 -1
+19 0
+20 0
+21 0
+22 110
+23 
+24 0.102738
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzBcequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.426357
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 00
+37 0.549436
+38 0.226731
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzBcequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.426357
+52 1000
+53 0.426357
+54 0
+55 0
+56 0
+57 -1
+58 0.426357
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.121095
+65 110
+66 0
+67 1
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 0
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++-+++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.330433
+87 0
+88 
+89 0
+90 0
+91 0.426357
+92 1
+93 -1
+['1', '0']
+['0', '0']
+['1', '0']
+['0', '0']
+0 73
+1 c
+2 nop-C
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++-+++++++-+++-++++++++++++++++++++++++++++
+4 0.426357
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzyBequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 0
+15 27.6978
+16 0
+17 115
+18 -1
+19 0
+20 0
+21 0
+22 110
+23 
+24 0.0985507
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzyBequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.426357
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 00
+37 0.553623
+38 0.226731
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzyBequxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.426357
+52 1000
+53 0.426357
+54 0
+55 0
+56 0
+57 -1
+58 0.426357
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.121095
+65 110
+66 0
+67 1
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 0
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++-+++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.330704
+87 0
+88 
+89 0
+90 0
+91 0.426357
+92 1
+93 -1
+['1', '0']
+['0', '0']
+['1', '0']
+['0', '0']
+0 74
+1 e
+2 if-less
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycBquxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.1308
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.078905
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycBquxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.470531
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycBquxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.220612
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.637905
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 75
+1 q
+2 swap-stk
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzyceBuxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.153
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0792271
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzyceBuxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.469887
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzyceBuxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.220934
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.637737
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 76
+1 u
+2 nand
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.430233
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzyceqBxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 0
+15 29.2128
+16 0
+17 115
+18 -1
+19 0
+20 0
+21 0
+22 111
+23 
+24 0.0933977
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzyceqBxxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.430233
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 00
+37 0.541707
+38 0.22963
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzyceqBxxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.430233
+52 1000
+53 0.430233
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.135266
+65 111
+66 0
+67 1
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 0
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.362313
+87 0
+88 
+89 0
+90 0
+91 0.430233
+92 1
+93 -1
+['1', '0']
+['0', '0']
+['1', '0']
+['0', '0']
+0 77
+1 x
+2 h-divide
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequBxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.153
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0792271
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequBxurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.469887
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequBxurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.220934
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.637737
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 78
+1 x
+2 h-divide
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxBurqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.153
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0792271
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxBurqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.469887
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxBurqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.220934
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.637737
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 79
+1 u
+2 nand
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.430233
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxBrqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 0
+15 29.2128
+16 0
+17 115
+18 -1
+19 0
+20 0
+21 0
+22 111
+23 
+24 0.0953301
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxBrqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.430233
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 00
+37 0.539775
+38 0.22963
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxBrqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.430233
+52 1000
+53 0.430233
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.135266
+65 111
+66 0
+67 1
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 0
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.368737
+87 0
+88 
+89 0
+90 0
+91 0.430233
+92 1
+93 -1
+['1', '0']
+['0', '0']
+['1', '0']
+['0', '0']
+0 80
+1 r
+2 swap
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++++++-++++++++++++++++++++++++++++
+4 3.45946
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxuBqedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 0
+15 34.8116
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 112
+23 
+24 0.0847021
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxuBqedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 3.45946
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 01
+37 0.491143
+38 0.230918
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxuBqedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 3.45946
+52 1000
+53 3.45946
+54 0
+55 0
+56 0
+57 -1
+58 0.432432
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.193237
+65 896
+66 0
+67 8
+68 252908703
+69 1
+70 259
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 0
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++++++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 2.41025
+87 0
+88 
+89 0
+90 0
+91 3.45946
+92 1
+93 -1
+['1', '0']
+['0', '1']
+['1', '0']
+['0', '1']
+0 81
+1 q
+2 swap-stk
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurBedmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.153
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0792271
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurBedmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.469887
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurBedmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.220934
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.637737
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 82
+1 e
+2 if-less
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++++++-++++++++++++++++++++++++++++
+4 0.864865
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqBdmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.299
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 112
+23 
+24 0.07343
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqBdmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.864865
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.472142
+38 0.230918
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqBdmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.864865
+52 1000
+53 0.864865
+54 0
+55 0
+56 0
+57 -1
+58 0.432432
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.22351
+65 224
+66 0
+67 2
+68 252908703
+69 1
+70 259
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++++++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.640532
+87 0
+88 
+89 0
+90 0
+91 0.864865
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 83
+1 d
+2 if-n-equ
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqeBmyequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.153
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0792271
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqeBmyequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.469887
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqeBmyequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.220934
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.637738
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 84
+1 m
+2 inc
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedByequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.153
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0792271
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedByequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.469887
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedByequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.220934
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.637736
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 85
+1 y
+2 IO
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.430233
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmBequcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 0
+15 29.1071
+16 0
+17 115
+18 -1
+19 0
+20 0
+21 0
+22 111
+23 
+24 0.0950081
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmBequcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.430233
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 00
+37 0.541063
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmBequcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.430233
+52 1000
+53 0.430233
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.133977
+65 111
+66 0
+67 1
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 0
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.350005
+87 0
+88 
+89 0
+90 0
+91 0.430233
+92 1
+93 -1
+['1', '0']
+['0', '0']
+['1', '0']
+['0', '0']
+0 86
+1 e
+2 if-less
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-++++++++++++++++++++++++++++++++
+4 0.864865
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyBqucamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.4313
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 112
+23 
+24 0.0756844
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyBqucamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.864865
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.468277
+38 0.230918
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyBqucamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.864865
+52 1000
+53 0.864865
+54 0
+55 0
+56 0
+57 -1
+58 0.432432
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.225121
+65 224
+66 0
+67 2
+68 252908703
+69 1
+70 259
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-++++++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.638583
+87 0
+88 
+89 0
+90 0
+91 0.864865
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 87
+1 q
+2 swap-stk
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyeBucamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.153
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0792271
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyeBucamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.469887
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyeBucamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.220934
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.637737
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 88
+1 u
+2 nand
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.428571
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyeqBcamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 0
+15 28.9281
+16 0
+17 115
+18 -1
+19 0
+20 0
+21 0
+22 111
+23 
+24 0.0982287
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyeqBcamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.428571
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 00
+37 0.541707
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyeqBcamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.428571
+52 1000
+53 0.428571
+54 0
+55 0
+56 0
+57 -1
+58 0.428571
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.130113
+65 111
+66 0
+67 1
+68 252908703
+69 1
+70 259
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 0
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.329603
+87 0
+88 
+89 0
+90 0
+91 0.428571
+92 1
+93 -1
+['1', '0']
+['0', '0']
+['1', '0']
+['0', '0']
+0 89
+1 c
+2 nop-C
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.428571
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequBamdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 0
+15 29.0652
+16 0
+17 115
+18 -1
+19 0
+20 0
+21 0
+22 111
+23 
+24 0.0950081
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequBamdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.428571
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 00
+37 0.542995
+38 0.22963
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequBamdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.428571
+52 1000
+53 0.428571
+54 0
+55 0
+56 0
+57 -1
+58 0.428571
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.132367
+65 111
+66 0
+67 1
+68 252908703
+69 1
+70 259
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 0
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.359964
+87 0
+88 
+89 0
+90 0
+91 0.428571
+92 1
+93 -1
+['1', '0']
+['0', '0']
+['1', '0']
+['0', '0']
+0 90
+1 a
+2 nop-A
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcBmdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 37.945
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0795491
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcBmdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.469887
+38 0.230274
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcBmdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.22029
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.638559
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 91
+1 m
+2 inc
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.430233
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcaBdsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 0
+15 29.1204
+16 0
+17 115
+18 -1
+19 0
+20 0
+21 0
+22 111
+23 
+24 0.0904992
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcaBdsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.430233
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 00
+37 0.54525
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcaBdsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.430233
+52 1000
+53 0.430233
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.1343
+65 111
+66 0
+67 1
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 0
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.333483
+87 0
+88 
+89 0
+90 0
+91 0.430233
+92 1
+93 -1
+['1', '0']
+['0', '0']
+['1', '0']
+['0', '0']
+0 92
+1 d
+2 if-n-equ
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamBsyvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.153
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0792271
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamBsyvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.469887
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamBsyvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.220934
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.637736
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 93
+1 s
+2 add
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.430233
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdByvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 0
+15 29.1071
+16 0
+17 115
+18 -1
+19 0
+20 0
+21 0
+22 111
+23 
+24 0.0872786
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdByvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.430233
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 00
+37 0.548792
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdByvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.430233
+52 1000
+53 0.430233
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.133977
+65 111
+66 0
+67 1
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 0
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.331128
+87 0
+88 
+89 0
+90 0
+91 0.430233
+92 1
+93 -1
+['1', '0']
+['0', '0']
+['1', '0']
+['0', '0']
+0 94
+1 y
+2 IO
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.430233
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsBvopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 0
+15 29.0187
+16 0
+17 115
+18 -1
+19 0
+20 0
+21 0
+22 111
+23 
+24 0.102093
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsBvopwwamifymzvvvvfcxga
+28 
+29 1
+30 0.430233
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 00
+37 0.536232
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsBvopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.430233
+52 1000
+53 0.430233
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.131723
+65 111
+66 0
+67 1
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 0
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.3375
+87 0
+88 
+89 0
+90 0
+91 0.430233
+92 1
+93 -1
+['1', '0']
+['0', '0']
+['1', '0']
+['0', '0']
+0 95
+1 v
+2 h-copy
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+4 0.692737
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyBopwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 0
+13 -1
+14 1
+15 0
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 62
+23 
+24 0.0376812
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyBopwwamifymzvvvvfcxga
+28 
+29 0
+30 0.692737
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0
+38 0.962319
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyBopwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.692737
+52 1000
+53 0.692737
+54 0
+55 0
+56 0
+57 -1
+58 0.346369
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0
+65 124
+66 0
+67 2
+68 252908703
+69 1
+70 179
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.0300352
+87 0
+88 
+89 0
+90 0
+91 0.692737
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 96
+1 o
+2 push
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvBpwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.3477
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0779388
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvBpwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.471176
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvBpwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.220934
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.637597
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 97
+1 p
+2 pop
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvoBwwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.153
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0782609
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvoBwwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.470853
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvoBwwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.220934
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.637734
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 98
+1 w
+2 h-alloc
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopBwamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.153
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0792271
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopBwamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.469887
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopBwamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.220934
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.637737
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 99
+1 w
+2 h-alloc
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwBamifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.153
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0792271
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwBamifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.469887
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwBamifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.220934
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.637737
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 100
+1 a
+2 nop-A
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwBmifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.153
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.073752
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwBmifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.475362
+38 0.229308
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwBmifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.221578
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.637995
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 101
+1 m
+2 inc
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwaBifymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 37.6414
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0785829
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwaBifymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.47343
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwaBifymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.218035
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.638982
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 102
+1 i
+2 get-head
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamBfymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.153
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0785829
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamBfymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.470531
+38 0.230274
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamBfymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.220612
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.637552
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 103
+1 f
+2 if-label
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamiBymzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.113
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0792271
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamiBymzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.470853
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamiBymzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.219968
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.637741
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 104
+1 y
+2 IO
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifBmzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.361
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0782609
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifBmzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.470531
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifBmzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.221256
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.637596
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 105
+1 m
+2 inc
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+4 0.860465
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifyBzvvvvfcxga
+9 
+10 
+11 4857552
+12 1
+13 -1
+14 1
+15 38.153
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0792271
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifyBzvvvvfcxga
+28 
+29 1
+30 0.860465
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0.469887
+38 0.229952
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifyBzvvvvfcxga</tt>
+49 0
+50 0
+51 0.860465
+52 1000
+53 0.860465
+54 0
+55 0
+56 0
+57 -1
+58 0.430233
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0.220934
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 258
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.637737
+87 0
+88 
+89 0
+90 0
+91 0.860465
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 106
+1 z
+2 h-search
+3 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+4 0.245161
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymBvvvvfcxga
+9 
+10 
+11 4857552
+12 0
+13 -1
+14 1
+15 0
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 57
+23 
+24 0.00450886
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymBvvvvfcxga
+28 
+29 0
+30 0.245161
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0
+38 0.995491
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymBvvvvfcxga</tt>
+49 0
+50 0
+51 0.245161
+52 1000
+53 0.245161
+54 0
+55 0
+56 0
+57 -1
+58 0.122581
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0
+65 114
+66 0
+67 2
+68 252908703
+69 1
+70 465
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.00268327
+87 0
+88 
+89 0
+90 0
+91 0.245161
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 107
+1 v
+2 h-copy
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++--
+4 0.69375
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzBvvvfcxga
+9 
+10 
+11 4857552
+12 0
+13 -1
+14 1
+15 0
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0219002
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzBvvvfcxga
+28 
+29 0
+30 0.69375
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0
+38 0.9781
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzBvvvfcxga</tt>
+49 0
+50 0
+51 0.69375
+52 1000
+53 0.69375
+54 0
+55 0
+56 0
+57 -1
+58 0.346875
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 320
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++--
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.011706
+87 0
+88 
+89 0
+90 0
+91 0.69375
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 108
+1 v
+2 h-copy
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++--
+4 0.69375
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvBvvfcxga
+9 
+10 
+11 4857552
+12 0
+13 -1
+14 1
+15 0
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0219002
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvBvvfcxga
+28 
+29 0
+30 0.69375
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0
+38 0.9781
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvBvvfcxga</tt>
+49 0
+50 0
+51 0.69375
+52 1000
+53 0.69375
+54 0
+55 0
+56 0
+57 -1
+58 0.346875
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 320
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++--
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.0115966
+87 0
+88 
+89 0
+90 0
+91 0.69375
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 109
+1 v
+2 h-copy
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++--
+4 0.69375
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvBvfcxga
+9 
+10 
+11 4857552
+12 0
+13 -1
+14 1
+15 0
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0225443
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvBvfcxga
+28 
+29 0
+30 0.69375
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0
+38 0.977456
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvBvfcxga</tt>
+49 0
+50 0
+51 0.69375
+52 1000
+53 0.69375
+54 0
+55 0
+56 0
+57 -1
+58 0.346875
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 320
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++--
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.0119277
+87 0
+88 
+89 0
+90 0
+91 0.69375
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 110
+1 v
+2 h-copy
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++--
+4 0.69375
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvBfcxga
+9 
+10 
+11 4857552
+12 0
+13 -1
+14 1
+15 0
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 111
+23 
+24 0.0215781
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvBfcxga
+28 
+29 0
+30 0.69375
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0
+38 0.978422
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvBfcxga</tt>
+49 0
+50 0
+51 0.69375
+52 1000
+53 0.69375
+54 0
+55 0
+56 0
+57 -1
+58 0.346875
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0
+65 222
+66 0
+67 2
+68 252908703
+69 1
+70 320
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++--
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.0113779
+87 0
+88 
+89 0
+90 0
+91 0.69375
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 111
+1 f
+2 if-label
+3 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+4 0.587065
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvBcxga
+9 
+10 
+11 4857552
+12 0
+13 -1
+14 1
+15 0
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 59
+23 
+24 0.000322061
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvBcxga
+28 
+29 0
+30 0.587065
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0
+38 0.999678
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvBcxga</tt>
+49 0
+50 0
+51 0.587065
+52 1000
+53 0.587065
+54 0
+55 0
+56 0
+57 -1
+58 0.293532
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0
+65 118
+66 0
+67 2
+68 252908703
+69 1
+70 201
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.000277122
+87 0
+88 
+89 0
+90 0
+91 0.587065
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 112
+1 c
+2 nop-C
+3 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+4 0.59596
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfBxga
+9 
+10 
+11 4857552
+12 0
+13 -1
+14 1
+15 0
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 59
+23 
+24 0.00161031
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfBxga
+28 
+29 0
+30 0.59596
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0
+38 0.99839
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfBxga</tt>
+49 0
+50 0
+51 0.59596
+52 1000
+53 0.59596
+54 0
+55 0
+56 0
+57 -1
+58 0.29798
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0
+65 118
+66 0
+67 2
+68 252908703
+69 1
+70 198
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.00130889
+87 0
+88 
+89 0
+90 0
+91 0.59596
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']
+0 113
+1 x
+2 h-divide
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+4 0
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcBga
+9 
+10 
+11 4857552
+12 0
+13 -1
+14 0
+15 0
+16 0
+17 115
+18 -1
+19 0
+20 0
+21 0
+22 115
+23 
+24 0.00161031
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcBga
+28 
+29 0
+30 0
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 00
+37 0
+38 0.99839
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcBga</tt>
+49 0
+50 0
+51 0
+52 1000
+53 0
+54 0
+55 0
+56 0
+57 -1
+58 inf
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0
+65 115
+66 0
+67 1
+68 252908703
+69 1
+70 0
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 0
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-++++++++++++++++++++++++++++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.00132088
+87 0
+88 
+89 0
+90 0
+91 0
+92 1
+93 -1
+['1', '0']
+['0', '0']
+['1', '0']
+['0', '0']
+0 114
+1 g
+2 mov-head
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-+++++++++++++++++++++++++-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+4 0
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxBa
+9 
+10 
+11 4857552
+12 0
+13 -1
+14 0
+15 0
+16 0
+17 115
+18 -1
+19 0
+20 0
+21 0
+22 115
+23 
+24 0.000322061
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxBa
+28 
+29 0
+30 0
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 00
+37 0
+38 0.999678
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxBa</tt>
+49 0
+50 0
+51 0
+52 1000
+53 0
+54 0
+55 0
+56 0
+57 -1
+58 inf
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0
+65 115
+66 0
+67 1
+68 252908703
+69 1
+70 0
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 0
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-+++++++++++++++++++++++++-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.000277122
+87 0
+88 
+89 0
+90 0
+91 0
+92 1
+93 -1
+['1', '0']
+['0', '0']
+['1', '0']
+['0', '0']
+0 115
+1 a
+2 nop-A
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-+++++++++++++++++++++++++++-------------------------------------------------
+4 0.666667
+5 
+6 0
+7 0
+8 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxgB
+9 
+10 
+11 4857552
+12 0
+13 -1
+14 1
+15 0
+16 0
+17 115
+18 -1
+19 0
+20 1
+21 1
+22 110
+23 
+24 0.00450886
+25 1
+26 
+27 laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxgB
+28 
+29 0
+30 0.666667
+31 1
+32 0
+33 115
+34 -1
+35 -1
+36 10
+37 0
+38 0.995491
+39 0
+40 1
+41 0
+42 0
+43 
+44 4887812
+45 0
+46 0
+47 -1
+48 <tt>laieeqmzwkpbfuzAlxmAjznfuzbxbfwjaAixecbdngcuvfoaxmmiocjmAczvfaojtuyxezzycequxxurqedmyequcamdsyvopwwamifymzvvvvfcxgB</tt>
+49 0
+50 0
+51 0.666667
+52 1000
+53 0.666667
+54 0
+55 0
+56 0
+57 -1
+58 0.333333
+59 0
+60 <a
+61 href="tasksites..html">Phenotype
+62 Map</a>
+63 
+64 0
+65 220
+66 0
+67 2
+68 252908703
+69 1
+70 330
+71 
+72 0
+73 0
+74 0
+75 -1
+76 0
+77 1
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++-++++++++++++-+++-+++++++++++++++++++++++++++-------------------------------------------------
+79 heads_default
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0.00312757
+87 0
+88 
+89 0
+90 0
+91 0.666667
+92 1
+93 -1
+['1', '0']
+['1', '0']
+['1', '0']
+['1', '0']

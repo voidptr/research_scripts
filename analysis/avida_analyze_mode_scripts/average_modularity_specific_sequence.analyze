@@ -1,0 +1,8 @@
+LOAD_SEQUENCE wujagcrwteccbakobspipcfcnsfnhdborxukyctpyucfsjpnenypppqnuysmyrepnoilzxvcxvxszvvvvvvfcaxvgwab
+#LOAD data/detail-120000.spop 
+#FIND_LINEAGE num_cpus 
+#AVERAGE_MODULARITY modularity_poop.dat task.0 task.1
+MAP_TASKS poop/ text link_maps link_insts
+#RECALCULATE 
+#DETAIL lineage.html depth parent_dist length fitness html.sequence task.0 task.1 
+
