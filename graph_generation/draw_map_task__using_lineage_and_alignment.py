@@ -55,7 +55,8 @@ parser.add_option("--show_mutations", action = "store_true", dest = "show_mutati
 parser.add_option("--show_phase", action = "store_true", dest = "show_phase",
                   default = False, help = "show the phase bar")
 
-
+parser.add_option("--output_values_only", action = "store_true", dest = "values_only",
+                  default = False, help = "only output the color values")
 
 ## fetch the args
 (options, args) = parser.parse_args()
@@ -250,7 +251,22 @@ if lineage_file[-3:] == ".gz":
 else:
     fp = open(lineage_file)
 
+## default columns
 columns = {}
+columns['update_born'] = 1
+columns['id'] = 2
+columns['parent_id'] = 3
+columns['depth'] = 4
+columns['parent_dist'] = 5
+columns['ancestor_dist'] = 6
+columns['length'] = 7
+columns['fitness']  = 8
+columns['num_cpus']  = 9
+columns['task']  = 10
+columns['task']  = 11
+columns['total_task_count']  = 12
+columns['sequence']  = 13
+columns['alignment'] = 14
 
 ids = []
 alignments = {}
@@ -539,7 +555,22 @@ def proxy_artist( color ):
     p = plt.Rectangle((0,0), 1,1, fc=color)
     return p
 
+def save_values( filename, organisms ):
+    fp = open( filename + "__values_only.csv", "w" )
+    #print organisms
+    for organism in organisms:
+        line = ",".join( [ str(val) for val in organism ] )
+        print>>fp, line 
+    fp.close()
+
+
 def generate_plot( title, filename, organisms ):
+
+    ## only save the values
+    if options.values_only:
+        save_values( filename, organisms )
+        return
+
     plottable_organisms = np.array( organisms )
 
     print filename
@@ -560,9 +591,6 @@ def generate_plot( title, filename, organisms ):
     else:
         ax = fig.add_subplot(111) ## 1 row, 1 column, first plot
         ax.imshow(organisms, aspect="auto", interpolation='nearest') ## now it should spread wide.
-        
-#        l,b,w,h = plt.axes().get_position().bounds
-#        plt.axes().set_position([0,b,w,h])
 
         if options.title:
             title = title + " - " + options.title
@@ -591,8 +619,6 @@ def generate_plot( title, filename, organisms ):
         phases_labels = ['Reward Phase', 'No Reward Phase' ]
         mutations_labels = ['Point Mutation', 'Insertion', 'Deletion' ]
 
-    
-
         ## try the divider
         divider = make_axes_locatable( ax )
         ax_leg = divider.append_axes("right", 2, pad=0.1 )
@@ -601,8 +627,6 @@ def generate_plot( title, filename, organisms ):
         ax_leg.set_frame_on(False)
         ax_leg.axes.get_yaxis().set_visible(False)
         ax_leg.axes.get_xaxis().set_visible(False)
-
-        #fig.colorbar(thing, cax=ax_cb)
 
         l1 = ax_leg.legend(sites, sites_labels, title="Sites", bbox_to_anchor=(0, 1), loc=2, borderaxespad=0.)
         leg = plt.gca().get_legend()
@@ -619,11 +643,8 @@ def generate_plot( title, filename, organisms ):
         ltext = leg.get_texts()
         plt.setp( ltext, fontsize='small')
 
-
         plt.gca().add_artist(l1)
-        plt.gca().add_artist(l2)
-
-        
+        plt.gca().add_artist(l2)        
 
         plt.savefig(filename, dpi=(300))
 
