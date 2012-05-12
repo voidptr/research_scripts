@@ -14,8 +14,7 @@ from optparse import OptionParser
 
 # Set up options
 usage = """usage: %prog [options] infile
-
-Permitted types for outfile are png, pdf, ps, eps, and svg"""
+"""
 parser = OptionParser(usage)
 parser.add_option("-v", "--verbose", action = "store_true", dest = "verbose",
                   default = False, help = "print extra messages to stdout")
