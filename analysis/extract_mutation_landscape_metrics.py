@@ -22,13 +22,18 @@ parser.add_option("-v", "--verbose", action = "store_true", dest = "verbose",
                   default = False, help = "print extra messages to stdout")
 parser.add_option("-d", "--debug_messages", action = "store_true", dest = "debug_messages",
                   default = False, help = "print debug messages to stdout")
-
+parser.add_option("--ancestor", dest = "ancestor", type = "string", 
+                  help = "Compare mutants against an ancestor")
+parser.add_option("--ancestor_task1", action = "store_true", dest = "ancestor_task1",
+                  default = False, help = "Ancestor performs task1")
+parser.add_option("--ancestor_task2", action = "store_true", dest = "ancestor_task2",
+                  default = False, help = "Ancestor performs task2")
 
 ## fetch the args
 (options, args) = parser.parse_args()
 
 ## parameter errors
-if len(args) < 2:
+if len(args) < 1:
     parser.error("incorrect number of arguments")
 
 ## defaults
@@ -41,33 +46,40 @@ landscape_task1_col = 3
 landscape_task2_col = 4
 
 ## input filename
-ancestor_file = args[0]
-mutation_landscape_file = args[1]
+mutation_landscape_file = args[0]
 
-## read ancestor
-ancestor_fitness = -1.0
-ancestor_task1 = -1
-ancestor_task2 = -1
+## calibrate ancestor information
+ancestor_fitness = 0
+ancestor_task1 = 0
+ancestor_task2 = 0
 
-if ancestor_file[-3:] == ".gz":
-    fd = gzip.open(ancestor_file)
+if options.ancestor:
+    ancestor_file = options.ancestor
+    ## read ancestor
+    if ancestor_file[-3:] == ".gz":
+        fd = gzip.open(ancestor_file)
+    else:
+        fd = open(ancestor_file)
+
+    for line in fd:
+        line = line.strip() ## strip off the end of line crap
+
+        if len(line) == 0 or line[0] == '#': ## if the line is blank or a comment
+            continue
+
+        line = line.split() ## break the line up on spaces
+
+        ancestor_fitness = float(line[ ancestor_fitness_col - 1 ])    
+        ancestor_task1 = int( line[ ancestor_task1_col - 1] )
+        ancestor_task2 = int( line[ ancestor_task2_col - 1] )
+    fd.close()
 else:
-    fd = open(ancestor_file)
+    if options.ancestor_task1:
+        ancestor_task1 = 1
 
-for line in fd:
-    line = line.strip() ## strip off the end of line crap
+    if options.ancestor_task2:
+        ancestor_task2 = 1
 
-    if len(line) == 0 or line[0] == '#': ## if the line is blank or a comment
-        continue
-
-    line = line.split() ## break the line up on spaces
-
-    ancestor_fitness = float(line[ ancestor_fitness_col - 1 ])    
-    ancestor_task1 = int( line[ ancestor_task1_col - 1] )
-    ancestor_task2 = int( line[ ancestor_task2_col - 1] )
-
-
-fd.close()
 
 ## read mutation landscape
 landscape_fitnesses = []
@@ -77,7 +89,6 @@ landscape_task2s = []
 landscape_viable_fitnesses = []
 landscape_viable_task1s = []
 landscape_viable_task2s = []
-
 
 if mutation_landscape_file[-3:] == ".gz":
     fd = gzip.open(mutation_landscape_file)
