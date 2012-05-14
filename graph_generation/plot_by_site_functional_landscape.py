@@ -50,15 +50,12 @@ for line in fd:
     line = line.strip()
     if len(line) == 0 or line[0] == "#":
         continue
-#    print "HAI"
-#    print line
 
     line = line.split(',')
     line = [float(bit) for bit in line]
 
     histogram.extend( line )
 
-#    print line
 
 fd.close()
 
@@ -68,28 +65,73 @@ if task_map_colors_file[-3:] == ".gz":
 else:
     fd = open(task_map_colors_file)
 
-task_map_colors = []
+task_map = []
 for line in fd:
     line = line.strip()
     if len(line) == 0 or line[0] == "#":
         continue
 
-    line = line.split('(')[1:] ## skip the one prior to the opening (
+    line = line.split(',') 
 
-    for bit in line:
-        bit = bit.split(')')[0]
-
-        pieces = bit.split(',')
-#        print pieces
-        pieces = [ float(val) for val in pieces ]
-
-        task_map_colors.append( (pieces[0],pieces[1],pieces[2],pieces[3]) )
+    task_map.append( line )
 fd.close()
 
-#print task_map_colors
+############# plot the thing
 
-### plot the thing
+## define the colors and the mapping for the map task
+class Colors:
+    Black = (0.0, 0.0, 0.0, 1.0)
+    Purple = (0.55, 0.0, 0.55, 1.0)
+    Blue = (0.20, 0.49, 0.95, 1.0)
+    Green = (0.0, 0.7, 0.0, 1.0)
+    Yellow = (0.9, 0.9, 0.0, 1.0)
+    Orange = (0.93, 0.67, 0.13, 1.0)
+    Red = (0.95, 0, 0.0, 1.0)
+    DarkPink = (0.86, 0.62, 0.65, 1.0)
+    DarkGray = (0.65, 0.65, 0.65, 1.0)
+    Gray = (0.75, 0.75, 0.75, 1.0)
+    LightGray = (0.85, 0.85, 0.85, 1.0)
+    White = (1.0, 1.0, 1.0, 1.0)
+    LightPurple = (0.8, 0.7, 0.8, 1.0) ## degenerate site
+    LightBlue = (0.7, 0.7, 0.8, 1.0) ## degenerate site
+    LightPink = (0.8, 0.7, 0.7, 1.0) ## degenerate site
+    TransparentGray = (0.75, 0.75, 0.75, 0.5)
+    Default = (0.7, 0.53, 0.5, 1.0) ## pukey brown
 
+#### <-- See extract_task_mappings.py for the actual meanings.
+ColorsMapping = [    
+    Colors.Default, ## this is unused -- an error code
+    Colors.Gray, ## KO.GainBB_GainFL -- neutral
+    Colors.Gray, ## KO.GainBB_NeutFL -- neutral
+    Colors.Blue, #Colors.Green, ## fluctuating site, but you also gain BB, so a little different
+    Colors.Gray, ## KO.NeutBB_GainFL -- neutral
+    Colors.Gray, ## KO.NeutBB_NeutFL -- neutral
+    Colors.Blue, ## fluctuating only site 
+    Colors.Red,  #Colors.Orange, ## backbone site, but you gain FL, so interesting 
+    Colors.Red,  ## backbone only site 
+    Colors.Purple, ## both site 
+    Colors.Black,  ## knocking out this site kills you -- KnockOuts.Dead
+    Colors.LightGray, ## empty -- KnockOuts.Empty -- WEIRD -- 11
+    Colors.LightBlue, ## degenerate fluctuating site -- KODegen.FLNeut
+    Colors.LightPink, ## degenerate backbone site -- KODegen.BBNeut
+    Colors.LightPurple, ## degenerate both site -- KODegen.BBFLNeut
+    Colors.Yellow, ## Point Mutation -- 15
+    Colors.Green, ## Insertion -- 16
+    Colors.Orange, ## Deletion -- 17
+    Colors.DarkPink, #Colors.TransparentGray,## No Mutation -- 18
+    Colors.White, ## Phases.Reward -- 19
+    Colors.Red, ## Phases.NoReward
+    Colors.Black] ## Phases.Border -- 21
+
+colored_maps = []
+for input_map in task_map:
+    colored_map = []
+    for site in input_map:
+        colored_map.append( ColorsMapping[ site ] )
+    colored_maps.append( colored_map )
+
+
+## plot it
 fig = pl.figure()
 ax = fig.add_subplot(111) ## 2 row, 1 column, first plot
 
@@ -97,14 +139,8 @@ width = 0.95
 indices = np.arange( len(histogram) )
 
 
-#print histogram
-#print len(histogram)
-#print indices
-
 histo = ax.bar( indices, histogram, width )
 pl.xlim( 0, len(histogram) )
-#thing = ax.imshow(all_entropies_tp, cmap=cm.jet, interpolation='nearest', aspect="auto", 
-#        norm = colors.Normalize(vmin = 0.0, vmax = 1.0, clip = False))
 
 if options.title:
     pl.title("Functional Mutation Landscape\n%s" % options.title) 
@@ -117,22 +153,11 @@ pl.xticks( [], [] )
 divider = make_axes_locatable( ax )
 ax2 = divider.append_axes("bottom", 0.3, pad=0.1)
 
-ax2.imshow([task_map_colors],aspect="auto", interpolation='nearest')
-#ax2.plot( sum_norm_plottable )
-#pl.ylim(0,1)
-
-#pl.ylabel("Mean Entropy")
+ax2.imshow(colored_maps,aspect="auto", interpolation='nearest')
 pl.yticks( [], [] )
 pl.xlabel("Site Functions")
 
 
-#xlocs, xlabels = pl.xticks()
-#xmodlabels = []
-#xmodlocs = []
-#for i in range(0, len(xlocs)):
-#    xmodlabels.append( int(xlocs[i]) * 50 )
-#    xmodlocs.append(xlocs[i] )
-#pl.xticks( xmodlocs, xmodlabels )
 
 pl.savefig(outfile)
 
