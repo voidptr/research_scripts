@@ -1,252 +1,196 @@
+#!/usr/bin/python
+
 # Draw the placements of where the tasks are
 
 # Written in Python 2.7
 # RCK
-# 10-19-11
+# 03-21-12
 
+import os
+import glob
+import gzip
 from optparse import OptionParser
+
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.cm as cm
-import os
-import gzip
+from mpl_toolkits.axes_grid1 import make_axes_locatable
 
 
 # Set up options
-usage = """usage: %prog [options] output_filename tasksites.org-1.dat [tasksites.org-2.dat ...]
+usage = """usage: %prog [options] outfile.png lineage_map_file.csv 
 
 """
 parser = OptionParser(usage)
-parser.add_option("-i", "--individual", action = "store_true", dest = "store_individual",
-                  default = False, help = "save images individually")
 parser.add_option("-t", "--trim", action = "store_true", dest = "trim_whitespace",
                   default = False, help = "trim the whitespace")
+
 parser.add_option("-v", "--verbose", action = "store_true", dest = "verbose",
                   default = False, help = "verbose mode")
-parser.add_option("-p", "--phase", dest = "phase", metavar = "START_UPDATE",
-                  default = -1, type="int", help = "show the phase (reward vs noreward/punish)")
-parser.add_option("-P", "--phase_only", dest = "phase_only", metavar = "PHASE_1_or_2",
-                  default = -1, type="int", help = "only show the phase we want 1/2")
+parser.add_option("-d", "--debug", action = "store_true", dest = "debug_messages",
+                  default = False, help = "debug mode")
 
-
-
+parser.add_option("--title", dest = "title", type="string",
+                  help = "Supplemental Title")
 
 ## fetch the args
 (options, args) = parser.parse_args()
-if options.store_individual:
-    options.trim_whitespace = True
-
-if options.phase_only > -1 and options.phase == -1:
-    parser.error("-P or --phase_only requires passing of phase START_UPDATE using -p or --phase")
 
 ## parameter error
 if len(args) < 2:
     parser.error("incorrect number of arguments")
 
-outfile_name = args[0]
-tasksites_files = args[1:]
+outfile = args[0]
+lineage_map_file = args[1]
 
-## the stack of organisms to display
-organisms = []
+class Colors:
+    Black = (0.0, 0.0, 0.0, 1.0)
+    Purple = (0.55, 0.0, 0.55, 1.0)
+    Blue = (0.20, 0.49, 0.95, 1.0)
+    Green = (0.0, 0.7, 0.0, 1.0)
+    Yellow = (0.9, 0.9, 0.0, 1.0)
+    Orange = (0.93, 0.67, 0.13, 1.0)
+    Red = (0.95, 0, 0.0, 1.0)
+    DarkPink = (0.86, 0.62, 0.65, 1.0)
+    DarkGray = (0.65, 0.65, 0.65, 1.0)
+    Gray = (0.75, 0.75, 0.75, 1.0)
+    LightGray = (0.85, 0.85, 0.85, 1.0)
+    White = (1.0, 1.0, 1.0, 1.0)
+    LightPurple = (0.8, 0.7, 0.8, 1.0) ## degenerate site
+    LightBlue = (0.7, 0.7, 0.8, 1.0) ## degenerate site
+    LightPink = (0.8, 0.7, 0.7, 1.0) ## degenerate site
+    TransparentGray = (0.75, 0.75, 0.75, 0.5)
+    Default = (0.7, 0.53, 0.5, 1.0) ## pukey brown
 
-## site colors
-sc_default = 0
-sc_black = 0
-sc_purple = 10
-sc_blue = 25
-sc_green = 50
-sc_yellow = 75
-sc_orange = 80
-sc_red = 85
-sc_darkpink = 99.6
-sc_gray = 100
-
-## assignment of meaning to color
-pm_gainbb_gainfl = sc_gray ## these three are weird, but I guess I only care about gains when there are losses of function.
-pm_gainbb_neutfl = sc_gray
-pm_gainbb_losefl = sc_green ## this is a fluctuating only site, but interesting because losing it gains you the backbone task, so mark it green instead of blue
-
-pm_neutbb_gainfl = sc_gray
-pm_neutbb_neutfl = sc_gray
-pm_neutbb_losefl = sc_blue ## this is a fluctuating only site
-
-pm_losebb_gainfl = sc_orange ## this is a backbone only site, but interesting because losing it gains you the fluctuating task, so mark it orange instead of red
-pm_losebb_neutfl = sc_red ## this is a backbone only site
-pm_losebb_losefl = sc_purple ## this is both backbone and fluctuating
-
-## set up the probability matrix
-color_matrix = [[pm_gainbb_gainfl,   pm_gainbb_neutfl,   pm_gainbb_losefl], ## visually inverted (X coordinates go down)
-                [pm_neutbb_gainfl,   pm_neutbb_neutfl,   pm_neutbb_losefl],
-                [pm_losebb_gainfl,   pm_losebb_neutfl,   pm_losebb_losefl]]
-
-## site task_status (as index into color_matrix)
-stat_gained = 0
-stat_neutral = 1
-stat_lost = 2
-
-####### TEST CODE display all the colors
-#test_organism = [
-#    sc_default, sc_default, sc_default, sc_default, sc_default,
-#    sc_black,sc_black,sc_black,sc_black,sc_black,
-#    sc_purple,sc_purple,sc_purple,sc_purple,sc_purple,
-#    sc_blue,sc_blue,sc_blue,sc_blue,sc_blue,
-#    sc_green,sc_green,sc_green,sc_green,sc_green,
-#    sc_yellow,sc_yellow,sc_yellow,sc_yellow,sc_yellow,
-#    sc_orange,sc_orange,sc_orange,sc_orange,sc_orange,
-#    sc_red,sc_red,sc_red,sc_red,sc_red,
-#    sc_gray,sc_gray,sc_gray,sc_gray,sc_gray]
-#organisms.append( test_organism )
-#organisms.append( test_organism )
-#organisms.append( test_organism )
-#organisms.append( test_organism )
-#organisms.append( test_organism )
-####### END TEST
+#### <-- See extract_task_mappings.py for the actual meanings.
+ColorsMapping = [    
+    Colors.Default, ## this is unused -- an error code
+    Colors.Gray, ## KO.GainBB_GainFL -- neutral
+    Colors.Gray, ## KO.GainBB_NeutFL -- neutral
+    Colors.Blue, #Colors.Green, ## fluctuating site, but you also gain BB, so a little different
+    Colors.Gray, ## KO.NeutBB_GainFL -- neutral
+    Colors.Gray, ## KO.NeutBB_NeutFL -- neutral
+    Colors.Blue, ## fluctuating only site 
+    Colors.Red,  #Colors.Orange, ## backbone site, but you gain FL, so interesting 
+    Colors.Red,  ## backbone only site 
+    Colors.Purple, ## both site 
+    Colors.Black,  ## knocking out this site kills you -- KnockOuts.Dead
+    Colors.LightGray, ## empty -- KnockOuts.Empty -- WEIRD -- 11
+    Colors.LightBlue, ## degenerate fluctuating site -- KODegen.FLNeut
+    Colors.LightPink, ## degenerate backbone site -- KODegen.BBNeut
+    Colors.LightPurple, ## degenerate both site -- KODegen.BBFLNeut
+    Colors.Yellow, ## Point Mutation -- 15
+    Colors.Green, ## Insertion -- 16
+    Colors.Orange, ## Deletion -- 17
+    Colors.DarkPink, #Colors.TransparentGray,## No Mutation -- 18
+    Colors.White, ## Phases.Reward -- 19
+    Colors.Red, ## Phases.NoReward
+    Colors.Black] ## Phases.Border -- 21
 
 
-for tasksite_file in tasksites_files:
+######### load in the lineage file
+maps = []
+if lineage_map_file[-3:] == ".gz":
+    fp = gzip.open(lineage_map_file)
+else:
+    fp = open(lineage_map_file)
 
-    ## pull out the update (assumes the map tasks file is in a map_tasks-nnnnnn/ directory
-    update_str = tasksite_file.split('-')[1].split('/')[0]
+for line in fp:
+    line = line.strip()
+    if len(line) == 0 or line[0] == '#': ## skip it if it's not format
+        continue
 
+    line = line.split(',') 
+    maps.append( line )
 
-    if (options.phase_only > -1):
-        if (int(update_str) <= options.phase):
-            continue # ignore any files that aren't part of the cycles        
+fp.close()
 
-        if ((int(update_str) % 1000) > 0 and options.phase_only != 1): ## we are at the end of a no-reward phase (nnn500), which we don't want to display
-            continue
-
-        if ((int(update_str) % 1000) == 0 and options.phase_only != 2): ## we are at the end of a reward phase (nnn000), which we don't want to display
-            continue
-
-
-    if (options.phase > -1):
-        if (int(update_str) > options.phase and (int(update_str) % 1000) > 0): ## we at the end of a no-reward phase (nnn500)
-            color_matrix[1][1] = sc_darkpink ## DO IT HERE (half assed)
-        else:
-            color_matrix[1][1] = sc_gray ## DO IT HERE (half assed)
-
-
-
-    if (options.verbose):
-        print tasksite_file
-
-    #fp = open( tasksite_file )
-
-    if tasksite_file[-3:] == ".gz":
-        fp = gzip.open(tasksite_file)
-    else:
-        fp = open(tasksite_file)
-
-    organisms.append( [] ) ## to hold the per-site data of the organism
-
-    organism_task_execution = -1
-    for line in fp:
-
-        line = line.strip()
-        if len(line) == 0 or line[0] == '#': ## skip it
-            continue
-
-        line = line.replace(' ',',') ## doing this because the split method concatenates spaces all in a row
-        line = line.split(',') 
-
-        # the first line contains the base organism stuff
-        if (organism_task_execution == -1): ## fill in the first line
-            organism_task_execution = line[-2] + line[-1] ## the last two tasks
-            continue
-
-        site_task_execution = line[-2] + line[-1] ## the last two tasks
-        site_fitness = float( line[3] )
-
-        site_color = sc_black
-        if (site_fitness == 0): ## killed it
-            site_color = sc_black
-        else: ## check the status
-           
-
-            # deal with the backbone first
-            if (int(site_task_execution[0]) < int(organism_task_execution[0])): ## lost the backbone
-                backbone_status = stat_lost 
-            elif (int(site_task_execution[0]) == int(organism_task_execution[0])): ## neutral effect
-                backbone_status = stat_neutral
-            else:
-                backbone_status = stat_gained
-
-            # deal with the fluctuating task
-            if (int(site_task_execution[1]) < int(organism_task_execution[1])): ## lost the backbone
-                fluct_status = stat_lost
-            elif (int(site_task_execution[1]) == int(organism_task_execution[1])): ## neutral effect
-                fluct_status = stat_neutral
-            else:
-                fluct_status = stat_gained
-
-            site_color = color_matrix[backbone_status][fluct_status] ## set the color based on the probability matrix and the task status
-    
-            if (options.verbose):
-                print tasksite_file + " WT vs Mut: "+ organism_task_execution  + " " + site_task_execution + " color: " + str(site_color) + " status: " + str(backbone_status) + str(fluct_status)
-
-        organisms[-1].append( site_color ) ## add the site color to the organism site array        
-
-    organisms[-1].append(sc_black) ## making sure the damned thing displays the right colors, for fucks sake. :(
-    organisms[-1].append(sc_gray)
-
-    fp.close()
-
-### go through the organism genotypes we collected, and normalize
-max_length = max( [ len(organism) for organism in organisms ] )
-for organism in organisms: ## set each array to be the max length
-    for i in range(0, max_length - len(organism)):
-        organism.append(sc_default)
-
+## apply the colors
+colored_maps = []
+for input_map in maps:
+    colored_map = []
+    for site in input_map:
+        colored_map.append( ColorsMapping[ site ] )
+    colored_maps.append( colored_map )
 
 ######### NOW GENERATE THE PLOT(S) ###############
+def proxy_artist( color ):
+    p = plt.Rectangle((0,0), 1,1, fc=color)
+    return p
 
-def generate_plot( filename, organisms ):
-    plottable_organisms = np.array( organisms )
+## generate the plot
+fig = plt.figure()
 
-    fig = plt.figure()
+if options.trim_whitespace:
+    ax = fig.add_axes((0,0,1,1))
+    ax.set_axis_off()
+    ax.imshow(colored_maps, interpolation='nearest')
 
-    if options.trim_whitespace:
-        ax = fig.add_axes((0,0,1,1))
-        ax.set_axis_off()
-        ax.imshow(organisms, cmap=cm.spectral, interpolation='nearest')
-        plt.subplots_adjust(left=0, right=1, top=1, bottom=0, wspace=0, hspace=0)
-        plt.savefig(filename, pad_inches=0)
+    plt.subplots_adjust(left=0, right=1, top=1, bottom=0, wspace=0, hspace=0)
+    plt.savefig(outfile, pad_inches=0)
 
-        ## trim the fat
-        os.system('convert '+filename+' -bordercolor white -border 1x1 -trim +repage -alpha off +dither -colors 32 PNG8:'+filename)
-    else:
-        ax = fig.add_subplot(111) ## 1 row, 1 column, first plot
-        ax.imshow(organisms, cmap=cm.spectral, interpolation='nearest')
+    ## trim the fat
+    os.system('convert '+filename+' -bordercolor white -border 1x1 -trim +repage -alpha off +dither -colors 32 PNG8:'+filename)
 
-        plt.title("Task knockouts by site in dominant organisms") 
-        plt.ylabel("updates")
-        plt.xlabel("site")
+else:
+    ax = fig.add_subplot(111) ## 1 row, 1 column, first plot
+    ax.imshow(colored_maps, aspect="auto", interpolation='nearest') ## now it should spread wide.
 
-        ylocs, ylabels = plt.yticks()
-        ymodlabels = []
-        ymodlocs = []
-        for i in range(0, len(ylocs)):
-            if ( ylocs[i] * 500 ) >= 0 and (ylocs[i]* 500) < 110000:
-                ymodlabels.append(ylocs[i] * 500 )
-                ymodlocs.append(ylocs[i] )
-        plt.yticks( ymodlocs, ymodlabels )
+    ax.set_ylabel("lineage")
+    ax.set_xlabel("site")
 
-        plt.savefig(filename)
+    if options.title:
+        plt.title( options.title ) ## set it above the current center. Maybe it will shift properly. :/
 
+    ## apply the divider
+    divider = make_axes_locatable( ax )
+    ax_leg = divider.append_axes("right", 2, pad=0.1 )
 
-## save each organism's thing individually
-if options.store_individual:
-    count = 0
-    for tasksite_file in tasksites_files:
-        update = tasksite_file.split('/')[-2].replace('_','')
+    ## turn off the frame
+    ax_leg.set_frame_on(False)
+    ax_leg.axes.get_yaxis().set_visible(False)
+    ax_leg.axes.get_xaxis().set_visible(False)
 
-        individual_filename = outfile_name.replace('.','_'+update+".")
-        generate_plot( individual_filename, [organisms[count]] )
+    ## prepare the proxy artists for the legends
+    sites = [ proxy_artist(Colors.Red), 
+              proxy_artist(Colors.Blue), 
+              proxy_artist(Colors.Purple), 
+              proxy_artist(Colors.LightPink), 
+              proxy_artist(Colors.LightBlue), 
+              proxy_artist(Colors.LightPurple),
+              proxy_artist(Colors.Black)]
+    phases = [proxy_artist(Colors.Gray), 
+              proxy_artist(Colors.DarkGray)]
 
-        count += 1 ## increment the count
-## save them all in one fancy plot
-else:     
-    generate_plot( outfile_name, organisms )
+    mutations = [proxy_artist(Colors.Yellow), 
+                 proxy_artist(Colors.Green),
+                 proxy_artist(Colors.Orange)]
+
+    sites_labels = [ 'Backbone', 'Fluctuating', 'Both (Overlapping)', 
+                     'Degen. Backbone', 'Degen. Fluctuating', 'Degen. Both', 'Lethal' ]
+    phases_labels = ['Reward Phase', 'No Reward Phase' ]
+    mutations_labels = ['Point Mutation', 'Insertion', 'Deletion' ]
+
+    ## apply the legends
+    l1 = ax_leg.legend(sites, sites_labels, title="Sites", bbox_to_anchor=(0, 1), loc=2, borderaxespad=0.)
+    leg = plt.gca().get_legend()
+    ltext = leg.get_texts()
+    plt.setp( ltext, fontsize='small')
+
+    l2 = ax_leg.legend(phases, phases_labels, title="Phases", bbox_to_anchor=(0, .53), loc=2, borderaxespad=0.)
+    leg = plt.gca().get_legend()
+    ltext = leg.get_texts()
+    plt.setp( ltext, fontsize='small')
+
+    l3 = ax_leg.legend(mutations, mutations_labels, title="Mutations", bbox_to_anchor=(0, .34), loc=2, borderaxespad=0.)
+    leg = plt.gca().get_legend()
+    ltext = leg.get_texts()
+    plt.setp( ltext, fontsize='small')
+
+    plt.gca().add_artist(l1)
+    plt.gca().add_artist(l2)        
+
+    ## save
+    plt.savefig(outfile, dpi=(300))
 
 
