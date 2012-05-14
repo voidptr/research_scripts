@@ -11,10 +11,10 @@ import glob
 import gzip
 from optparse import OptionParser
 
-import numpy as np
-import matplotlib.pyplot as plt
-import matplotlib.cm as cm
-from mpl_toolkits.axes_grid1 import make_axes_locatable
+#import numpy as np
+#import matplotlib.pyplot as plt
+#import matplotlib.cm as cm
+#from mpl_toolkits.axes_grid1 import make_axes_locatable
 
 
 # Set up options
@@ -539,7 +539,7 @@ def generate_output( prefix, maps ):
         count = 0
         for genome_id in ids:
             tasksite_file ="tasksites.org-%s.dat" % genome_id
-            individual_filename = tasksite_file + ".png"
+            individual_filename = tasksite_file
             filename = "%s__%s" % (prefix, individual_filename)
 
             save_values( filename, [maps[count]] )
