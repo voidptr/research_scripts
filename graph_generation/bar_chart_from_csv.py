@@ -321,8 +321,15 @@ if options.y_label:
 if options.title:
     pl.title( options.title )
 
+#print ax1.get_ylim()
+
 if options.ylim_max:
     pl.ylim(0,options.ylim_max)
+else:
+    pl.ylim(0, ax1.get_ylim()[1])
+
+#else
+#    pl.ylim(0,
 
 ## set the xticks
 if len(group_labels) == 0: ## none defined
