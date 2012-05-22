@@ -26,8 +26,8 @@ parser.add_option("-m", "--medianplus", action="store_true", dest = "median",
                   default = False, help = "calculate and display median plus the original lines")
 parser.add_option("-o", "--medianonly", action="store_true", dest = "median_only",
                   default = False, help = "calculate and display median ONLY")
-parser.add_option("-l", "--legend", action="store_true", dest = "legend",
-                  default = False, help = "include a legend")
+parser.add_option("-l", "--legend", type="string", dest = "legend",
+                  help = "include a legend, (values)")
 parser.add_option("-x", "--xlabel", dest="x_label", type="string", 
                   help="X-axis Label")
 parser.add_option("-y", "--ylabel", dest="y_label", type="string", 
@@ -48,6 +48,8 @@ parser.add_option("--calculate_error", dest="calculate_error", action="store_tru
                   help="include error bars - error values will be calculated from data")
 parser.add_option("--ylim_max", dest="ylim_max", type="float",
                   help="Set the max ylim")
+parser.add_option("--ylim_min", dest="ylim_min", type="float",
+                  help="Set the min ylim")
 parser.add_option("--xlim_max", dest="xlim_max", type="float",
                   help="Set the max xlim")
 parser.add_option("--show_phase", dest="show_phase", type="int",
@@ -395,8 +397,10 @@ ax1.plot( [0] ) ## add one so it displays 0 at least!
 ax1.set_xlabel( options.x_label )
 ax1.set_ylabel( options.y_label )
 
+if not options.ylim_min:
+    options.ylim_min = 0
 if not options.alt_axis and options.ylim_max:
-    pl.ylim(0,options.ylim_max)
+    pl.ylim(options.ylim_min,options.ylim_max)
 
 if options.xlim_max:
     pl.xlim(0,options.xlim_max)
@@ -428,14 +432,40 @@ if options.x_tick_intervals:
 
     pl.xticks( xmodlocs, xmodlabels )
 
+def proxy_artist( color ):
+    p = pl.Line2D([0,0], [0,1], color=color)
+    return p
+
 if options.legend and len(artists) > 0:
-    pl.legend( artists, inputfilenames, bbox_to_anchor=(1.01, 1), loc=2, borderaxespad=0. )
+
+    legend_labels = options.legend.split(",")
+
+    proxies = []
+    for i in range(0, len(legend_labels)):
+        proxies.append( proxy_artist( median_colors[i] ) )
+
+#    if options.stack:
+#        proxies.reverse()
+#        legend_labels.reverse()
+
+    pl.legend( proxies, legend_labels, bbox_to_anchor=(1.03, 1), loc=2, borderaxespad=0. )
     leg = pl.gca().get_legend()
     ltext = leg.get_texts()
     pl.setp( ltext, fontsize='small')
 
     l,b,w,h = pl.axes().get_position().bounds
-    pl.axes().set_position([0.08,b,w*.8,h])
+    pl.axes().set_position([0.1,b,w*.78,h])
+
+
+
+
+#    pl.legend( artists, labels, bbox_to_anchor=(1.01, 1), loc=2, borderaxespad=0. )
+#    leg = pl.gca().get_legend()
+#    ltext = leg.get_texts()
+#    pl.setp( ltext, fontsize='small')
+
+#    l,b,w,h = pl.axes().get_position().bounds
+#    pl.axes().set_position([0.08,b,w*.8,h])
 
 
 if options.title:
