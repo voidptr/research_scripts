@@ -47,6 +47,9 @@ parser.add_option("--columns", dest="columns", type="string",
 parser.add_option("--stack", dest="stack", action = "store_true", help="Stacked Bar Chart") ## bars in the same group go on top of each other
 parser.add_option("--pair", dest="pair", action = "store_true", help="Paired Bar Chart") ## bars in the same group go next to each other
 
+parser.add_option("--show", dest="show", action="store_true", default = False, help = "Show the thing to be able to edit the image.")
+
+
 ## fetch the args
 (options, args) = parser.parse_args()
 
@@ -375,5 +378,8 @@ if options.legend and len(artists) > 0 and len(legend_labels) > 0:
 
     l,b,w,h = pl.axes().get_position().bounds
     pl.axes().set_position([0.1,b,w*.78,h])
+
+if options.show:
+    pl.show()
 
 pl.savefig(outfilename)
