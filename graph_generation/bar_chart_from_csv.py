@@ -33,6 +33,8 @@ parser.add_option("--ylim_max", dest="ylim_max", type="float",
 parser.add_option("--has_header", dest="has_header", action="store_true", default = False, help = "Contains header line, so ignore it")
 parser.add_option("-s", "--separator", dest="separator", type="string", help="Separator")
 
+parser.add_option("--ignorenan", action="store_true",dest="ignorenan",  default=False, help = "If a line includes something that isn't a number, ignore that line.")
+
 ### grouping options
 parser.add_option("--groups", dest="groups", type="int", help="The number of groups (X-ticks)") ## bars in the same group go on top of each other
 parser.add_option("--xticks", dest="group_labels", type="string", 
@@ -94,7 +96,6 @@ if options.groups:
 if not options.separator:
     options.separator="," ## default
 
-
 ## read the data from the files
 data = []
 for inputfilename in inputfilenames:
@@ -121,8 +122,16 @@ for inputfilename in inputfilenames:
 
         line = line.split( options.separator )
 
-        if len(line) > 1: ## multi-column! Yow!
-            member_ct = len(line)
+        try:
+            converted_line = [ float(val) for val in line ]
+        except ValueError:
+            if options.ignorenan:
+                continue ## move along
+            else: ## we want to FUCKING DIE
+                raise
+
+        if len(converted_line) > 1: ## multi-column! Yow!
+            member_ct = len(converted_line)
             member_indexes = range(0, member_ct)
             if options.columns:
                 member_ct = len(columns)
@@ -132,9 +141,9 @@ for inputfilename in inputfilenames:
                 if len(datums) <= i:
                     datums.append( [] ) ## add another column.
 
-                datums[i].append( float(line[ member_indexes[i] ]) )    
+                datums[i].append( converted_line[ member_indexes[i] ] )    
         else:
-            file_data.append( float(line[0]) ) ## just do it as a single column
+            file_data.append( converted_line[0] ) ## just do it as a single column
         
         line_ct += 1
 
