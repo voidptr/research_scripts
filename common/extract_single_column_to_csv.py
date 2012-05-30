@@ -195,7 +195,8 @@ if aggregate:
         print aggr_values
 
 if (options.calc_stats):
-
+    if options.debug_messages:
+        print "CALC STATS"
     calc_values = []
 
     for file_vals in values: ## calc the stats for each array
