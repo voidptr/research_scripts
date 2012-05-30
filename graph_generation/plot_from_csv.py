@@ -56,6 +56,9 @@ parser.add_option("--show_phase", dest="show_phase", type="int",
                   help="Show the phase, at interval")
 parser.add_option("--start_at", dest="start_at", type="int",
                   help="Only start plotting from datapoint <start_at>")
+parser.add_option("--end_at", dest="end_at", type="int",
+                  help="Stop plotting from datapoint <end_at>")
+
 parser.add_option("--has_header", dest="has_header", action="store_true", default = False, help = "Contains header line, so ignore it")
 parser.add_option("--show", dest="show", action="store_true", default = False, help = "Show the thing to be able to edit the image.")
 
@@ -145,6 +148,9 @@ for inputfilename in inputfilenames:
 
         line = line.split(',') ## break the line up on commas    
 
+        if options.end_at:
+            line = line[:options.end_at+1] ## chop off whatever.
+
         if options.start_at:
             line = line[options.start_at:] ## chop off whatever.
 
@@ -181,8 +187,8 @@ class Colors:
 
     BlueGreen = (0.0, 1.0, 1.0, 1.0)
     TBlueGreen = (0.0, 1.0, 1.0, 0.5)
-    LightBlueGreen = (0.8, 1.0, 0.8, 1.0)
-    TLightBlueGreen = (0.8, 1.0, 0.8, 0.5)
+    LightBlueGreen = (0.8, 1.0, 1.0, 1.0)
+    TLightBlueGreen = (0.8, 1.0, 1.0, 0.5)
 
     Green = (0.0, 0.7, 0.0, 1.0)
     TGreen = (0.0, 0.7, 0.0, 0.5)
@@ -209,13 +215,13 @@ class Colors:
     
 
 ## a max of four treatments (black, blue, yellow, green)
-median_colors = [ Colors.Black,  Colors.Blue ,      Colors.OrangeRed,       Colors.Green,       Colors.BlueGreen,       Colors.Purple ]
-data_colors =   [ Colors.TGray,  Colors.TLightBlue, Colors.TLightOrangeRed, Colors.TLightGreen, Colors.TLightBlueGreen, Colors.TLightPurple]
-edge_colors =   [ Colors.TBlack, Colors.TBlue,      Colors.TOrangeRed,      Colors.TGreen,      Colors.TBlueGreen,      Colors.TPurple]
+median_colors = [ Colors.Black,  Colors.Blue ,      Colors.OrangeRed,       Colors.Green,       Colors.BlueGreen,       Colors.Purple,       Colors.Gray ]
+data_colors =   [ Colors.TGray,  Colors.TLightBlue, Colors.TLightOrangeRed, Colors.TLightGreen, Colors.TLightBlueGreen, Colors.TLightPurple, Colors.TLightGray ]
+edge_colors =   [ Colors.TBlack, Colors.TBlue,      Colors.TOrangeRed,      Colors.TGreen,      Colors.TBlueGreen,      Colors.TPurple,      Colors.TGray ]
 
 
 line_styles = ['-','--', ':', '-.'] ## a max of four different lines, sigh.
-line_markers = ['*','p','d','o','v','x']
+line_markers = ['*','p','d','o','v','x','.']
 artists = []
 
 fig = pl.figure()
@@ -311,7 +317,7 @@ if options.median_only:
             axis_to_plot_on.fill_between( xes, 0, max_val, where=inphase, facecolor=Colors.VeryLightGray, edgecolor=Colors.Transparent)
 
         if options.calculate_error:
-            axis_to_plot_on.fill_between( xes, plottable_error_top, plottable_error_bottom, facecolor=data_colors[color_index], edgecolor=edge_colors[color_index] )
+            axis_to_plot_on.fill_between( xes, plottable_error_top, plottable_error_bottom, facecolor=data_colors[color_index], edgecolor=data_colors[color_index] )
 
 
         if options.source_count > 0:
