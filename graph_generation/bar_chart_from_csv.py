@@ -49,6 +49,8 @@ parser.add_option("--columns", dest="columns", type="string",
 parser.add_option("--stack", dest="stack", action = "store_true", help="Stacked Bar Chart") ## bars in the same group go on top of each other
 parser.add_option("--pair", dest="pair", action = "store_true", help="Paired Bar Chart") ## bars in the same group go next to each other
 
+parser.add_option("--error", dest="error", action = "store_true", default=False, help="Display Error Bars") ## Display the error bars.
+
 parser.add_option("--show", dest="show", action="store_true", default = False, help = "Show the thing to be able to edit the image.")
 
 
@@ -86,8 +88,8 @@ outfilename = args[0]
 inputfilenames = args[1:]
 
 if options.groups:
-    if len(inputfilenames) % options.groups:
-        parser.error("Inputfile count must be evenly divisible by number of groups. That is, there must be the same number of items in each group.")
+#    if len(inputfilenames) % options.groups:
+#        parser.error("Inputfile count must be evenly divisible by number of groups. That is, there must be the same number of items in each group.")
     if options.group_labels and len(group_labels) != options.groups:
         parser.error("The number of x-tick labels must match the number of groups.")
 #    if options.legend and len(legend_labels) != ( len(inputfilenames) / options.groups):
@@ -229,7 +231,9 @@ for i in range(0, group_count):
     for j in range(0, member_count): # tick 'em off (this is inefficient, but whatever)
         means[-1].append( np.mean( data[data_index] ) )
 
-        errors[-1].append( bootstrap_error( data[data_index] ) )
+        if options.error:
+            errors[-1].append( bootstrap_error( data[data_index] ) )
+
         data_index += 1 ## NEXT
 
     if options.debug_messages:
@@ -304,9 +308,13 @@ if not options.pair: ## stack it up (same case as no-stack with single-member gr
         if options.debug_messages:
             print "SET!"
         mean_set = [ group[item_index] for group in means ] ## pull it out
-        be_set = [ group[item_index] for group in errors ] ## pull it out
 
-        artists.append( ax1.bar( indexes, mean_set, width, color=color_sets[ item_index ], yerr=be_set, bottom=bottoms ) )
+        if options.error:
+            be_set = [ group[item_index] for group in errors ] ## pull it out
+            artists.append( ax1.bar( indexes, mean_set, width, color=color_sets[ item_index ], yerr=be_set, bottom=bottoms ) )
+        else:
+            artists.append( ax1.bar( indexes, mean_set, width, color=color_sets[ item_index ], bottom=bottoms ) )
+
 
         if options.stack: ## we're stacking
             for i in range(0, len(bottoms)): ## update the bottoms
@@ -318,9 +326,12 @@ elif options.pair: ## really an else here.
     for item_index in range(0, member_count): ## start at the zeroth member (bottommost) and stack from there.
 
         mean_set = [ group[item_index] for group in means ] ## pull it out
-        be_set = [ group[item_index] for group in errors ] ## pull it out
+        if options.error:
+            be_set = [ group[item_index] for group in errors ] ## pull it out
+            artists.append( ax1.bar( indexes+(width*item_index), mean_set, width, color=color_sets[ item_index ], yerr=be_set ) )
+        else:
+            artists.append( ax1.bar( indexes+(width*item_index), mean_set, width, color=color_sets[ item_index ] ) )
 
-        artists.append( ax1.bar( indexes+(width*item_index), mean_set, width, color=color_sets[ item_index ], yerr=be_set ) )
 
 
 
