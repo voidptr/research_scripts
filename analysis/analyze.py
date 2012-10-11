@@ -12,6 +12,7 @@ import sys
 
 sys.path.append( os.path.abspath( os.path.join( sys.path[0], "../common/" ) ) ) ## to common/
 import config as cf
+cf.addpath( "generic/" )
 cf.addpath( "fitness/" )
 cf.addpath( "modularity/" )
 cf.addpath( "coalescence/" )
@@ -28,6 +29,7 @@ import mutations as mutations
 import task_ct as task_ct
 import stats_dat as stats_dat
 import count_dat as count_dat
+import generic as generic
 
 # Set up options
 usage = """usage: %prog [options] action directory [directory2 ...]
@@ -50,6 +52,9 @@ parser.add_option("-s","--subgrouping", dest = "subgrouping", help = "Add an add
 
 parser.add_option("--passoptions", dest = "passoptions", help = "pass some options on to the underlying thingy.")
 
+parser.add_option("-i", "--inputfilesglob", dest="input_files_glob", help="input file glob, like \"average.dat*\"")
+parser.add_option("-c", "--column", dest="column", help="the column in question")
+parser.add_option("-o", "--outfile", dest="outfile", help="output filename")
 
 ## fetch the args
 (options, args) = parser.parse_args()
@@ -60,6 +65,10 @@ if len(args) < 2:
 
 ## actions
 action = args[0]
+
+## action errors
+if action == "timeseries" and not (options.input_files_glob and options.column and options.outfile):
+    parser.error("timeseries option requires input_files_glob, column, and outfile to be defined")
 
 ## targets
 directories = args[1:]
@@ -74,11 +83,29 @@ subgrouping = ""
 if options.subgrouping:
     subgrouping = options.subgrouping
 
+## inputfileglob (for generic timeseries)
+input_files_glob = ""
+if options.input_files_glob:
+    input_files_glob = options.input_files_glob
+
+## column (for generic timeseries)
+column = ""
+if options.column:
+    column = options.column
+
+## outfile (for generic timeseries)
+outfile = ""
+if options.outfile:
+    outfile = options.outfile
+
+
 ######## do the work
 
 ## timeseries
 returns = True
-if action == "fitness_timeseries": 
+if action == "timeseries":
+        returns = generic.aggregate_timeseries( directories, input_files_glob=input_files_glob, column=column, outfile=outfile, grouping=grouping, subgrouping=subgrouping, test=options.test, expected=options.expected )
+elif action == "fitness_timeseries": 
         returns = fitness.aggregate_timeseries( directories, grouping=grouping, subgrouping=subgrouping, test=options.test, expected=options.expected )
 elif action == "tasks_timeseries": 
         returns = task_ct.aggregate_timeseries( directories, grouping=grouping, subgrouping=subgrouping, test=options.test, expected=options.expected )

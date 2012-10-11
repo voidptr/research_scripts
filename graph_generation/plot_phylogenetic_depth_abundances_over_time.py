@@ -21,17 +21,20 @@ Permitted types for outfile are png, pdf, ps, eps, and svg"""
 parser = OptionParser(usage)
 parser.add_option("-v", "--verbose", action = "store_true", dest = "verbose",
                   default = False, help = "verbose!")
-parser.add_option("-d", "--debug_messages", action = "store_true", 
-                  dest = "debug_messages", default = False, 
+parser.add_option("-d", "--debug_messages", action = "store_true",
+                  dest = "debug_messages", default = False,
                   help = "print debug messages to stdout")
 
-parser.add_option("--most_recent_coalescence", 
-                  dest="most_recent_coalescence_file_and_col", type="string", 
+parser.add_option("--most_recent_coalescence",
+                  dest="most_recent_coalescence_file_and_col", type="string",
                   help="Plot the most recent coalescensce based on stats.dat",
                   metavar="\"file, column\"")
 
-parser.add_option("-t", "--title", dest="title", type="string", 
+parser.add_option("-t", "--title", dest="title", type="string",
                   help="Supplemental Graph Title")
+
+parser.add_option("--show", dest="show", action="store_true", default = False, help = "Show the thing to be able to edit the image.")
+
 
 ## fetch the args
 (options, args) = parser.parse_args()
@@ -39,7 +42,7 @@ parser.add_option("-t", "--title", dest="title", type="string",
 ## parameter errors
 if len(args) < 1:
     parser.error("incorrect number of arguments")
-    
+
 ### Fetch Parameters
 inputfilename = args[1]
 
@@ -66,7 +69,7 @@ if options.most_recent_coalescence_file_and_col:
 
         coalescence_data.append( int(line[ coalescence_col ]) )
 
-    fd_coal.close()    
+    fd_coal.close()
 
 ## read the file
 if inputfilename[-3:] == ".gz":
@@ -81,7 +84,7 @@ for line in fd:
     if len(line) == 0 or line[0] == "#":
         continue
 
-    line = line.split(',')    
+    line = line.split(',')
     line = [int(bit) for bit in line]
     count_arrays.append( line )
 
@@ -89,7 +92,7 @@ for line in fd:
 ### plot the thing
 
 ## convert to log
-log_count_arrays = [ [ math.log(count) if count > 0 else 0 for count in sample ] 
+log_count_arrays = [ [ math.log(count) if count > 0 else 0 for count in sample ]
                      for sample in count_arrays ]
 
 ## apply coalescene information, if optioned.
@@ -108,15 +111,15 @@ counts_plottable = np.transpose( counts_plottable )
 
 fig = pl.figure()
 ax = fig.add_subplot(111) ## 2 row, 1 column, first plot
-thing = ax.imshow(counts_plottable, cmap=cm.hot, aspect="auto", origin='lower', 
-                  interpolation='bicubic' )#, 
+thing = ax.imshow(counts_plottable, cmap=cm.hot, aspect="auto", origin='lower',
+                  interpolation='bicubic' )#,
 #        norm = colors.Normalize(vmin = 0.0, vmax = 1.0, clip = False))
 #fig.colorbar(thing)
 
 if options.title:
-    pl.title("Phylogenetic Depth Over Time - %s" % options.title) 
+    pl.title("Phylogenetic Depth Over Time - %s" % options.title)
 else:
-    pl.title("Phylogenetic Depth Over Time") 
+    pl.title("Phylogenetic Depth Over Time")
 pl.ylabel("Phylogenetic Depth")
 pl.xlabel("Update")
 
@@ -136,6 +139,9 @@ for i in range(0, len(xlocs)):
     xmodlabels.append(int(xlocs[i]) * 50 )
     xmodlocs.append( xlocs[i] )
 pl.xticks( xmodlocs, xmodlabels )
+
+if options.show:
+    pl.show()
 
 pl.savefig(outfile)
 

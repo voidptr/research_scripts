@@ -23,9 +23,10 @@ parser.add_option("-v", "--verbose", action = "store_true", dest = "verbose",
                   default = False, help = "verbose!")
 parser.add_option("-d", "--debug_messages", action = "store_true", dest = "debug_messages",
                   default = False, help = "print debug messages to stdout")
-parser.add_option("-t", "--title", dest="title", type="string", 
+parser.add_option("-t", "--title", dest="title", type="string",
                   help="Supplemental Graph Title")
 
+parser.add_option("--show", dest="show", action="store_true", default = False, help = "Show the thing to be able to edit the image.")
 
 ## fetch the args
 (options, args) = parser.parse_args()
@@ -33,7 +34,7 @@ parser.add_option("-t", "--title", dest="title", type="string",
 ## parameter errors
 if len(args) < 1:
     parser.error("incorrect number of arguments")
-    
+
 ### Fetch Parameters
 inputfilename = args[1]
 
@@ -58,7 +59,7 @@ for line in fd:
         continue
 
     line = line.split(',')
-    
+
     line = [float(bit) for bit in line]
 
 
@@ -89,14 +90,14 @@ ax = fig.add_subplot(111) ## 2 row, 1 column, first plot
 #ax.set_adjustable('box')
 #ax.set_aspect('auto')
 #ax.imshow(ent_plottable, cmap=cm.jet, interpolation='nearest')
-thing = ax.imshow(all_entropies_tp, cmap=cm.jet, interpolation='nearest', aspect="auto", 
+thing = ax.imshow(all_entropies_tp, cmap=cm.jet, interpolation='nearest', aspect="auto",
         norm = colors.Normalize(vmin = 0.0, vmax = 1.0, clip = False))
 #fig.colorbar(thing)
 
 if options.title:
-    pl.title("Population Per-site Entropy - %s" % options.title) 
+    pl.title("Population Per-site Entropy - %s" % options.title)
 else:
-    pl.title("Population Per-site Entropy") 
+    pl.title("Population Per-site Entropy")
 pl.ylabel("Site")
 pl.xticks( [], [] )
 
@@ -114,7 +115,7 @@ fig.colorbar(thing, cax=ax_cb)
 ax2.plot( sum_norm_plottable )
 pl.ylim(0,1)
 
-#pl.title("Population Per-site Entropy") 
+#pl.title("Population Per-site Entropy")
 pl.ylabel("Mean Entropy")
 pl.xlabel("Update")
 
@@ -132,6 +133,9 @@ for i in range(0, len(xlocs)):
     xmodlabels.append( int(xlocs[i]) * 50 )
     xmodlocs.append(xlocs[i] )
 pl.xticks( xmodlocs, xmodlabels )
+
+if options.show:
+    pl.show()
 
 pl.savefig(outfile)
 

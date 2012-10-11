@@ -18,7 +18,7 @@ from mpl_toolkits.axes_grid1 import make_axes_locatable
 
 
 # Set up options
-usage = """usage: %prog [options] outfile.png lineage_map_file.csv 
+usage = """usage: %prog [options] outfile.png lineage_map_file.csv
 
 """
 parser = OptionParser(usage)
@@ -32,6 +32,11 @@ parser.add_option("-d", "--debug", action = "store_true", dest = "debug_messages
 
 parser.add_option("--title", dest = "title", type="string",
                   help = "Supplemental Title")
+
+parser.add_option("--legend", dest="legend", action="store_true", default = False, help = "Show the legend.")
+
+parser.add_option("--show", dest="show", action="store_true", default = False, help = "Show the thing to be able to edit the image.")
+
 
 ## fetch the args
 (options, args) = parser.parse_args()
@@ -63,17 +68,17 @@ class Colors:
     Default = (0.7, 0.53, 0.5, 1.0) ## pukey brown
 
 #### <-- See extract_task_mappings.py for the actual meanings.
-ColorsMapping = [    
+ColorsMapping = [
     Colors.Default, ## this is unused -- an error code
     Colors.Gray, ## KO.GainBB_GainFL -- neutral
     Colors.Gray, ## KO.GainBB_NeutFL -- neutral
     Colors.Blue, #Colors.Green, ## fluctuating site, but you also gain BB, so a little different
     Colors.Gray, ## KO.NeutBB_GainFL -- neutral
     Colors.Gray, ## KO.NeutBB_NeutFL -- neutral
-    Colors.Blue, ## fluctuating only site 
-    Colors.Red,  #Colors.Orange, ## backbone site, but you gain FL, so interesting 
-    Colors.Red,  ## backbone only site 
-    Colors.Purple, ## both site 
+    Colors.Blue, ## fluctuating only site
+    Colors.Red,  #Colors.Orange, ## backbone site, but you gain FL, so interesting
+    Colors.Red,  ## backbone only site
+    Colors.Purple, ## both site
     Colors.Black,  ## knocking out this site kills you -- KnockOuts.Dead
     Colors.LightGray, ## empty -- KnockOuts.Empty -- WEIRD -- 11
     Colors.LightBlue, ## degenerate fluctuating site -- KODegen.FLNeut
@@ -100,7 +105,8 @@ for line in fp:
     if len(line) == 0 or line[0] == '#': ## skip it if it's not format
         continue
 
-    line = line.split(',') 
+    line = line.split(',')
+    line = [ int(val) for val in line ]
     maps.append( line )
 
 fp.close()
@@ -152,43 +158,48 @@ else:
     ax_leg.axes.get_xaxis().set_visible(False)
 
     ## prepare the proxy artists for the legends
-    sites = [ proxy_artist(Colors.Red), 
-              proxy_artist(Colors.Blue), 
-              proxy_artist(Colors.Purple), 
-              proxy_artist(Colors.LightPink), 
-              proxy_artist(Colors.LightBlue), 
+    sites = [ proxy_artist(Colors.Red),
+              proxy_artist(Colors.Blue),
+              proxy_artist(Colors.Purple),
+              proxy_artist(Colors.LightPink),
+              proxy_artist(Colors.LightBlue),
               proxy_artist(Colors.LightPurple),
               proxy_artist(Colors.Black)]
-    phases = [proxy_artist(Colors.Gray), 
+    phases = [proxy_artist(Colors.Gray),
               proxy_artist(Colors.DarkGray)]
 
-    mutations = [proxy_artist(Colors.Yellow), 
+    mutations = [proxy_artist(Colors.Yellow),
                  proxy_artist(Colors.Green),
                  proxy_artist(Colors.Orange)]
 
-    sites_labels = [ 'Backbone', 'Fluctuating', 'Both (Overlapping)', 
-                     'Degen. Backbone', 'Degen. Fluctuating', 'Degen. Both', 'Lethal' ]
+    sites_labels = [ 'Backbone', 'Fluctuating', 'Both (Overlapping)',
+                     'Vestigial Backbone', 'Vestigial Fluctuating', 'Vestigial Both', 'Lethal' ]
     phases_labels = ['Reward Phase', 'No Reward Phase' ]
     mutations_labels = ['Point Mutation', 'Insertion', 'Deletion' ]
 
-    ## apply the legends
-    l1 = ax_leg.legend(sites, sites_labels, title="Sites", bbox_to_anchor=(0, 1), loc=2, borderaxespad=0.)
-    leg = plt.gca().get_legend()
-    ltext = leg.get_texts()
-    plt.setp( ltext, fontsize='small')
+    if options.legend:
+        ## apply the legends
+        l1 = ax_leg.legend(sites, sites_labels, title="Sites", bbox_to_anchor=(0, 1), loc=2, borderaxespad=0.)
+        leg = plt.gca().get_legend()
+        ltext = leg.get_texts()
+        plt.setp( ltext, fontsize='small')
 
-    l2 = ax_leg.legend(phases, phases_labels, title="Phases", bbox_to_anchor=(0, .53), loc=2, borderaxespad=0.)
-    leg = plt.gca().get_legend()
-    ltext = leg.get_texts()
-    plt.setp( ltext, fontsize='small')
+    #    l2 = ax_leg.legend(phases, phases_labels, title="Phases", bbox_to_anchor=(0, .53), loc=2, borderaxespad=0.)
+    #    leg = plt.gca().get_legend()
+    #    ltext = leg.get_texts()
+    #    plt.setp( ltext, fontsize='small')
 
-    l3 = ax_leg.legend(mutations, mutations_labels, title="Mutations", bbox_to_anchor=(0, .34), loc=2, borderaxespad=0.)
-    leg = plt.gca().get_legend()
-    ltext = leg.get_texts()
-    plt.setp( ltext, fontsize='small')
+        #l3 = ax_leg.legend(mutations, mutations_labels, title="Mutations", bbox_to_anchor=(0, .34), loc=2, borderaxespad=0.)
+        l3 = ax_leg.legend(mutations, mutations_labels, title="Mutations", bbox_to_anchor=(0, .53), loc=2, borderaxespad=0.)
+        leg = plt.gca().get_legend()
+        ltext = leg.get_texts()
+        plt.setp( ltext, fontsize='small')
 
-    plt.gca().add_artist(l1)
-    plt.gca().add_artist(l2)        
+        plt.gca().add_artist(l1)
+#    plt.gca().add_artist(l2)
+
+    if options.show:
+        plt .show()
 
     ## save
     plt.savefig(outfile, dpi=(300))
