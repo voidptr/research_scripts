@@ -31,8 +31,8 @@ parser.add_option("--plotonly", action = "store_true", dest = "plotonly",
                   default = False, help = "Skip the aggregation step, and plot only, using existing data files.")
 
 
-parser.add_option("-i", "--input_set_count", dest = "input_set_count",
-                  help = "the number input sets to plot together")
+#parser.add_option("-i", "--input_set_count", dest = "input_set_count",
+#                  help = "the number input sets to plot together")
 parser.add_option("-t", "--title", dest = "title",
                   help = "set a different title than outfile (default)")
 
@@ -50,14 +50,19 @@ parser.add_option("--error", dest="calculate_error", action="store_true", defaul
 (options, args) = parser.parse_args()
 
 ## parameter errors
-if len(args) < 4:
+if len(args) < 5: #outfile, plus a singular input set
     parser.error("incorrect number of arguments")
+
+if (len(args[1:]) % 4) != 0:
+    parser.error("incorrectly formatted input sets. (infile, column, directory glob, and name)")
 
 outfile = args[0]
 
-input_set_count = 1
-if options.input_set_count:
-    input_set_count = int(options.input_set_count)
+input_set_count = len(args[1:]) / 4
+
+#input_set_count = 1
+#if options.input_set_count:
+#    input_set_count = int(options.input_set_count)
 
 title = outfile
 if options.title:
@@ -105,7 +110,13 @@ if input_set_count != len(input_files) != len(columns) != len(globs) != len(name
 
 expanded_globs = []
 for thing in globs:
-    expanded_globs.append( glob.glob(thing) )
+
+    output = glob.glob(thing)
+    if len(output) > 0:
+        expanded_globs.append( output )
+
+if len(expanded_globs) < 1 :
+    parser.error("directory glob does not interpret into anything.")
 
 aggregated_names = []
 for i in range(0, input_set_count):
