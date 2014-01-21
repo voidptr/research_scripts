@@ -230,7 +230,7 @@ class Colors:
     
 
 ## a max of four treatments (black, blue, yellow, green)
-median_colors = [ Colors.Black,  Colors.Blue ,      Colors.OrangeRed,       Colors.Green,       Colors.BlueGreen,       Colors.Purple,       Colors.Gray ]
+median_colors = [ Colors.VeryLightGray,  Colors.Blue ,      Colors.OrangeRed,       Colors.Green,       Colors.BlueGreen,       Colors.Purple,       Colors.Gray ]
 data_colors =   [ Colors.TGray,  Colors.TLightBlue, Colors.TLightOrangeRed, Colors.TLightGreen, Colors.TLightBlueGreen, Colors.TLightPurple, Colors.TLightGray ]
 edge_colors =   [ Colors.TBlack, Colors.TBlue,      Colors.TOrangeRed,      Colors.TGreen,      Colors.TBlueGreen,      Colors.TPurple,      Colors.TGray ]
 
