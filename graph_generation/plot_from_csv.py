@@ -8,6 +8,9 @@
 # RCK
 # 5-30-12
 
+import matplotlib
+matplotlib.use('Agg')
+
 import gzip
 import numpy as np
 import pylab as pl
@@ -78,7 +81,8 @@ parser.add_option("--xlim_max", dest="xlim_max", type="float",
                   help="Set the xlim max")
 parser.add_option("--xlim_mix", dest="xlim_min", type="float",
                   help="Set the xlim min")
-
+parser.add_option("--ylog", action="store_true", dest="ylog",
+                  default=False, help="Display the Y-axis on a logarithmic scale")
 ## fetch the args
 (options, args) = parser.parse_args()
 
@@ -339,6 +343,8 @@ if options.ylabel:
 if options.y_label_alt_axis:
     axes[1].set_ylabel( options.y_label_alt_axis )
 
+if options.ylog:
+    axes[0].set_yscale('log')
 
 ## set the ylim/xlim
 ylim_min, ylim_max = pl.ylim()

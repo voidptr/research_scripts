@@ -29,13 +29,8 @@ parser.add_option("-d", "--debug_messages", action = "store_true", dest = "debug
                   default = False, help = "print debug messages to stdout")
 parser.add_option("--plotonly", action = "store_true", dest = "plotonly",
                   default = False, help = "Skip the aggregation step, and plot only, using existing data files.")
-
-
-#parser.add_option("-i", "--input_set_count", dest = "input_set_count",
-#                  help = "the number input sets to plot together")
 parser.add_option("-t", "--title", dest = "title",
                   help = "set a different title than outfile (default)")
-
 parser.add_option("-x", "--xlabel", dest="xlabel", 
                   help="X-axis Label")
 parser.add_option("-y", "--ylabel", dest="ylabel", 
@@ -44,6 +39,8 @@ parser.add_option("--data_members", dest="member_count",
                   help="Number of Components from a given data source (treatment)")
 parser.add_option("--xtick_multiplier", dest="xtick_multiplier", 
                   help="X-axis Tick Multipliers")
+parser.add_option("--ylog", action="store_true", dest="ylog",
+                  help="Y-axis logarithmic scale")
 parser.add_option("--error", dest="calculate_error", action="store_true", default = False,
                   help="include error bars - error values will be calculated from data using bootstrap")
 parser.add_option("--end_at", dest="end_at",
@@ -93,6 +90,10 @@ if options.xtick_multiplier:
 endat_opt = ""
 if options.end_at:
     endat_opt = " --end_at " + options.end_at 
+
+ylog_opt = ""
+if options.ylog:
+    ylog_opt = " --ylog"
 
 ## extract the list of input files and columns
 input_files = []
@@ -145,7 +146,7 @@ for i in range(0, input_set_count):
 
 agnames_csv = [ name + ".timeseries.csv" for name in aggregated_names ]
 
-command = "python " + plotpath + " -o --title \"" + title + "\"" + error_opt + endat_opt + xlabel_opt + ylabel_opt + datamembers_opt + xtickmult_opt + " --legend \"" + ",".join(names) + "\" " + outfile + ".png " + " ".join(agnames_csv)
+command = "python " + plotpath + " -o --title \"" + title + "\"" + error_opt + ylog_opt + endat_opt + xlabel_opt + ylabel_opt + datamembers_opt + xtickmult_opt + " --legend \"" + ",".join(names) + "\" " + outfile + ".png " + " ".join(agnames_csv)
 
 print
 print "Plotting " + outfile + ":"
