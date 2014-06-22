@@ -11,6 +11,9 @@
 #
 # Last Updated by RCK on 4/18/12
 
+import matplotlib
+matplotlib.use('Agg')
+
 import gzip
 import numpy as np
 import pylab as pl
