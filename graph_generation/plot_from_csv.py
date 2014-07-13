@@ -166,7 +166,8 @@ for inputfilename in inputfilenames:
             options.has_header = False ## clear it
             continue
 
-        line = line.split(',') ## break the line up on commas    
+        line = line.split(',') ## break the line up on commas
+        line = [val if val is not "nan" else "0" for val in line] # replace "nan" with 0
 
         ## handle data limiting
         if options.end_at:
