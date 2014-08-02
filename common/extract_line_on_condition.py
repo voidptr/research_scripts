@@ -72,32 +72,32 @@ for inputfilename in inputfilenames:
 
         value = line[col_id - 1]
 
-        evaluate_string = str(value) + expr
+        for val in value.split(','):
 
-        if options.debug_messages:
-            print evaluate_string
+            evaluate_string = str(val) + expr
 
-        if eval( evaluate_string ) == False:
             if options.debug_messages:
-                print "  FALSE - skipping"
-            continue
+                print evaluate_string
 
-        if options.outputfile:
-            outfile.write( whole_line + "\n" )
-        else:
-            print whole_line
+            if eval( evaluate_string ) == False:
+                if options.debug_messages:
+                    print "  FALSE - skipping"
+                continue
 
-#        file_values.append( whole_line ) ## collect the data
+            if options.outputfile:
+                outfile.write( whole_line + "\n" )
+            else:
+                print whole_line
 
     fd.close()
 
-   
+
 
 #    if options.debug_messages:
 #        print outfile
 
 #    for line in file_values:
-#        outfile.write( line + "\n" ) 
+#        outfile.write( line + "\n" )
 
 #    outfile.close()
 
