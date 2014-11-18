@@ -4,6 +4,8 @@
 # RCK
 # 1-10-12
 
+import matplotlib
+matplotlib.use('Agg')
 
 import gzip
 import numpy as np
