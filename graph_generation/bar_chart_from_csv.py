@@ -10,6 +10,9 @@ matplotlib.use('Agg')
 import gzip
 import numpy as np
 import pylab as pl
+from scipy import stats
+import scipy 
+import scikits.bootstrap as bootstrap
 import math
 from optparse import OptionParser
 
@@ -45,8 +48,10 @@ parser.add_option("--legend", dest="legend", type="string",
                   help="Labels to go in the legend, by colors") ## the individuals within a group
 parser.add_option("--columns", dest="columns", type="string", 
                   help="If in a multi-column file, select the columns you want to work.")                 
-
-
+parser.add_option("--xsize", dest="xsize", type="int", 
+                  help="size in X dimension in px")
+parser.add_option("--ysize", dest="ysize", type="int", 
+                  help="size in Y dimension in px")
 ### display options
 parser.add_option("--stack", dest="stack", action = "store_true", help="Stacked Bar Chart") ## bars in the same group go on top of each other
 parser.add_option("--pair", dest="pair", action = "store_true", help="Paired Bar Chart") ## bars in the same group go next to each other
@@ -171,28 +176,11 @@ def Quantile(data, q, precision=1.0):
     N, bins = np.histogram(data, bins=precision*np.sqrt(len(data)))
     norm_cumul = 1.0*N.cumsum() / len(data)
 
-#    print bins
-#    print bins[0]
-#    print len(bins)
-    
-#    print norm_cumul
-#    print len(norm_cumul)
-
-#    print q
-
-#    thingy = [ bins[i] for i in range(0, len(norm_cumul)) if norm_cumul[i] > q ]
-#    print thingy
-#    print len(thingy)
-
-#    return thingy
-
     for i in range(0, len(norm_cumul)):
         if norm_cumul[i] > q:
             return bins[i]
 
-#    return bins[norm_cumul > q][0]
-
-def bootstrap_error( data ):
+def bootstrap_error____old( data ):
     x = np.array((data))
     X = [] ## estimates
     mean = np.mean(x)
@@ -208,6 +196,44 @@ def bootstrap_error( data ):
     diff_lower = mean - lower_ci
 
     return max( diff_upper, diff_lower )
+
+def bootstrap_error( data, n_samples=None ):
+
+    x = np.array(data)
+    meanx = np.mean(x)    #if debug:    
+    
+    try:
+        if (n_samples):
+            CIs = bootstrap.ci(data, scipy.mean, n_samples=n_samples)
+        else:
+            CIs = bootstrap.ci(data, scipy.mean) #, n_samples=1000)
+
+        err_size = max( (meanx - CIs[0]), (CIs[1] - meanx) )
+        return err_size
+    except (ValueError):
+        CIs = None
+
+    X = [] ## estimates
+
+    stdx = np.std(x)
+    for xx in xrange(1000): ## do this 1000 times
+        X.append( np.mean( x[np.random.randint(len(x),size=len(x))] ) )
+
+    mean_X = np.mean(X)
+    std_X = np.std(X)           
+    ## re-sample means are not guaranteed to be quite right.
+    ## Conf 0.95, loc=sample mean, scale = (np.std(X, ddof=1)/np.sqrt(len(X)))
+    conf_int = stats.norm.interval(0.95, loc=mean_X, scale=stats.sem(X))
+    
+    #toperr = (mean_X - conf_int[0])
+    #boterr = (conf_int[1] - mean_X)
+    
+    err_size = max( mean_X - conf_int[0], conf_int[1] - mean_X )
+    
+    if (np.isnan(err_size)):
+        err_size = 0
+
+    return err_size #conf_int #conf int is more accurate, but bar chart doesn't support it.
 
 ## split the files into groups, and calculate the means and bootstrap errors
 group_count = len(data) ## by default, there are as many groups as there are files
@@ -297,7 +323,13 @@ color_sets = [ Colors.Purple,
     Colors.VeryLightGray] #max seven items per group 
 
 artists = []
-fig = pl.figure()
+
+if (options.xsize and options.ysize):
+    my_dpi = 200
+    fig = pl.figure(figsize=(options.xsize/my_dpi, options.ysize/my_dpi), dpi=my_dpi)
+else:
+    fig = pl.figure()
+
 ax1 = fig.add_subplot(111)
 
 indexes = np.arange(group_count)
@@ -323,16 +355,16 @@ if not options.pair: ## stack it up (same case as no-stack with single-member gr
                 bottoms[i] += mean_set[i]
 
 elif options.pair: ## really an else here.
-    width = total_width / member_count ## divide this up appropriately
+    width = (total_width / member_count) * 0.5 ## divide this up appropriately
 
     for item_index in range(0, member_count): ## start at the zeroth member (bottommost) and stack from there.
 
         mean_set = [ group[item_index] for group in means ] ## pull it out
         if options.error:
             be_set = [ group[item_index] for group in errors ] ## pull it out
-            artists.append( ax1.bar( indexes+(width*item_index), mean_set, width, color=color_sets[ item_index ], yerr=be_set ) )
+            artists.append( ax1.bar( width+indexes+(width*item_index), mean_set, width, color=color_sets[ item_index ], yerr=be_set ) )
         else:
-            artists.append( ax1.bar( indexes+(width*item_index), mean_set, width, color=color_sets[ item_index ] ) )
+            artists.append( ax1.bar( width+indexes+(width*item_index), mean_set, width, color=color_sets[ item_index ] ) )
 
 
 
@@ -368,7 +400,7 @@ if options.debug_messages:
     print "GROUP LABELS"
     print group_labels
 
-pl.xticks(indexes+total_width/2., group_labels )
+pl.xticks(width/2+indexes+total_width/2., group_labels )
 
 ## set the legend
 def proxy_artist( color ):
@@ -392,16 +424,16 @@ if options.legend and len(artists) > 0 and len(legend_labels) > 0:
         proxies.reverse()
         legend_labels.reverse()
     
-
-    pl.legend( proxies, legend_labels, bbox_to_anchor=(1.01, 1), loc=2, borderaxespad=0. )
+#loc='upper center'
+    pl.legend( proxies, legend_labels, loc=2, bbox_to_anchor=(1.01, 1), borderaxespad=0.)#, bbox_to_anchor=(1.01, 1),  )
     leg = pl.gca().get_legend()
     ltext = leg.get_texts()
     pl.setp( ltext, fontsize='small')
 
     l,b,w,h = pl.axes().get_position().bounds
-    pl.axes().set_position([0.1,b,w*.78,h])
+    #pl.axes().set_position([0.1,b,w*.78,h])
 
 if options.show:
     pl.show()
 
-pl.savefig(outfilename)
+pl.savefig(outfilename, bbox_inches='tight')

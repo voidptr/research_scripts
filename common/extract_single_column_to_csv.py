@@ -36,6 +36,8 @@ parser.add_option("--mean", action = "store_true", dest = "mean_column",
                   default = False, help = "in a given file, collapse the column's values as the mean and print that out") 
 parser.add_option("--median", action = "store_true", dest = "median_column",
                   default = False, help = "in a given file, collapse the column's values as the median and print that out") 
+parser.add_option("--end", action = "store_true", dest = "end_column",
+                  default = False, help = "in a given file, collapse the column's values as the final value and print that out")
 parser.add_option("--var", action = "store_true", dest = "var_column",
                   default = False, help = "in a given file, collapse the column's values as the var and print that out") 
 parser.add_option("--std", action = "store_true", dest = "std_column",
@@ -95,16 +97,16 @@ if len(args) < 2:
     parser.error("incorrect number of arguments")
 
 aggregate = False
-if ( options.sum_column or options.mean_column or options.median_column or options.var_column or options.std_column or options.ste_column ):
+if ( options.sum_column or options.mean_column or options.median_column or options.end_column or options.var_column or options.std_column or options.ste_column ):
     aggregate = True
-    if not ( options.calc_stats ^ options.sum_column ^ options.mean_column ^ options.median_column ^ options.var_column ^ options.std_column ^ options.ste_column ):
-        parser.error("aggregating functions are mutually exclusive (--calc_stats, --sum, --mean, --median, --var, --std, or --ste)")
+    if not ( options.calc_stats ^ options.sum_column ^ options.mean_column ^ options.median_column ^ options.end_column ^ options.var_column ^ options.std_column ^ options.ste_column ):
+        parser.error("aggregating functions are mutually exclusive (--calc_stats, --sum, --mean, --median, --end, --var, --std, or --ste)")
 
 if not options.dimensionality:
     options.dimensionality = 2 ## two-d is the default, where there is more than one line in a given input file, and you want to collect a column from all of the lines
 
 aggregate = False
-if ( options.sum_column or options.mean_column or options.median_column or options.var_column or options.std_column or options.ste_column ):
+if ( options.sum_column or options.mean_column or options.median_column or options.end_column or options.var_column or options.std_column or options.ste_column ):
     aggregate = True
 
 if options.calc_stats: ## see note above.
@@ -183,6 +185,8 @@ if aggregate:
             aggr_values.append( [ str(numpy.mean( file_vals_num )) ] )
         elif options.median_column:
             aggr_values.append( [ str(numpy.median( file_vals_num ) ) ])
+        elif options.end_column:
+            aggr_values.append( [ str(file_vals_num[-1] ) ])
         elif options.var_column:
             aggr_values.append( [ str(numpy.var( file_vals_num )) ] )
         elif options.std_column:

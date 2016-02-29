@@ -14,10 +14,14 @@ matplotlib.use('Agg')
 import gzip
 import numpy as np
 import pylab as pl
+from scipy import stats
+import scipy  
+import scikits.bootstrap as bootstrap
 import math
 from optparse import OptionParser
 import os
 import sys
+from cycler import cycler
 
 # Set up options
 usage = """
@@ -53,6 +57,9 @@ parser.add_option("-a", "--all", action="store_true", dest = "all",
                   default = False, help = "display all lines of a source")
 parser.add_option("--error", dest="calculate_error", action="store_true", default = False,
                   help="include error bars - error values will be calculated from data using bootstrap")
+parser.add_option("--samples", dest="samples", type="int",
+                  help="how many samples to draw for bootstrap?")
+
 
 ## legends and labels
 parser.add_option("-l", "--legend", dest="legend", type="string", 
@@ -63,9 +70,12 @@ parser.add_option("-y", "--ylabel", dest="ylabel", type="string",
                   help="Y-axis Label")
 parser.add_option("-t", "--title", dest="title", type="string", 
                   help="Graph Title")
-parser.add_option("--include_chevrons", dest="include_chevrons", type="string", 
+parser.add_option("--include_chevrons", dest="include_chevrons", 
+                  action="store_true", default = False, 
                   help="Include line marker glyphs in addition to color")
-
+parser.add_option("--chevrons_by_members", dest="member_chevrons", 
+                  action="store_true", default = False, 
+                  help="Make the chevrons track by members, along with line style")
 ## visual mods
 parser.add_option("--xtick_multiplier", dest="xtick_multiplier", type="int", 
                   help="X-axis Tick Multipliers")
@@ -116,34 +126,41 @@ inputfilenames = args[1:]
 
 
 ## BOOT STRAP HELPER - mean error
-def Quantile(data, q, precision=1.0):
-    """
-    Returns the q'th percentile of the distribution given in the argument
-    'data'. Uses the 'precision' parameter to control the noise level.
-    """
-    N, bins = np.histogram(data, bins=precision*np.sqrt(len(data)))
-    norm_cumul = 1.0*N.cumsum() / len(data)
+def bootstrap_error( data, n_samples=None ):
 
-    return bins[norm_cumul > q][0]
+    x = np.array(data)
+    meanx = np.mean(x)    #if debug:    
+    
+    try:
+        if (n_samples):
+            CIs = bootstrap.ci(data, scipy.mean, n_samples=n_samples)
+        else:
+            CIs = bootstrap.ci(data, scipy.mean) #, n_samples=1000)
 
-def bootstrap_error( data ):
-    x = np.array((data))
+        err_size = max( (meanx - CIs[0]), (CIs[1] - meanx) )
+        return CIs
+    except (ValueError):
+        CIs = None
     X = [] ## estimates
-    mean = np.mean(x)
+
+    stdx = np.std(x)
     for xx in xrange(1000): ## do this 1000 times
         X.append( np.mean( x[np.random.randint(len(x),size=len(x))] ) )
-
-    conf = 0.95
-    plower = (1-conf)/2.0
-    pupper = 1-plower
-
-    lower_ci, upper_ci = (Quantile(X, plower), Quantile(X, pupper))
-    diff_upper = upper_ci - mean
-    diff_lower = mean - lower_ci
-
-    return max( diff_upper, diff_lower )
-## END BOOT STRAP HELPERS
-
+    #if debug:
+    #    print len(X)
+        #print X
+    mean_X = np.mean(X)
+    std_X = np.std(X)           
+    ## re-sample means are not guaranteed to be quite right.
+    ## Conf 0.95, loc=sample mean, scale = (np.std(X, ddof=1)/np.sqrt(len(X)))
+    conf_int = stats.norm.interval(0.95, loc=mean_X, scale=stats.sem(X))
+    
+    err_size = max( (mean_X - conf_int[0]), (conf_int[1] - mean_X) )
+    
+    if (np.isnan(err_size)):
+        err_size = 0
+        
+    return conf_int    
 
 ## read the input data
 data = []
@@ -182,67 +199,26 @@ for inputfilename in inputfilenames:
 
     data.append( data_2d_array )
 
-class Colors:
-    Black = (0.0, 0.0, 0.0, 1.0)
-    TBlack = (0,0,0,0.2)
-    DarkGray = (0.65, 0.65, 0.65, 1.0)
-    Gray = (0.75, 0.75, 0.75, 1.0)
-    TGray = (0.75, 0.75, 0.75, 1.0)
-    LightGray = (0.85, 0.85, 0.85, 1.0)
-    TLightGray = (0.85, 0.85, 0.85, 0.5)
-    VeryLightGray = (0.9, 0.9, 0.9, 1.0)
-    White = (1.0, 1.0, 1.0, 1.0)
-    Transparent = (0, 0, 0, 0)
 
+class ColorSets:
+    def __init__(self, n, color_map=pl.cm.viridis):
+        self.n = n
+        self.color_map = color_map
 
-    Purple = (0.55, 0.0, 0.55, 1.0)
-    TPurple = (0.55, 0.0, 0.55, 0.5)
-    LightPurple = (0.8, 0.7, 0.8, 1.0) 
-    TLightPurple = (0.8, 0.7, 0.8, 0.5) 
-
-    Blue = (0.20, 0.49, 0.95, 1.0)
-    TBlue = (0.20, 0.49, 0.95, 0.5)
-    LightBlue = (0.6, 0.7, 0.95, 1.0)
-    TLightBlue = (0.6, 0.7, 0.95, 0.5)
-
-    BlueGreen = (0.0, 1.0, 1.0, 1.0)
-    TBlueGreen = (0.0, 1.0, 1.0, 0.5)
-    LightBlueGreen = (0.8, 1.0, 1.0, 1.0)
-    TLightBlueGreen = (0.8, 1.0, 1.0, 0.5)
-
-    Green = (0.0, 0.7, 0.0, 1.0)
-    TGreen = (0.0, 0.7, 0.0, 0.5)
-    LightGreen = (0.8, 1.0, 0.8, 1.0)
-    TLightGreen = (0.8, 1.0, 0.8, 0.5)
-
-    Yellow = (0.9, 0.9, 0.0, 1.0)   
-
-    Orange = (0.93, 0.67, 0.13, 1.0)
-
-    OrangeRed = (1.0, 0.7, 0.0, 1.0)
-    TOrangeRed = (1.0, 0.7, 0.0, 0.5)
-    LightOrangeRed = (0.9, 0.7, 0.6, 1.0)
-    TLightOrangeRed = (0.9, 0.7, 0.6, 0.5)
-
-    Red = (0.95, 0, 0.0, 1.0)
-    LightPink = (0.8, 0.7, 0.7, 1.0)
-    TLightPink = (0.8, 0.7, 0.7, 0.5)
-    DarkPink = (0.86, 0.62, 0.65, 1.0)
-
-    TransparentGray = (0.75, 0.75, 0.75, 0.5)
-    Default = (0.0, 0.0, 0.0, 1.0)
-
-    
-
-## a max of four treatments (black, blue, yellow, green)
-median_colors = [ Colors.VeryLightGray,  Colors.Blue ,      Colors.OrangeRed,       Colors.Green,       Colors.BlueGreen,       Colors.Purple,       Colors.Gray ]
-data_colors =   [ Colors.TGray,  Colors.TLightBlue, Colors.TLightOrangeRed, Colors.TLightGreen, Colors.TLightBlueGreen, Colors.TLightPurple, Colors.TLightGray ]
-edge_colors =   [ Colors.TBlack, Colors.TBlue,      Colors.TOrangeRed,      Colors.TGreen,      Colors.TBlueGreen,      Colors.TPurple,      Colors.TGray ]
+        self.main_colors = [ self.color_map(i) for i in np.linspace(0, 1, self.n )]
+        self.fill_colors = []
+        self.edge_colors = []
+        
+        for i in range(len(self.main_colors)):
+            newcol = self.main_colors[i]            
+            self.fill_colors.append((newcol[0], newcol[1], newcol[2], 0.1))
+            self.edge_colors.append((newcol[0], newcol[1], newcol[2], 0.2))
+            
 
 line_styles = ['-','--', ':', '-.'] ## a max of four different lines, sigh.
 line_markers = [None]
 if options.include_chevrons:
-    line_markers = ['*','p','d','o','v','x','.']
+    line_markers = ['o','^','*','p','d','s','v','x','.', '1']
 artists = []
 
 ## start plotting
@@ -253,13 +229,19 @@ if options.alt_axis:
     axes.append( axes[0].twinx() )
 
 ## figure out the proper color, marker, and axis order per file
+mapped_colors = ColorSets(n=len(data)/options.member_count)
 color_indexes = []
 style_indexes = []
 marker_indexes = []
 axis_indexes = []
+
 for i in range(0, len(data)):
-    color_indexes.append( (i / options.member_count) % len(data_colors) )
-    marker_indexes.append( (i / options.member_count) % len(line_markers) )
+    color_indexes.append( (i / options.member_count) )
+    if (options.member_chevrons and options.member_count > 1):
+        marker_indexes.append( (i % options.member_count) % len(line_markers) )
+    else:
+        marker_indexes.append( (i / options.member_count) % len(line_markers) )
+
     style_indexes.append( (i % options.member_count) % len(line_styles) )
 
     if options.alt_axis == (i / options.member_count)+1:
@@ -273,8 +255,10 @@ if options.all: ## plot all the lines -- all the same damned color and marker in
         for line in data_2d_array: ## plot each line separately so we can set color and markers
             plottable = np.add( [ float(val) for val in line ], 0 )
             plottable = np.transpose(plottable)
-            pl.plot( plottable, marker=line_markers[ marker_indexes[file_index] ], 
-                                color=data_colors[ color_indexes[file_index] ],
+            #print len(plottable)
+            pl.plot( plottable, marker=line_markers[ marker_indexes[file_index] ],
+                                markevery=(len(plottable)/10),
+                                color=mapped_colors.main_colors[color_indexes[file_index]],
                                 linestyle=line_styles[ style_indexes[ file_index ]])
 
 ## plot the mean (with or without error)
@@ -299,15 +283,15 @@ if options.mean:
         if options.calculate_error:
             errors = []
             for sample in cleaned:
-                errors.append( bootstrap_error( sample ) )
+                errors.append( bootstrap_error( sample, options.samples ) )
             error_data_array.append( errors )
             
     ## now, plot the things
     for i in range(0, len(mean_data_array)):
 
         if options.calculate_error:
-            data_plus_error = [ (point + error) for (point, error) in zip( mean_data_array[i], error_data_array[i] ) ]
-            data_minus_error = [ (point - error) for (point, error) in zip( mean_data_array[i], error_data_array[i] ) ]
+            data_plus_error = [ error[1] for error in error_data_array[i] ]
+            data_minus_error = [ error[0] for error in error_data_array[i] ]
 
             plottable_error_top = np.add( data_plus_error, 0 )
             plottable_error_top = np.transpose(plottable_error_top)
@@ -316,20 +300,24 @@ if options.mean:
             plottable_error_bottom = np.transpose(plottable_error_bottom)
             
             xes = range(0, len(plottable_error_bottom))
-            axes[ axis_indexes[i] ].fill_between( xes, plottable_error_top, plottable_error_bottom, 
-                                                  facecolor=data_colors[ color_indexes[i] ], 
-                                                  edgecolor=data_colors[ color_indexes[i] ] )
+            axes[ axis_indexes[i] ].fill_between( 
+                xes, plottable_error_top, plottable_error_bottom, 
+                facecolor=mapped_colors.fill_colors[ color_indexes[i] ],       
+                edgecolor=mapped_colors.edge_colors[ color_indexes[i] ] )
+                                                
 
         plottable = np.add( mean_data_array[i], 0 )
         plottable = np.transpose( plottable )
 
-        axes[ axis_indexes[i] ].plot( plottable, 
-                                      marker=line_markers[marker_indexes[i]], 
-                                      color=median_colors[color_indexes[i]],
-                                      linestyle=line_styles[style_indexes[i]]) 
+        axes[ axis_indexes[i] ].plot( 
+            plottable, 
+            marker=line_markers[marker_indexes[i]],
+            markevery=(len(plottable)/5), 
+            #markerfacecolor="white",
+            markersize=10,
+            color=mapped_colors.main_colors[color_indexes[i]],
+            linestyle=line_styles[style_indexes[i]]) 
 
-### final plot tweaks
-#axes[0].plot( [0] ) ## add one so it displays 0 at least!
 
 ## set the labels and titles
 if options.title:
@@ -378,7 +366,9 @@ if options.xtick_multiplier:
     pl.xticks( xmodlocs, xmodlabels )
 
 def proxy_artist( color, marker, style ):
-    p = pl.Line2D([0,0], [0,1], color=color, marker=marker, linestyle=style)
+    p = pl.Line2D([0,0], [0,1], 
+                  color=color, 
+                  marker=marker, linestyle=style)
     return p
 
 ## set the legend
@@ -389,12 +379,21 @@ if options.legend:
         ## raise some sort of warning TODO
         print "LEGEND LABELS MUST MATCH DATA FILE COUNT"
     else:
-
         proxies = []
         for i in range(0, len(data)): ## set it by file
-            proxies.append( proxy_artist( median_colors[color_indexes[i]], line_markers[marker_indexes[i]], line_styles[style_indexes[i]] ) )
+            proxies.append( 
+                proxy_artist( 
+                mapped_colors.main_colors[color_indexes[i]],            
+                line_markers[marker_indexes[i]], 
+                line_styles[style_indexes[i]],
+               
+                ) )
 
-        pl.legend( proxies, legend_labels, bbox_to_anchor=(1.03, 1), loc=2, borderaxespad=0. )
+        pl.legend(proxies, 
+                  legend_labels, 
+                  bbox_to_anchor=(1.03, 1), 
+                  loc=2, borderaxespad=0.0)
+                  
         leg = pl.gca().get_legend()
         ltext = leg.get_texts()
         pl.setp( ltext, fontsize='small')

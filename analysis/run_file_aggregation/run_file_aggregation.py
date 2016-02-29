@@ -42,7 +42,7 @@ def aggregate_timeseries( directories, input_files_glob, outfile, column, groupi
                 print dir
                 os.chdir(dir)
 
-                cmd = "python %s --dimensionality 1 %s -s \"%s\" %s %s >> %s" % ( extract_single_column_to_csv_path, headeropt, separator, column, input_files_glob[0], aggregate_filename )
+                cmd = "python2 %s --dimensionality 1 %s -s \"%s\" %s %s >> %s" % ( extract_single_column_to_csv_path, headeropt, separator, column, input_files_glob[0], aggregate_filename )
                 print cmd
                 os.popen( cmd )
 
@@ -78,7 +78,7 @@ def collapse( infile, outfile, type="mean", grouping="", subgrouping="", verbose
             if os.path.exists( collapsed_filename ):
                 os.unlink( collapsed_filename )
 
-            cmd = "python %s %s --direction rows %s -s \"%s\" --%s %s >> %s" % ( aggregate_file_path, passoptions, headeropt, separator, type, aggregate_infile, collapsed_filename )
+            cmd = "python2 %s %s --direction rows %s -s \"%s\" --%s %s >> %s" % ( aggregate_file_path, passoptions, headeropt, separator, type, aggregate_infile, collapsed_filename )
 
             print cmd
             os.popen( cmd )

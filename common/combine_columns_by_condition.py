@@ -16,7 +16,7 @@ usage = """usage: %prog [options] expression FileA/ColumnA [FileB/ColumnB ...]
 
 Expression must be in the form of a + b * c and will be executed in whatever 
 order python does things with eval. variables MUST be a, b, c, d, (... etc.) and a, b, c 
-is the order in which the columns are listed"""
+is the order in which the columns/files are listed"""
 parser = OptionParser(usage)
 parser.add_option("-v", "--verbose", action = "store_true", dest = "verbose",
                   default = False, help = "print extra messages to stdout")
@@ -86,7 +86,7 @@ if options.columns:
 
 elif options.files:
 
-    ## columns to combine
+    ## files to combine
     files = args[1:]
     handles = []
     for inputfilename in files:
@@ -129,17 +129,17 @@ elif options.files:
                 print "Not enough lines retrieved"
             break
 
-        if options.debug_messages:
-            print lines
+        #if options.debug_messages:
+        #    print lines
 
         for i in range(0, len(lines[0])):
             eval_string = expr ## new string!
 
             for (index, variable) in zip( range(0,len(lines)), string.letters ):
-                if options.debug_messages:
-                    print index
-                    print variable
-                    print i
+                #if options.debug_messages:
+                #    print "index: " + str(index)
+                #    print "varia: " + str(variable)
+                #    print "i    : " + str(i)
 
                 value = lines[index][i]
                 if value == "nan": ## THIS IS HALF-ASSED
@@ -152,7 +152,9 @@ elif options.files:
             output = ""
             try:
                 output = eval( eval_string )
+                #print output
             except ZeroDivisionError:
+                #print "POOP"
                 output = 0
 
             outputs.append(output)

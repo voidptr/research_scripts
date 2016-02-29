@@ -25,7 +25,16 @@ parser.add_option("-d", "--debug_messages", action = "store_true", dest = "debug
                   default = False, help = "print debug messages to stdout")
 parser.add_option("-t", "--title", dest="title", type="string",
                   help="Supplemental Graph Title")
-
+parser.add_option("-x", "--xlabel", dest="xlabel", type="string", 
+                  help="X-axis Label")
+parser.add_option("--ylabel1", dest="ylabel1", type="string", 
+                  help="Y-axis Label - top")
+parser.add_option("--ylabel2", dest="ylabel2", type="string", 
+                  help="Y-axis Label - bottom")                  
+parser.add_option("--xsize", dest="xsize", type="int", 
+                  help="size in X dimension in px")
+parser.add_option("--ysize", dest="ysize", type="int", 
+                  help="size in Y dimension in px")                  
 parser.add_option("--show", dest="show", action="store_true", default = False, help = "Show the thing to be able to edit the image.")
 
 ## fetch the args
@@ -85,7 +94,12 @@ ent_plottable = np.array( all_entropies )
 ent_plottable = np.transpose( ent_plottable )
 
 
-fig = pl.figure()
+if (options.xsize and options.ysize):
+    my_dpi = 300
+    fig = pl.figure(figsize=(options.xsize/my_dpi, options.ysize/my_dpi), dpi=my_dpi)
+else:
+    fig = pl.figure()
+    
 ax = fig.add_subplot(111) ## 2 row, 1 column, first plot
 #ax.set_adjustable('box')
 #ax.set_aspect('auto')
@@ -95,18 +109,21 @@ thing = ax.imshow(all_entropies_tp, cmap=cm.jet, interpolation='nearest', aspect
 #fig.colorbar(thing)
 
 if options.title:
-    pl.title("Population Per-site Entropy - %s" % options.title)
-else:
-    pl.title("Population Per-site Entropy")
-pl.ylabel("Site")
+    pl.title(options.title)
+if options.ylabel1:
+    pl.ylabel( options.ylabel1 )
 pl.xticks( [], [] )
+
+#pl.ylabel("Site")
+
 
 #pl.xlabel("Update")
 
 ## try this out.
 divider = make_axes_locatable( ax )
 ax_cb = divider.append_axes("right", 0.1, pad=0.1)
-ax2 = divider.append_axes("bottom", 0.8, pad=0.1)
+
+ax2 = divider.append_axes("bottom", 0.6, pad=0.2)
 
 fig.colorbar(thing, cax=ax_cb)
 
@@ -115,9 +132,25 @@ fig.colorbar(thing, cax=ax_cb)
 ax2.plot( sum_norm_plottable )
 pl.ylim(0,1)
 
-#pl.title("Population Per-site Entropy")
-pl.ylabel("Mean Entropy")
-pl.xlabel("Update")
+if options.ylabel2:
+    pl.ylabel( options.ylabel2 )
+if options.xlabel:
+    pl.xlabel( options.xlabel )
+
+ylocs, ylabels = pl.yticks()
+ymodlabels = [0.0, " ", 0.5, " ", 1.0]
+ymodlocs = [0, 0.25, 0.5, 0.75, 1]
+
+#for i in range(0, len(ylocs)):
+#    
+#    ymodlocs.append( ylocs[i] )
+#    if i%2 == 0:
+#        ymodlabels.append(ylocs[i])
+#    else:
+#        ymodlabels.append(" ")
+#    #xmodlabels.append(int(xlocs[i]) * 50 )
+pl.yticks( ymodlocs, ymodlabels )
+
 
 
 
@@ -129,13 +162,17 @@ xlocs, xlabels = pl.xticks()
 xmodlabels = []
 xmodlocs = []
 for i in range(0, len(xlocs)):
-    #if ( xlocs[i] * 500 ) >= 0 and (xlocs[i]* 500) < 110000:
-    xmodlabels.append( int(xlocs[i]) * 50 )
-    xmodlocs.append(xlocs[i] )
+    xmodlocs.append( xlocs[i] )
+    if i == 0:
+        xmodlabels.append(int(xlocs[i]))
+    else:
+        xmodlabels.append(str(int(xlocs[i]*50)/1000) + "k")
 pl.xticks( xmodlocs, xmodlabels )
 
 if options.show:
     pl.show()
 
-pl.savefig(outfile)
+#pl.savefig(outfile)
+pl.savefig(outfile, bbox_inches='tight', dpi=(my_dpi))
+
 

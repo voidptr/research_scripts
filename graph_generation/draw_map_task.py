@@ -37,6 +37,16 @@ parser.add_option("--legend", dest="legend", action="store_true", default = Fals
 
 parser.add_option("--show", dest="show", action="store_true", default = False, help = "Show the thing to be able to edit the image.")
 
+parser.add_option("--horizontal", action = "store_true", dest = "horizontal",
+                  default = False, help = "horizontal view mode")
+parser.add_option("--xsize", dest="xsize", type="int", 
+                  help="size in X dimension in px")
+parser.add_option("--ysize", dest="ysize", type="int", 
+                  help="size in Y dimension in px")   
+parser.add_option("--xlabel", dest = "xlabel", type="string",
+                  help = "xlabel")   
+parser.add_option("--ylabel", dest = "ylabel", type="string",
+                  help = "ylabel")                   
 
 ## fetch the args
 (options, args) = parser.parse_args()
@@ -51,7 +61,7 @@ lineage_map_file = args[1]
 class Colors:
     Black = (0.0, 0.0, 0.0, 1.0)
     Purple = (0.55, 0.0, 0.55, 1.0)
-    Blue = (0.20, 0.49, 0.95, 1.0)
+    Blue = (0, 0, 0.95, 1.0)
     Green = (0.0, 0.7, 0.0, 1.0)
     Yellow = (0.9, 0.9, 0.0, 1.0)
     Orange = (0.93, 0.67, 0.13, 1.0)
@@ -61,9 +71,9 @@ class Colors:
     Gray = (0.75, 0.75, 0.75, 1.0)
     LightGray = (0.85, 0.85, 0.85, 1.0)
     White = (1.0, 1.0, 1.0, 1.0)
-    LightPurple = (0.8, 0.7, 0.8, 1.0) ## degenerate site
-    LightBlue = (0.7, 0.7, 0.8, 1.0) ## degenerate site
-    LightPink = (0.8, 0.7, 0.7, 1.0) ## degenerate site
+    LightPurple = (0.57, 0.43, 0.85, 1.0) ## degenerate site
+    LightBlue = (0.39, 0.58, 0.92, 1.0) ## degenerate site
+    LightPink = (0.91, 0.59, 0.47, 1.0) ## degenerate site
     TransparentGray = (0.75, 0.75, 0.75, 0.5)
     Default = (0.7, 0.53, 0.5, 1.0) ## pukey brown
 
@@ -119,13 +129,37 @@ for input_map in maps:
         colored_map.append( ColorsMapping[ site ] )
     colored_maps.append( colored_map )
 
+
+# [0 [0(A), 1(B), 2(C)],
+#  1 [0(A), 1(B), 2(C)],
+#  2 [0(A), 1(B), 2(C)]
+#  3 [0(A), 1(B), 2(C)]]
+#
+#[ [A, A, A, A]]
+#
+
+horizontal_maps = []    
+if options.horizontal:
+    for x in range(len(colored_maps[0])):
+        horizontal_maps.append([])
+        for y in range(len(colored_maps)):
+            horizontal_maps[x].append(colored_maps[y][x])
+            
+    #horizontal_maps.reverse()        
+    
+    colored_maps = horizontal_maps            
+
 ######### NOW GENERATE THE PLOT(S) ###############
 def proxy_artist( color ):
     p = plt.Rectangle((0,0), 1,1, fc=color)
     return p
 
 ## generate the plot
-fig = plt.figure()
+if (options.xsize and options.ysize):
+    my_dpi = 300.0
+    fig = plt.figure(figsize=(options.xsize/my_dpi, options.ysize/my_dpi), dpi=my_dpi)
+else:
+    fig = plt.figure()
 
 if options.trim_whitespace:
     ax = fig.add_axes((0,0,1,1))
@@ -136,27 +170,34 @@ if options.trim_whitespace:
     plt.savefig(outfile, pad_inches=0)
 
     ## trim the fat
-    os.system('convert '+filename+' -bordercolor white -border 1x1 -trim +repage -alpha off +dither -colors 32 PNG8:'+filename)
+    os.system('convert '+outfile+' -bordercolor white -border 1x1 -trim +repage -alpha off +dither -colors 32 PNG8:'+filename)
 
 else:
     ax = fig.add_subplot(111) ## 1 row, 1 column, first plot
-    ax.imshow(colored_maps, aspect="auto", interpolation='nearest') ## now it should spread wide.
+    #ax.set_aspect("auto")
+    ax.imshow(colored_maps, interpolation='nearest', aspect="auto")#, aspect=1) ## now it should spread wide.
 
-    ax.set_ylabel("lineage")
-    ax.set_xlabel("site")
 
+    if options.ylabel:
+        ax.set_ylabel(options.ylabel)
+    if options.xlabel:
+        ax.set_xlabel(options.xlabel)
     if options.title:
         plt.title( options.title ) ## set it above the current center. Maybe it will shift properly. :/
 
     ## apply the divider
     divider = make_axes_locatable( ax )
-    ax_leg = divider.append_axes("right", 2, pad=0.1 )
+    
 
+    ax_leg = divider.append_axes("right", 2, pad=0.1 )
+    
     ## turn off the frame
     ax_leg.set_frame_on(False)
     ax_leg.axes.get_yaxis().set_visible(False)
     ax_leg.axes.get_xaxis().set_visible(False)
 
+    #plt.gca().invert_xaxis()
+    
     ## prepare the proxy artists for the legends
     sites = [ proxy_artist(Colors.Red),
               proxy_artist(Colors.Blue),
@@ -172,14 +213,14 @@ else:
                  proxy_artist(Colors.Green),
                  proxy_artist(Colors.Orange)]
 
-    sites_labels = [ 'Backbone', 'Fluctuating', 'Both (Overlapping)',
-                     'Vestigial Backbone', 'Vestigial Fluctuating', 'Vestigial Both', 'Lethal' ]
+    sites_labels = [ 'XOR', 'EQU', 'XOR & EQU',
+                     'Vestig. XOR', 'Vestig. EQU', 'Vestig. Both', 'Lethal' ]
     phases_labels = ['Reward Phase', 'No Reward Phase' ]
     mutations_labels = ['Point Mutation', 'Insertion', 'Deletion' ]
 
     if options.legend:
         ## apply the legends
-        l1 = ax_leg.legend(sites, sites_labels, title="Sites", bbox_to_anchor=(0, 1), loc=2, borderaxespad=0.)
+        l1 = ax_leg.legend(sites, sites_labels, title="Sites", bbox_to_anchor=(-0.01, 1), loc=2, borderaxespad=0.0)
         leg = plt.gca().get_legend()
         ltext = leg.get_texts()
         plt.setp( ltext, fontsize='small')
@@ -190,18 +231,22 @@ else:
     #    plt.setp( ltext, fontsize='small')
 
         #l3 = ax_leg.legend(mutations, mutations_labels, title="Mutations", bbox_to_anchor=(0, .34), loc=2, borderaxespad=0.)
-        l3 = ax_leg.legend(mutations, mutations_labels, title="Mutations", bbox_to_anchor=(0, .53), loc=2, borderaxespad=0.)
-        leg = plt.gca().get_legend()
-        ltext = leg.get_texts()
-        plt.setp( ltext, fontsize='small')
+   #     l3 = ax_leg.legend(mutations, mutations_labels, title="Mutations", bbox_to_anchor=(0, .53), loc=2, borderaxespad=0.)
+   #     leg = plt.gca().get_legend()
+   #     ltext = leg.get_texts()
+   #     plt.setp( ltext, fontsize='small')
 
         plt.gca().add_artist(l1)
 #    plt.gca().add_artist(l2)
 
     if options.show:
-        plt .show()
+        plt.show()
 
+    #plt.tight_layout()
     ## save
-    plt.savefig(outfile, dpi=(300))
+    #plt.savefig(outfile, dpi=(300)) #figsize=(options.xsize/my_dpi, options.ysize/my_dpi), dpi=my_dpi
+    #plt.savefig(outfile, bbox_inches='tight')#, dpi=(300)
+    #pl.savefig(outfile)
+    plt.savefig(outfile, bbox_inches='tight', dpi=(my_dpi))
 
 
