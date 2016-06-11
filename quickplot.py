@@ -16,6 +16,8 @@ import config as cf
 # note the paths to the utilities
 analyzepath = os.path.abspath( os.path.join( sys.path[0], "analysis/analyze.py" ) )
 plotpath = os.path.abspath( os.path.join( sys.path[0], "graph_generation/plot_from_csv.py" ) )
+#plotpath = os.path.abspath( os.path.join( sys.path[0], "graph_generation/plot_from_csv__twinx.py" ) )
+#plotpath = os.path.abspath( os.path.join( sys.path[0], "graph_generation/plot_from_csv__stripped.py" ) )
 
 
 # Set up options
@@ -46,13 +48,17 @@ parser.add_option("--chevrons_by_members", dest="member_chevrons",
 parser.add_option("--data_members", dest="member_count",
                   help="Number of Components from a given data source (treatment)")
 parser.add_option("--alt_axis", dest="alt_axis", type="int",
-                  help="Use an alternative axis for the Nth data source")                  
+                  help="Use an alternative axis for the Nth data source")  
+parser.add_option("-w", "--ylabel_alt_axis", dest="y_label_alt_axis", type="string", 
+                  help="Alternative Y-axis Label")                  
 parser.add_option("--xtick_multiplier", dest="xtick_multiplier", 
                   help="X-axis Tick Multipliers")
 parser.add_option("--ylog", action="store_true", dest="ylog",
                   help="Y-axis logarithmic scale")
 parser.add_option("--ylim_max", dest="ylim_max", type="float",
-                  help="Set the ylim max")                  
+                  help="Set the ylim max")        
+parser.add_option("--ylim_min", dest="ylim_min", type="float",
+                  help="Set the ylim min")                         
 parser.add_option("--error", dest="calculate_error", action="store_true", default = False,
                   help="include error bars - error values will be calculated from data using bootstrap")
 parser.add_option("--samples", dest="samples",
@@ -98,6 +104,12 @@ ylimmax_opt = ""
 if options.ylim_max:
     ylimmax_opt = " --ylim_max \"" + str(options.ylim_max) + "\"" 
 
+ylimmin_opt = ""
+#print "HHHHIIII"
+if options.ylim_min != None:
+#    print "WHWHWHHWHW"
+    ylimmin_opt = " --ylim_min \"" + str(options.ylim_min) + "\"" 
+
 ylabel_opt = ""
 if options.ylabel:
     ylabel_opt = " --ylabel \"" + options.ylabel + "\"" 
@@ -108,7 +120,13 @@ if options.member_count:
 
 altax_opt = ""
 if options.alt_axis:
-    altax_opt = " --alt_axis " + str(options.alt_axis)    
+    altax_opt = " --alt_axis " + str(options.alt_axis)   
+    
+ylabel_altax_opt = ""
+if options.y_label_alt_axis:
+    ylabel_altax_opt = " --ylabel_alt_axis \"" + str(options.y_label_alt_axis) + "\""
+
+    
 
 xtickmult_opt = ""
 if options.xtick_multiplier:
@@ -185,9 +203,9 @@ for i in range(0, input_set_count):
 
 agnames_csv = [ name + ".timeseries.csv" for name in aggregated_names ]
 
-command = "python2 " + plotpath + " -o --title \"" + title + "\"" + error_opt + samples_opt + ylog_opt + endat_opt + xlabel_opt + ylabel_opt + ylimmax_opt + datamembers_opt + altax_opt + chev_opt + memchev_opt + xtickmult_opt + " --legend \"" + ",".join(names) + "\" " + outfile + ".png " + " ".join(agnames_csv)
+command = "python2 " + plotpath + " -o --title \"" + title + "\"" + error_opt + samples_opt + ylog_opt + endat_opt + xlabel_opt + ylabel_opt + ylimmax_opt + ylimmin_opt + datamembers_opt + altax_opt + ylabel_altax_opt + chev_opt + memchev_opt + xtickmult_opt + " --legend \"" + ",".join(names) + "\" " + outfile + ".png " + " ".join(agnames_csv)
 
-print
+#print command
 print "Plotting " + outfile
 if options.noplot:
     print "~~SKIPPING, AGGREGATING ONLY~~"

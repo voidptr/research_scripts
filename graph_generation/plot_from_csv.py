@@ -22,6 +22,7 @@ from optparse import OptionParser
 import os
 import sys
 from cycler import cycler
+import random
 
 # Set up options
 usage = """
@@ -98,8 +99,8 @@ parser.add_option("--ylog", action="store_true", dest="ylog",
 
 ## handle version
 if options.display_version:
-    print sys.argv[0]
-    print "Version: ", os.popen("git describe --tags").read()
+    print (sys.argv[0])
+    print ("Version: ", os.popen("git describe --tags").read())
     exit(0)
 
 ## parameter errors
@@ -244,7 +245,7 @@ for i in range(0, len(data)):
 
     style_indexes.append( (i % options.member_count) % len(line_styles) )
 
-    if options.alt_axis == (i / options.member_count)+1:
+    if options.alt_axis == (i % options.member_count):
         axis_indexes.append( 1 )
     else:
         axis_indexes.append( 0 )
@@ -253,11 +254,14 @@ for i in range(0, len(data)):
 if options.all: ## plot all the lines -- all the same damned color and marker in a file
     for (data_2d_array, file_index) in zip(data, range(0, len(data))): ## one file at a time
         for line in data_2d_array: ## plot each line separately so we can set color and markers
+
+            randval = random.randint(5,11)
+
             plottable = np.add( [ float(val) for val in line ], 0 )
             plottable = np.transpose(plottable)
             #print len(plottable)
             pl.plot( plottable, marker=line_markers[ marker_indexes[file_index] ],
-                                markevery=(len(plottable)/10),
+                                markevery=(len(plottable)/randval),
                                 color=mapped_colors.main_colors[color_indexes[file_index]],
                                 linestyle=line_styles[ style_indexes[ file_index ]])
 
@@ -309,10 +313,12 @@ if options.mean:
         plottable = np.add( mean_data_array[i], 0 )
         plottable = np.transpose( plottable )
 
+        randval = random.randint(5,11)
+
         axes[ axis_indexes[i] ].plot( 
             plottable, 
             marker=line_markers[marker_indexes[i]],
-            markevery=(len(plottable)/5), 
+            markevery=(len(plottable)/randval), 
             #markerfacecolor="white",
             markersize=10,
             color=mapped_colors.main_colors[color_indexes[i]],
@@ -339,11 +345,13 @@ if options.ylog:
 ylim_min, ylim_max = pl.ylim()
 xlim_min, xlim_max = pl.xlim()
 
-if options.ylim_min:
+if options.ylim_min != None:
+    #print "HHHHHHH"
     ylim_min = options.ylim_min
 if options.ylim_max:
     ylim_max = options.ylim_max
-if options.xlim_min:
+if options.xlim_min!= None:
+    #print "POOP"
     xlim_min = options.xlim_min
 if options.xlim_max:
     xlim_max = options.xlim_max
@@ -377,7 +385,7 @@ if options.legend:
 
     if len(legend_labels) != len(data):
         ## raise some sort of warning TODO
-        print "LEGEND LABELS MUST MATCH DATA FILE COUNT"
+        print ("LEGEND LABELS MUST MATCH DATA FILE COUNT")
     else:
         proxies = []
         for i in range(0, len(data)): ## set it by file
@@ -389,17 +397,25 @@ if options.legend:
                
                 ) )
 
+        bboxleft = 1.03
+        if len(axes) > 1:
+            bboxleft = 1.13
         pl.legend(proxies, 
                   legend_labels, 
-                  bbox_to_anchor=(1.03, 1), 
+                  bbox_to_anchor=(bboxleft, 1), 
                   loc=2, borderaxespad=0.0)
                   
         leg = pl.gca().get_legend()
         ltext = leg.get_texts()
         pl.setp( ltext, fontsize='small')
 
-        l,b,w,h = pl.axes().get_position().bounds
-        pl.axes().set_position([0.1,b,w*.78,h])
+
+        for ax in axes:
+            l,b,w,h = ax.get_position().bounds
+            ax.set_position([0.1,b,w*.78,h]) 
+
+#        l,b,w,h = pl.axes().get_position().bounds
+#        pl.axes().set_position([0.1,b,w*.78,h])
 
 if options.show:
     pl.show()
