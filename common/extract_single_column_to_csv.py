@@ -150,12 +150,13 @@ for inputfilename in inputfilenames:
     
         line = line.split( options.separator ) ## break the line up on spaces
 
+        value = -1
         try:
             value = line[col_id - 1] 
         except: ## if there's a problem, skip the line. This should probably be made configurable at some point.
             continue ## this is a little bit of a gamble and a possible SOURCE OF BUG. :/
 
-        if value < 0: ## skip this bit
+        if value == "-inf" or value=="-nan" or value < 0: ## skip this bit
             continue
 
         if options.debug_messages:
