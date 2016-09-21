@@ -176,6 +176,6 @@ for v in g.vertices():
 
         full_line = ",".join( [str(num_cpus[v]), line_fit, line_samep, 
                                line_diffp, line_whitenodes, line_blacknodes, 
-                               phenotypic_entropy])
+                               str(phenotypic_entropy)])
    
         print full_line
