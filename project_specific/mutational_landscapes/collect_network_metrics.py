@@ -71,7 +71,6 @@ print "# Proportion of mutants separated by neutrality, and again by same or dif
 print "# One line per surveyed ancestor"
 print "# num_cpus, lethal, deleterious, neutral, beneficial, same_p_lethal, same_p_deleterious, same_p_neutral, same_p_beneficial, diff_p_lethal, diff_p_deleterious, diff_p_neutral, diff_p_beneficial, whitenodes_lethal, whitenodes_deleterious, whitenodes_neutral, whitenodes_beneficial, blacknodes_lethal, blacknodes_deleterious, blacknodes_neutral, blacknodes_beneficial, phenotypic_entropy"
 
-
 for v in g.vertices():        
     #print num_cpus[v]
     if (surveyed[v] == True): ## we are a mutant parent
@@ -148,6 +147,7 @@ for v in g.vertices():
                 fitness_cts['b'] += 1
                 if phenotypes[n] != ancestor_phenotype:
                     diff_phenotype_cts['b'] += 1
+
                     if phenotypes[n] not in phenotype_cts:
                         phenotype_cts[phenotypes[n]] = 1
                     else:
@@ -164,11 +164,10 @@ for v in g.vertices():
         phenotypic_entropy = 0
         for key in phenotype_cts:
             if phenotype_cts[key] > 0:
-                phenotypic_entropy += (phenotype_cts[key] * math.log(2, phenotype_cts[key])
-
+                phenotypic_entropy += (phenotype_cts[key] * math.log(2, phenotype_cts[key]))
 
                                  
-        line_fit = ",".join( str(fitness_cts[key]/neighbor_total) for key in ['l','d','n','b']  )                    
+        line_fit   = ",".join( str(fitness_cts[key]/neighbor_total) for key in ['l','d','n','b']  )                    
         line_samep = ",".join( str(same_phenotype_cts[key]/neighbor_total) for key in ['l','d','n','b']  )
         line_diffp = ",".join( str(diff_phenotype_cts[key]/neighbor_total) for key in ['l','d','n','b']  )
 
