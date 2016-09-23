@@ -24,7 +24,7 @@ parser.add_option("--debug_messages", action = "store_true", dest = "debug_messa
                   default = False, help = "print debug messages to stdout")
                   
 parser.add_option("--tasks", dest = "tasks", type="int", default = 9,
-                  help = "Number of possible task."))                  
+                  help = "Number of possible task.")                  
 ## fetch the args
 (options, args) = parser.parse_args()
 if len(args) < 1:
