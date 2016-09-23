@@ -169,7 +169,7 @@ for v in g.vertices():
 
         ents = []
         for ct in phenos:
-            prob = ct/neighbor_nodes
+            prob = ct/neighbor_total
             if prob > 0:
                 inf = log(prob, 2)
             else:
