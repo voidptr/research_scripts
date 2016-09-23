@@ -225,7 +225,7 @@ for v in g.vertices():
                                        str(total_ek),
                                        str(metric_ek),
                                        str(total_ekc),
-                                       str(total_entropy_ratio_devoted))
+                                       str(total_entropy_ratio_devoted) ])
 
         full_line = ",".join( [str(num_cpus[v]), line_fit, line_samep, 
                                line_diffp, line_whitenodes, line_blacknodes,
