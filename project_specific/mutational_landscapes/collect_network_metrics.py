@@ -171,7 +171,7 @@ for v in g.vertices():
         for ct in phenos:
             prob = ct/neighbor_total
             if prob > 0:
-                inf = log(prob, 2)
+                inf = math.log(prob, 2)
             else:
                 inf = 0
             ent = prob * inf
@@ -190,7 +190,7 @@ for v in g.vertices():
 #        print "remaining bits", -1 * sum(ents[1:])       
         
         ## Entropy per-bit, normalized by message size 
-        metric = -1 * sum(ents)/log(neighbor_total,2)
+        metric = -1 * sum(ents)/math.log(neighbor_total,2)
 #        print "metric", metric, "per bit, for length log2", log(neighbor_nodes, 2)
 
         ## E_k - total entropy * the fraction of nodes that make it colored
