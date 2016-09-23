@@ -23,8 +23,8 @@ parser.add_option("-v", "--verbose", action = "store_true", dest = "verbose",
 parser.add_option("--debug_messages", action = "store_true", dest = "debug_messages",
                   default = False, help = "print debug messages to stdout")
                   
-parser.add_option("--tasks", dest = "tasks", type="int", default = 9,
-                  help = "Number of possible task.")                  
+#parser.add_option("--tasks", dest = "tasks", type="int", default = 9,
+#                  help = "Number of possible task.")                  
 ## fetch the args
 (options, args) = parser.parse_args()
 if len(args) < 1:
@@ -33,7 +33,7 @@ if len(args) < 1:
 networkfile = args[0]
 ###### LOAD THE NETWORK FILE
 
-possible_phenotypes = 2**options.tasks
+#possible_phenotypes = 2**options.tasks
 
 g = load_graph(networkfile, "gt")
 #print "LOADED"
