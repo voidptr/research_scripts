@@ -107,7 +107,6 @@ for v in g.vertices():
                             whitenodes_cts['l'] += 1
                         else:
                             blacknodes_cts['l'] += 1                
-                                
                 
             elif fitnesses[n] >= (ancestor_fitness * .99) and fitnesses[n] <= (ancestor_fitness * 1.01) : ## neutral and nearly neutral
                 fitness_cts['n'] += 1
@@ -161,21 +160,76 @@ for v in g.vertices():
                         else:
                             blacknodes_cts['b'] += 1       
 
-        phenotypic_entropy = 0
+        phenos = [0]
         for key in phenotype_cts:
-            if phenotype_cts[key] > 0:
-                phenotypic_entropy += (phenotype_cts[key] * math.log(2, phenotype_cts[key]))
+            if key == ancestor_phenotype:
+                phenos[0] = phenotype_cts[key]
+            else:
+                phenos.append(phenotype_cts[key])
 
-                                 
+        ents = []
+        for ct in phenos:
+            prob = ct/neighbor_nodes
+            if prob > 0:
+                inf = log(prob, 2)
+            else:
+                inf = 0
+            ent = prob * inf
+            ents.append(ent)
+
+        ## ENTROPY
+        total_entropy = -1 * sum(ents)        
+#        print "average_bits", avg_bits
+
+        ## Portion of entropy contributed by the ancestor phenotype
+        ancestor_bits = -1 * ents[0]        
+#        print "ancestor avg bits", -1 * ents[0]
+        
+        ## Portion of entropy contributed by the non-ancestor phenotypes         
+        remaining_bits = -1 * sum(ents[1:])
+#        print "remaining bits", -1 * sum(ents[1:])       
+        
+        ## Entropy per-bit, normalized by message size 
+        metric = -1 * sum(ents)/log(neighbor_total,2)
+#        print "metric", metric, "per bit, for length log2", log(neighbor_nodes, 2)
+
+        ## E_k - total entropy * the fraction of nodes that make it colored
+        ## Normalizes the colored portion of the entropy by the number of contributing nodes
+        total_ek = -1 * (sum(ents[1:]) * sum(phenos[1:]))/neighbor_total
+#        print "naive Ek", -1 * (sum(ents[1:]) * sum(phenos[1:]))/neighbor_nodes
+        
+        ## mE_k - metric E_k - average per-bit entropy, grabbing the portion of it created by the fraction of colored nodes.
+        metric_ek = (metric * sum(phenos[1:]))/neighbor_total
+#        print "metric Ek",  (metric * sum(phenos[1:]))/neighbor_nodes
+
+        ## E_k_c - colored portion of entropy (remaining bits) * number of colored nodes, all divided by the total number of nodes
+        ## Normalizes the colored portion of the entropy by the number of contributing nodes
+        total_ekc = -1 * (sum(ents[1:]) * sum(phenos[1:]))/neighbor_total
+
+        ## bits devoted - the ratio of bits that are from colored
+        ##
+        total_entropy_ratio_devoted = sum(ents[1:])/sum(ents)        
+#        print "bits devoted ratio",  sum(ents[1:])/sum(ents)
+                            
         line_fit   = ",".join( str(fitness_cts[key]/neighbor_total) for key in ['l','d','n','b']  )                    
         line_samep = ",".join( str(same_phenotype_cts[key]/neighbor_total) for key in ['l','d','n','b']  )
         line_diffp = ",".join( str(diff_phenotype_cts[key]/neighbor_total) for key in ['l','d','n','b']  )
 
         line_whitenodes = ",".join( str(whitenodes_cts[key]/neighbor_total) for key in ['l','d','n','b']  )       
-        line_blacknodes = ",".join( str(blacknodes_cts[key]/neighbor_total) for key in ['l','d','n','b']  )       
+        line_blacknodes = ",".join( str(blacknodes_cts[key]/neighbor_total) for key in ['l','d','n','b']  ) 
+        
+        line_phen_entropy = ",".join( [str(total_entropy), 
+                                       str(ancestor_bits),
+                                       str(remaining_bits),
+                                       str(metric),
+                                       str(total_ek),
+                                       str(metric_ek),
+                                       str(total_ekc),
+                                       str(total_entropy_ratio_devoted))
 
         full_line = ",".join( [str(num_cpus[v]), line_fit, line_samep, 
-                               line_diffp, line_whitenodes, line_blacknodes, 
-                               str(phenotypic_entropy/neighbor_total) ])
+                               line_diffp, line_whitenodes, line_blacknodes,
+                               line_phen_entropy])
+)
    
         print full_line
