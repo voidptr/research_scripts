@@ -180,6 +180,8 @@ for v in g.vertices():
             ent = prob * inf
             ents.append(ent)
 
+        print ents
+
         ## ENTROPY
         total_entropy = -1 * sum(ents)        
 
@@ -211,7 +213,7 @@ for v in g.vertices():
         ## Normalizes the colored portion of the entropy by the number of contributing nodes
         metric_ekc = -1 * ( (metric * total_entropy_ratio_devoted) * sum(phenos[1:]))/neighbor_total 
         
-        print ents
+        
  
 
                             
