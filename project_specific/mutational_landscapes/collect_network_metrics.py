@@ -197,7 +197,7 @@ for v in g.vertices():
         if sum(ents) == 0:
             total_entropy_ratio_devoted = 1
         else:
-            total_entropy_ratio_devoted = -1 * (sum(ents[1:])/sum(ents))        
+            total_entropy_ratio_devoted = (sum(ents[1:])/sum(ents))        
         
         ## Entropy per-bit, normalized by message size 
         metric = -1 * sum(ents)/math.log(neighbor_total,2)
