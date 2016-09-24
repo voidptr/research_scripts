@@ -210,6 +210,8 @@ for v in g.vertices():
         ## mE_k_c - colored portion of entropy (remaining bits), metricised * number of colored nodes, all divided by the total number of nodes
         ## Normalizes the colored portion of the entropy by the number of contributing nodes
         metric_ekc = -1 * ( (metric * total_entropy_ratio_devoted) * sum(phenos[1:]))/neighbor_total 
+        
+        print ents
  
 
                             
