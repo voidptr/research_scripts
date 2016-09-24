@@ -173,7 +173,7 @@ for v in g.vertices():
         ents = []
         for ct in phenos:
             if ct > 0:
-                prob = 1/(ct/neighbor_total)
+                prob = (ct/neighbor_total)
             else:
                 prob = 0.0
                 
@@ -182,6 +182,10 @@ for v in g.vertices():
             else:
                 inf = 0.0
             ent = prob * inf
+
+            if ent < 0:
+                ent = ent * -1
+            
             ents.append(ent)
 
 #        print phenos
