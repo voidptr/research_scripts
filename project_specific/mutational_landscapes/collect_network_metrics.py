@@ -207,7 +207,7 @@ for v in g.vertices():
         total_ek = -1 * (sum(ents) * sum(phenos[1:]))/neighbor_total
         
         ## mE_k - metric E_k - average per-bit entropy, grabbing the portion of it created by the fraction of colored nodes.
-        metric_ek = -1 * (metric * sum(phenos[1:]))/neighbor_total
+        metric_ek = (metric * sum(phenos[1:]))/neighbor_total
 #        print "metric Ek",  (metric * sum(phenos[1:]))/neighbor_nodes
 
         ## E_k_c - colored portion of entropy (remaining bits) * number of colored nodes, all divided by the total number of nodes
@@ -216,10 +216,23 @@ for v in g.vertices():
  
         ## mE_k_c - colored portion of entropy (remaining bits), metricised * number of colored nodes, all divided by the total number of nodes
         ## Normalizes the colored portion of the entropy by the number of contributing nodes
-        metric_ekc = ( (metric * total_entropy_ratio_devoted) * sum(phenos[1:]))/neighbor_total 
+        metric_ekc = -1 * ( (metric * total_entropy_ratio_devoted) * sum(phenos[1:]))/neighbor_total 
         
         
- 
+        entropy_vals = [total_entropy,
+                        ancestor_bits,
+                        remaining_bits,
+                        total_entropy_ratio_devoted,                                       
+                        metric,
+                        total_ek,
+                        metric_ek,
+                        total_ekc,
+                        metric_ekc]
+
+        ct = 0;
+        for x in entropy_vals:
+            print ct, x
+            ct += 1                         
 
                             
         line_fit   = ",".join( str(fitness_cts[key]/neighbor_total) for key in ['l','d','n','b']  )                    
@@ -229,16 +242,7 @@ for v in g.vertices():
         line_whitenodes = ",".join( str(whitenodes_cts[key]/neighbor_total) for key in ['l','d','n','b']  )       
         line_blacknodes = ",".join( str(blacknodes_cts[key]/neighbor_total) for key in ['l','d','n','b']  ) 
         
-        line_phen_entropy = ",".join( [str(total_entropy), 
-                                       str(ancestor_bits),
-                                       str(remaining_bits),
-                                       str(total_entropy_ratio_devoted),                                       
-                                       str(metric),
-                                       str(total_ek),
-                                       str(metric_ek),
-                                       str(total_ekc),
-                                       str(metric_ekc),
-                                        ])
+        line_phen_entropy = ",".join( [str(x) for x in entropy_vals])
 
         full_line = ",".join( [str(num_cpus[v]), line_fit, line_samep, 
                                line_diffp, line_whitenodes, line_blacknodes,
