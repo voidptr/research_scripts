@@ -180,7 +180,9 @@ for v in g.vertices():
             ent = prob * inf
             ents.append(ent)
 
+        print phenos
         print ents
+
 
         ## ENTROPY
         total_entropy = -1 * sum(ents)        
