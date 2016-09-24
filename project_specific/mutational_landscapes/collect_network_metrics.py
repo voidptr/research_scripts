@@ -239,10 +239,10 @@ for v in g.vertices():
                         total_ekc,
                         metric_ekc]
 
-        ct = 0;
-        for x in entropy_vals:
-            print ct, x
-            ct += 1                         
+        #ct = 0;
+        #for x in entropy_vals:
+        #    print ct, x
+        #    ct += 1                         
 
                             
         line_fit   = ",".join( str(fitness_cts[key]/neighbor_total) for key in ['l','d','n','b']  )                    
