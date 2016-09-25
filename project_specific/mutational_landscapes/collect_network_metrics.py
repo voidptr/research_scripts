@@ -261,11 +261,13 @@ for v in g.vertices():
         
 #        line_phen_entropy = ",".join( [str(x) for x in entropy_vals])
         
+        line_phenotypes = ",".join( [str(x) for x in codes] )
         line_phenotype_cts = ",".join( [str(x) for x in phenos] )
 
         full_line = ",".join( [str(num_cpus[v]), line_fit, line_samep, 
                                line_diffp, line_whitenodes, line_blacknodes,
-#                               line_phen_entropy, 
+#                               line_phen_entropy,
+                               line_phenotypes,
                                line_phenotype_cts])
 
    
