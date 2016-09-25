@@ -72,8 +72,14 @@ ancestor_log_fitness = math.log(ancestor_fitness)
 
 print "# Proportion of mutants separated by neutrality, and again by same or different phenotype from ancestor"
 print "# One line per surveyed ancestor"
-print "# num_cpus, lethal, deleterious, neutral, beneficial, same_p_lethal, same_p_deleterious, same_p_neutral, same_p_beneficial, diff_p_lethal, diff_p_deleterious, diff_p_neutral, diff_p_beneficial, whitenodes_lethal, whitenodes_deleterious, whitenodes_neutral, whitenodes_beneficial, blacknodes_lethal, blacknodes_deleterious, blacknodes_neutral, blacknodes_beneficial, phenotypic_entropy"
-
+names =  "# num_cpus, lethal, deleterious, neutral, beneficial, "
+names += "same_p_lethal, same_p_deleterious, same_p_neutral, same_p_beneficial, "
+names += "diff_p_lethal, diff_p_deleterious, diff_p_neutral, diff_p_beneficial, "
+names += "whitenodes_lethal, whitenodes_deleterious, whitenodes_neutral, whitenodes_beneficial, "
+names += "blacknodes_lethal, blacknodes_deleterious, blacknodes_neutral, blacknodes_beneficial, "
+#names += "total_entropy, ancestor_bits, remaining_bits, total_entropy_ratio_devoted, metric, total_ek, metric_ek, total_ekc, metric_ekc, "
+names += "distribution of phenotypes"
+print names
 for v in g.vertices():        
     #print num_cpus[v]
     if (surveyed[v] == True): ## we are a mutant parent
@@ -170,72 +176,72 @@ for v in g.vertices():
             else:
                 phenos.append(phenotype_cts[key])
 
-        ents = []
-        for ct in phenos:
-            prob = (ct/neighbor_total)
-            if prob > 0:
-                inf = math.log(prob, 2)
-            else:
-                inf = 0.0
-            ent = prob * inf
-
-            if ent < 0:
-                ent = ent * -1
-            
-            ents.append(ent)
+#        ents = []
+#        for ct in phenos:
+#            prob = (ct/neighbor_total)
+#            if prob > 0:
+#                inf = math.log(prob, 2)
+#            else:
+#                inf = 0.0
+#            ent = prob * inf
+#
+#            if ent < 0:
+#                ent = ent * -1
+#            
+#            ents.append(ent)
 
 #        print phenos
 #        print ents
 
 
-        ## ENTROPY
-        total_entropy = sum(ents)        
-
-        ## Portion of entropy contributed by the ancestor phenotype
-        ancestor_bits = ents[0]        
-        
-        ## Portion of entropy contributed by the non-ancestor phenotypes
-        remaining_bits = sum(ents[1:])
+#        ## ENTROPY
+#        total_entropy = sum(ents)        
+#
+#        ## Portion of entropy contributed by the ancestor phenotype
+#        ancestor_bits = ents[0]        
+#        
+#        ## Portion of entropy contributed by the non-ancestor phenotypes
+#        remaining_bits = sum(ents[1:])
 #        if remaining_bits == -0.0:
 #            remaining_bits = 0
 
-        ## bits devoted - the ratio of bits that are from colored        
-        if sum(ents) == 0:
-            total_entropy_ratio_devoted = 1
-        else:
-            total_entropy_ratio_devoted = remaining_bits/total_entropy        
-        
-        ## Entropy per-bit, normalized by message size 
-        metric = total_entropy/math.log(neighbor_total,2)
-        
-        colored_nodes_total = sum(phenos[1:])
-
-        ## E_k - total entropy * the fraction of nodes that make it colored
-        ## Normalizes the colored portion of the entropy by the number of contributing nodes
-        total_ek = (total_entropy * colored_nodes_total)/neighbor_total
-        
-        ## mE_k - metric E_k - average per-bit entropy, grabbing the portion of it created by the fraction of colored nodes.
-        metric_ek = (metric * colored_nodes_total)/neighbor_total
-#        print "metric Ek",  (metric * sum(phenos[1:]))/neighbor_nodes
-
-        ## E_k_c - colored portion of entropy (remaining bits) * number of colored nodes, all divided by the total number of nodes
-        ## Normalizes the colored portion of the entropy by the number of contributing nodes
-        total_ekc = (remaining_bits * colored_nodes_total)/neighbor_total
- 
-        ## mE_k_c - colored portion of entropy (remaining bits), metricised * number of colored nodes, all divided by the total number of nodes
-        ## Normalizes the colored portion of the entropy by the number of contributing nodes
-        metric_ekc = ( (metric * total_entropy_ratio_devoted) * colored_nodes_total)/neighbor_total 
-        
-        
-        entropy_vals = [total_entropy,
-                        ancestor_bits,
-                        remaining_bits,
-                        total_entropy_ratio_devoted,                                       
-                        metric,
-                        total_ek,
-                        metric_ek,
-                        total_ekc,
-                        metric_ekc]
+#        ## bits devoted - the ratio of bits that are from colored        
+#        if sum(ents) == 0:
+#            total_entropy_ratio_devoted = 1
+#        else:
+#            total_entropy_ratio_devoted = remaining_bits/total_entropy        
+#        
+#        ## Entropy per-bit, normalized by message size 
+#        metric = total_entropy/math.log(neighbor_total,2)
+#        
+#        colored_nodes_total = sum(phenos[1:])
+#
+#        ## E_k - total entropy * the fraction of nodes that make it colored
+#        ## Normalizes the colored portion of the entropy by the number of contributing nodes
+#        total_ek = (total_entropy * colored_nodes_total)/neighbor_total
+#        
+#        ## mE_k - metric E_k - average per-bit entropy, grabbing the portion of it created by the fraction of colored nodes.
+#        metric_ek = (metric * colored_nodes_total)/neighbor_total
+##        print "metric Ek",  (metric * sum(phenos[1:]))/neighbor_nodes
+#
+#        ## E_k_c - colored portion of entropy (remaining bits) * number of colored nodes, all divided by the total number of nodes
+#        ## Normalizes the colored portion of the entropy by the number of contributing nodes
+#        total_ekc = (remaining_bits * colored_nodes_total)/neighbor_total
+# 
+#        ## mE_k_c - colored portion of entropy (remaining bits), metricised * number of colored nodes, all divided by the total number of nodes
+#        ## Normalizes the colored portion of the entropy by the number of contributing nodes
+#        metric_ekc = ( (metric * total_entropy_ratio_devoted) * colored_nodes_total)/neighbor_total 
+#        
+#        
+#        entropy_vals = [total_entropy,
+#                        ancestor_bits,
+#                        remaining_bits,
+#                        total_entropy_ratio_devoted,                                       
+#                        metric,
+#                        total_ek,
+#                        metric_ek,
+#                        total_ekc,
+#                        metric_ekc]
 
         #ct = 0;
         #for x in entropy_vals:
@@ -250,11 +256,14 @@ for v in g.vertices():
         line_whitenodes = ",".join( str(whitenodes_cts[key]/neighbor_total) for key in ['l','d','n','b']  )       
         line_blacknodes = ",".join( str(blacknodes_cts[key]/neighbor_total) for key in ['l','d','n','b']  ) 
         
-        line_phen_entropy = ",".join( [str(x) for x in entropy_vals])
+#        line_phen_entropy = ",".join( [str(x) for x in entropy_vals])
+        
+        line_phenotype_cts = ",".join( [str(x) for x in phenos] )
 
         full_line = ",".join( [str(num_cpus[v]), line_fit, line_samep, 
                                line_diffp, line_whitenodes, line_blacknodes,
-                               line_phen_entropy])
+#                               line_phen_entropy, 
+                               line_phenotype_cts])
 
    
         print full_line
