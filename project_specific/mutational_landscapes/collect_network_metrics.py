@@ -78,7 +78,7 @@ names += "diff_p_lethal, diff_p_deleterious, diff_p_neutral, diff_p_beneficial, 
 names += "whitenodes_lethal, whitenodes_deleterious, whitenodes_neutral, whitenodes_beneficial, "
 names += "blacknodes_lethal, blacknodes_deleterious, blacknodes_neutral, blacknodes_beneficial, "
 #names += "total_entropy, ancestor_bits, remaining_bits, total_entropy_ratio_devoted, metric, total_ek, metric_ek, total_ekc, metric_ekc, "
-names += "distribution of phenotypes"
+names += "phenotypes,phenotype_counts"
 print names
 for v in g.vertices():        
     #print num_cpus[v]
@@ -169,11 +169,14 @@ for v in g.vertices():
                         else:
                             blacknodes_cts['b'] += 1       
 
+        codes = [-1]        
         phenos = [0]
         for key in phenotype_cts:
             if key == ancestor_phenotype:
+                codes[0] = key
                 phenos[0] = phenotype_cts[key]
             else:
+                codes.append(key)
                 phenos.append(phenotype_cts[key])
 
 #        ents = []
