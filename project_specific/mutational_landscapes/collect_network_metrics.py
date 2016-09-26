@@ -23,8 +23,8 @@ parser.add_option("-v", "--verbose", action = "store_true", dest = "verbose",
 parser.add_option("--debug_messages", action = "store_true", dest = "debug_messages",
                   default = False, help = "print debug messages to stdout")
                   
-#parser.add_option("--tasks", dest = "tasks", type="int", default = 9,
-#                  help = "Number of possible task.")                  
+parser.add_option("--tasks", dest = "tasks", type="int", default = 9,
+                  help = "Number of possible task.")                  
 ## fetch the args
 (options, args) = parser.parse_args()
 if len(args) < 1:
@@ -33,7 +33,7 @@ if len(args) < 1:
 networkfile = args[0]
 ###### LOAD THE NETWORK FILE
 
-#possible_phenotypes = 2**options.tasks
+possible_phenotypes = 2**options.tasks
 
 g = load_graph(networkfile, "gt")
 #print "LOADED"
@@ -169,15 +169,9 @@ for v in g.vertices():
                         else:
                             blacknodes_cts['b'] += 1       
 
-        codes = [-1]        
-        phenos = [0]
+        phenos = [0] * possible_phenotypes
         for key in phenotype_cts:
-            if key == ancestor_phenotype:
-                codes[0] = key
-                phenos[0] = phenotype_cts[key]
-            else:
-                codes.append(key)
-                phenos.append(phenotype_cts[key])
+            phenos[key] = phenotype_cts[key]
 
 #        ents = []
 #        for ct in phenos:
@@ -261,14 +255,14 @@ for v in g.vertices():
         
 #        line_phen_entropy = ",".join( [str(x) for x in entropy_vals])
         
-        line_phenotypes = ",".join( [str(x) for x in codes] )
+#        line_phenotypes = ",".join( [str(x) for x in codes] )
         line_phenotype_cts = ",".join( [str(x) for x in phenos] )
 
         full_line = ",".join( [str(num_cpus[v]), line_fit, line_samep, 
                                line_diffp, line_whitenodes, line_blacknodes,
 #                               line_phen_entropy,
-                               line_phenotypes,
-                               line_phenotype_cts])
+                               str(ancestor_phenotype),
+                               line_phenotype_cts] )
 
    
         print full_line
