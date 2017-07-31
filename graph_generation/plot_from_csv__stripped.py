@@ -22,7 +22,6 @@ from optparse import OptionParser
 import os
 import sys
 from cycler import cycler
-import random
 
 # Set up options
 usage = """
@@ -99,8 +98,8 @@ parser.add_option("--ylog", action="store_true", dest="ylog",
 
 ## handle version
 if options.display_version:
-    print (sys.argv[0])
-    print ("Version: ", os.popen("git describe --tags").read())
+    print sys.argv[0]
+    print "Version: ", os.popen("git describe --tags").read()
     exit(0)
 
 ## parameter errors
@@ -200,29 +199,6 @@ for inputfilename in inputfilenames:
 
     data.append( data_2d_array )
 
-class Colors:
-    Black = (0, 0, 0)
-    DarkSeafoam = (0, 0.285, 0.285)
-    LightPink = (1, 0.71, 0.465)
-
-    Purple = (0.285, 0, 0.57)
-    Blue = (0, 0.426, 0.855)
-    Violet = (0.71, 0.426, 1)
-    SkyBlue = (0.426, 0.71, 1)
-    LightBlue = (0.71, 0.855, 1)
-
-    Rust = (0.57, 0, 0)
-    Brown = (0.57, 0.285, 0)
-    Orange = (0.855, 0.816, 0)
-    NeonGreen = (0.14, 1, 0.14)
-    Yellow = (1, 1, 0.426)
-
-    def Transparent(color, level):
-        return (color[0], color[1], color[2], level) 
- 
-median_colors = [Colors.Black, Colors.Purple, Colors.Blue, Colors.Violet, Colors.Rust, Colors.Orange, Colors.DarkSeafoam, Colors.LightPink]
-data_colors = [Colors.Transparent(val, 0.5) for val in median_colors]
-edge_colors = data_colors 
 
 class ColorSets:
     def __init__(self, n, color_map=pl.cm.viridis):
@@ -277,14 +253,11 @@ for i in range(0, len(data)):
 if options.all: ## plot all the lines -- all the same damned color and marker in a file
     for (data_2d_array, file_index) in zip(data, range(0, len(data))): ## one file at a time
         for line in data_2d_array: ## plot each line separately so we can set color and markers
-
-            randval = random.randint(5,11)
-
             plottable = np.add( [ float(val) for val in line ], 0 )
             plottable = np.transpose(plottable)
             #print len(plottable)
             pl.plot( plottable, marker=line_markers[ marker_indexes[file_index] ],
-                                markevery=(len(plottable)/randval),
+                                markevery=(len(plottable)/10),
                                 color=mapped_colors.main_colors[color_indexes[file_index]],
                                 linestyle=line_styles[ style_indexes[ file_index ]])
 
@@ -336,12 +309,10 @@ if options.mean:
         plottable = np.add( mean_data_array[i], 0 )
         plottable = np.transpose( plottable )
 
-        randval = random.randint(5,11)
-
         axes[ axis_indexes[i] ].plot( 
             plottable, 
             marker=line_markers[marker_indexes[i]],
-            markevery=(len(plottable)/randval), 
+            markevery=(len(plottable)/5), 
             #markerfacecolor="white",
             markersize=10,
             color=mapped_colors.main_colors[color_indexes[i]],
@@ -395,7 +366,7 @@ if options.xtick_multiplier:
         xmodlocs.append( xlocs[i] )
 
     pl.xticks( xmodlocs, xmodlabels )
-
+    
 def proxy_artist( color, marker, style ):
     p = pl.Line2D([0,0], [0,1], 
                   color=color, 
@@ -408,7 +379,7 @@ if options.legend:
 
     if len(legend_labels) != len(data):
         ## raise some sort of warning TODO
-        print ("LEGEND LABELS MUST MATCH DATA FILE COUNT")
+        print "LEGEND LABELS MUST MATCH DATA FILE COUNT"
     else:
         proxies = []
         for i in range(0, len(data)): ## set it by file
@@ -419,26 +390,25 @@ if options.legend:
                 line_styles[style_indexes[i]],
                
                 ) )
-
-        bboxleft = 1.03
-        if len(axes) > 1:
-            bboxleft = 1.13
+        
         pl.legend(proxies, 
                   legend_labels, 
-                  bbox_to_anchor=(bboxleft, 1), 
+                  bbox_to_anchor=(1.03, 1), 
                   loc=2, borderaxespad=0.0)
                   
         leg = pl.gca().get_legend()
+        
         ltext = leg.get_texts()
         pl.setp( ltext, fontsize='small')
 
-
         for ax in axes:
             l,b,w,h = ax.get_position().bounds
-            ax.set_position([0.1,b,w*.78,h]) 
-
-#        l,b,w,h = pl.axes().get_position().bounds
-#        pl.axes().set_position([0.1,b,w*.78,h])
+            ax.set_position([0.1,b,w*.78,h])        
+        
+        """
+        l,b,w,h = pl.axes().get_position().bounds
+        pl.axes().set_position([0.1,b,w*.78,h])
+        """
 
 if options.show:
     pl.show()

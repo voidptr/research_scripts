@@ -32,7 +32,16 @@ parser.add_option("--most_recent_coalescence",
 
 parser.add_option("-t", "--title", dest="title", type="string",
                   help="Supplemental Graph Title")
-
+parser.add_option("--ylim_max", dest="ylim_max", type="float",
+                  help="Set the ylim max")
+parser.add_option("-x", "--xlabel", dest="xlabel", type="string", 
+                  help="X-axis Label")
+parser.add_option("-y", "--ylabel", dest="ylabel", type="string", 
+                  help="Y-axis Label")
+parser.add_option("--xsize", dest="xsize", type="int", 
+                  help="size in X dimension in px")
+parser.add_option("--ysize", dest="ysize", type="int", 
+                  help="size in Y dimension in px")                  
 parser.add_option("--show", dest="show", action="store_true", default = False, help = "Show the thing to be able to edit the image.")
 
 
@@ -109,7 +118,12 @@ counts_plottable = np.array( log_count_arrays )
 counts_plottable = np.transpose( counts_plottable )
 
 
-fig = pl.figure()
+if (options.xsize and options.ysize):
+    my_dpi = 300
+    fig = pl.figure(figsize=(options.xsize/my_dpi, options.ysize/my_dpi), dpi=my_dpi)
+else:
+    fig = pl.figure()
+    
 ax = fig.add_subplot(111) ## 2 row, 1 column, first plot
 thing = ax.imshow(counts_plottable, cmap=cm.hot, aspect="auto", origin='lower',
                   interpolation='bicubic' )#,
@@ -117,11 +131,18 @@ thing = ax.imshow(counts_plottable, cmap=cm.hot, aspect="auto", origin='lower',
 #fig.colorbar(thing)
 
 if options.title:
-    pl.title("Phylogenetic Depth Over Time - %s" % options.title)
-else:
-    pl.title("Phylogenetic Depth Over Time")
-pl.ylabel("Phylogenetic Depth")
-pl.xlabel("Update")
+    pl.title(options.title)
+
+if options.xlabel:
+    pl.xlabel( options.xlabel )
+
+if options.ylabel:
+    pl.ylabel( options.ylabel )
+    
+    
+
+#pl.ylabel("Phylogenetic Depth")
+#pl.xlabel("Update")
 
 #ax2 = fig.add_subplot(212)
 #ax2.plot( sum_norm_plottable )
@@ -130,18 +151,32 @@ pl.xlabel("Update")
 #pl.ylabel("Mean Entropy")
 #pl.xlabel("Update")
 
+
 pl.xlim(0, len(count_arrays)-1)
+
+## set the ylim
+if options.ylim_max:
+    ylim_min, ylim_max = pl.ylim()
+    ylim_max = options.ylim_max
+    pl.ylim(ylim_min,ylim_max)
 
 xlocs, xlabels = pl.xticks()
 xmodlabels = []
 xmodlocs = []
 for i in range(0, len(xlocs)):
-    xmodlabels.append(int(xlocs[i]) * 50 )
+    
     xmodlocs.append( xlocs[i] )
+    if i == 0:
+        xmodlabels.append(int(xlocs[i]))
+    else:
+        xmodlabels.append(str(int(xlocs[i]*50)/1000) + "k")
+    #xmodlabels.append(int(xlocs[i]) * 50 )
 pl.xticks( xmodlocs, xmodlabels )
+#plt.xticks(x, labels, rotation='vertical')
 
 if options.show:
     pl.show()
 
-pl.savefig(outfile)
+pl.savefig(outfile, bbox_inches='tight', dpi=(my_dpi))
+
 
