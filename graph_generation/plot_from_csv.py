@@ -183,61 +183,28 @@ for inputfilename in inputfilenames:
     data.append( data_2d_array )
 
 class Colors:
-    Black = (0.0, 0.0, 0.0, 1.0)
-    TBlack = (0,0,0,0.2)
-    DarkGray = (0.65, 0.65, 0.65, 1.0)
-    Gray = (0.75, 0.75, 0.75, 1.0)
-    TGray = (0.75, 0.75, 0.75, 1.0)
-    LightGray = (0.85, 0.85, 0.85, 1.0)
-    TLightGray = (0.85, 0.85, 0.85, 0.5)
-    VeryLightGray = (0.9, 0.9, 0.9, 1.0)
-    White = (1.0, 1.0, 1.0, 1.0)
-    Transparent = (0, 0, 0, 0)
+    Black = (0, 0, 0)
+    DarkSeafoam = (0, 0.285, 0.285)
+    LightPink = (1, 0.71, 0.465)
 
+    Purple = (0.285, 0, 0.57)
+    Blue = (0, 0.426, 0.855)
+    Violet = (0.71, 0.426, 1)
+    SkyBlue = (0.426, 0.71, 1)
+    LightBlue = (0.71, 0.855, 1)
 
-    Purple = (0.55, 0.0, 0.55, 1.0)
-    TPurple = (0.55, 0.0, 0.55, 0.5)
-    LightPurple = (0.8, 0.7, 0.8, 1.0) 
-    TLightPurple = (0.8, 0.7, 0.8, 0.5) 
+    Rust = (0.57, 0, 0)
+    Brown = (0.57, 0.285, 0)
+    Orange = (0.855, 0.816, 0)
+    NeonGreen = (0.14, 1, 0.14)
+    Yellow = (1, 1, 0.426)
 
-    Blue = (0.20, 0.49, 0.95, 1.0)
-    TBlue = (0.20, 0.49, 0.95, 0.5)
-    LightBlue = (0.6, 0.7, 0.95, 1.0)
-    TLightBlue = (0.6, 0.7, 0.95, 0.5)
-
-    BlueGreen = (0.0, 1.0, 1.0, 1.0)
-    TBlueGreen = (0.0, 1.0, 1.0, 0.5)
-    LightBlueGreen = (0.8, 1.0, 1.0, 1.0)
-    TLightBlueGreen = (0.8, 1.0, 1.0, 0.5)
-
-    Green = (0.0, 0.7, 0.0, 1.0)
-    TGreen = (0.0, 0.7, 0.0, 0.5)
-    LightGreen = (0.8, 1.0, 0.8, 1.0)
-    TLightGreen = (0.8, 1.0, 0.8, 0.5)
-
-    Yellow = (0.9, 0.9, 0.0, 1.0)   
-
-    Orange = (0.93, 0.67, 0.13, 1.0)
-
-    OrangeRed = (1.0, 0.7, 0.0, 1.0)
-    TOrangeRed = (1.0, 0.7, 0.0, 0.5)
-    LightOrangeRed = (0.9, 0.7, 0.6, 1.0)
-    TLightOrangeRed = (0.9, 0.7, 0.6, 0.5)
-
-    Red = (0.95, 0, 0.0, 1.0)
-    LightPink = (0.8, 0.7, 0.7, 1.0)
-    TLightPink = (0.8, 0.7, 0.7, 0.5)
-    DarkPink = (0.86, 0.62, 0.65, 1.0)
-
-    TransparentGray = (0.75, 0.75, 0.75, 0.5)
-    Default = (0.0, 0.0, 0.0, 1.0)
-
-    
-
-## a max of four treatments (black, blue, yellow, green)
-median_colors = [ Colors.VeryLightGray,  Colors.Blue ,      Colors.OrangeRed,       Colors.Green,       Colors.BlueGreen,       Colors.Purple,       Colors.Gray ]
-data_colors =   [ Colors.TGray,  Colors.TLightBlue, Colors.TLightOrangeRed, Colors.TLightGreen, Colors.TLightBlueGreen, Colors.TLightPurple, Colors.TLightGray ]
-edge_colors =   [ Colors.TBlack, Colors.TBlue,      Colors.TOrangeRed,      Colors.TGreen,      Colors.TBlueGreen,      Colors.TPurple,      Colors.TGray ]
+    def Transparent(color, level):
+        return (color[0], color[1], color[2], level) 
+ 
+median_colors = [Colors.Black, Colors.Purple, Colors.Blue, Colors.Violet, Colors.Rust, Colors.Orange, Colors.DarkSeafoam, Colors.LightPink]
+data_colors = [Colors.Transparent(val, 0.5) for val in median_colors]
+edge_colors = data_colors 
 
 line_styles = ['-','--', ':', '-.'] ## a max of four different lines, sigh.
 line_markers = [None]

@@ -36,6 +36,7 @@ parser.add_option("--has_header", dest="has_header", action="store_true", defaul
 parser.add_option("-s", "--separator", dest="separator", type="string", help="Separator")
 
 parser.add_option("--ignorenan", action="store_true",dest="ignorenan",  default=False, help = "If a line includes something that isn't a number, ignore that line.")
+parser.add_option("--ignoreincomplete", action="store_true",dest="ignoreincomplete",  default=False, help = "If a line is missing some values, ingnore that line.")
 
 ### grouping options
 parser.add_option("--groups", dest="groups", type="int", help="The number of groups (X-ticks)") ## bars in the same group go on top of each other
@@ -141,6 +142,15 @@ for inputfilename in inputfilenames:
                 member_ct = len(columns)
                 member_indexes = columns
 
+            maxcol = max(member_indexes)
+
+            # this line doesn't have enough values
+            if maxcol >= len(converted_line):
+                if options.ignoreincomplete:
+                    continue
+                else:
+                    parser.error("Datafile has too few columns or is missing data.")
+
             for i in range(0, member_ct):    
                 if len(datums) <= i:
                     datums.append( [] ) ## add another column.
@@ -244,57 +254,26 @@ for i in range(0, group_count):
 #        print data_index
 
 class Colors:
-    Black = (0.0, 0.0, 0.0, 1.0)
-    DarkGray = (0.65, 0.65, 0.65, 1.0)
-    Gray = (0.75, 0.75, 0.75, 1.0)
-    LightGray = (0.85, 0.85, 0.85, 1.0)
-    VeryLightGray = (0.9, 0.9, 0.9, 1.0)
-    White = (1.0, 1.0, 1.0, 1.0)
-    Transparent = (0, 0, 0, 0)
+    Black = (0, 0, 0)
+    DarkSeafoam = (0, 0.285, 0.285)
+    LightPink = (1, 0.71, 0.465)
 
-    Purple = (0.55, 0.0, 0.55, 1.0)
-    LightPurple = (0.8, 0.7, 0.8, 1.0) 
+    Purple = (0.285, 0, 0.57)
+    Blue = (0, 0.426, 0.855)
+    Violet = (0.71, 0.426, 1)
+    SkyBlue = (0.426, 0.71, 1)
+    LightBlue = (0.71, 0.855, 1)
 
-    Blue = (0.20, 0.49, 0.95, 1.0)
-    LightBlue = (0.6, 0.7, 0.95, 1.0)
-    DarkBlue = (0.1, 0.3, 0.7, 1.0)
+    Rust = (0.57, 0, 0)
+    Brown = (0.57, 0.285, 0)
+    Orange = (0.855, 0.816, 0)
+    NeonGreen = (0.14, 1, 0.14)
+    Yellow = (1, 1, 0.426)
 
-    BlueGreen = (0.0, 1.0, 1.0, 1.0)
-    LightBlueGreen = (0.8, 1.0, 0.8, 1.0)
-
-    Green = (0.0, 0.7, 0.0, 1.0)
-    LightGreen = (0.8, 1.0, 0.8, 1.0)
-
-    Yellow = (0.9, 0.9, 0.0, 1.0)   
-
-    Orange = (0.93, 0.67, 0.13, 1.0)
-
-    OrangeRed = (1.0, 0.7, 0.0, 1.0)
-    LightOrangeRed = (0.9, 0.7, 0.6, 1.0)
-    DarkOrangeRed = (0.5, 0.3, 0.2, 1.0)
-
-    Red = (0.95, 0, 0.0, 1.0)
-    LightPink = (0.8, 0.7, 0.7, 1.0)
-    DarkPink = (0.86, 0.62, 0.65, 1.0)
-
-    TransparentGray = (0.75, 0.75, 0.75, 0.5)
-    Default = (0.0, 0.0, 0.0, 1.0)
-
-color_sets = [ Colors.Purple, 
-    Colors.Gray, 
-    Colors.Orange, 
-    Colors.BlueGreen, 
-    Colors.Yellow, 
-    Colors.DarkPink, 
-    Colors.LightGreen, 
-    Colors.DarkOrangeRed,
-    Colors.LightPurple,
-    Colors.DarkGray,
-    Colors.Blue,
-    Colors.Red,
-    Colors.LightOrangeRed,
-    Colors.LightBlue,
-    Colors.VeryLightGray] #max seven items per group 
+    def Transparent(color, level):
+        return (color[0], color[1], color[2], level) 
+ 
+color_sets = [Colors.Blue, Colors.Rust, Colors.SkyBlue, Colors.Yellow, Colors.Violet, Colors.Orange, Colors.DarkSeafoam, Colors.LightPink, Colors.Purple]
 
 artists = []
 fig = pl.figure()
